@@ -157,13 +157,4 @@ We welcome citizen contributions to help keep the tracker fully up-to-date:
 
 **Sonnaanga... Senjaangala** is strictly an independent, non-partisan citizen-led initiative. We are not affiliated with, endorsed by, or connected to the Government of India, the Government of Tamil Nadu, the Tamilaga Vettri Kazhagam (TVK), or any political party. All tracking information is updated in good faith using publicly available, cited sources.
 
----
 
-## 👥 Team & Contact
-
-| Role | Email |
-| :--- | :--- |
-| **Admin / Editor-in-Chief** | emst.shaheer@gmail.com |
-| **Research Team** | sidhq.05@gmail.com |
-
-To request admin access to the submission review panel, contact the Editor-in-Chief with your Google account email.
