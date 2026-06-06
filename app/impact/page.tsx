@@ -5,8 +5,8 @@ import Link from "next/link"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Impact Calculator | UDF Promise Tracker",
-  description: "Calculate your estimated monthly savings and benefits from the UDF manifesto election promises.",
+  title: "Impact Calculator | TVK Promise Tracker",
+  description: "Calculate your estimated monthly savings and benefits from the TVK manifesto election promises.",
 }
 
 export default function ImpactPage() {
@@ -31,7 +31,7 @@ export default function ImpactPage() {
               Citizen Benefit Calculator
             </h1>
             <p className="text-muted-foreground text-sm md:text-base max-w-2xl leading-relaxed">
-              An interactive estimation tool to calculate the direct monthly value, savings, and subsidies applicable to your household based on UDF election commitments.
+              An interactive estimation tool to calculate the direct monthly value, savings, and subsidies applicable to your household based on TVK election commitments.
             </p>
           </div>
           

@@ -141,7 +141,7 @@ export default function AdminSubmissionsPage() {
       
       const targetPromise = sub.promiseId ? promiseMap.get(sub.promiseId) : null
       const promiseTitle = targetPromise ? targetPromise.title.toLowerCase() : ""
-      const promiseTitleMl = targetPromise ? targetPromise.titleMl.toLowerCase() : ""
+      const promiseTitleTa = targetPromise ? targetPromise.titleTa.toLowerCase() : ""
 
       const matchesSearch =
         searchQuery === "" ||
@@ -151,7 +151,7 @@ export default function AdminSubmissionsPage() {
         sub.submittedBy.email.toLowerCase().includes(searchQuery.toLowerCase()) ||
         (sub.promiseId && sub.promiseId.toLowerCase().includes(searchQuery.toLowerCase())) ||
         promiseTitle.includes(searchQuery.toLowerCase()) ||
-        promiseTitleMl.includes(searchQuery.toLowerCase())
+        promiseTitleTa.includes(searchQuery.toLowerCase())
 
       return matchesFilter && matchesSearch
     })
@@ -272,7 +272,7 @@ export default function AdminSubmissionsPage() {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Vaaku Paalicho</p>
+                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Sonnaanga Senjaangala</p>
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
                 <span className="text-[9px] font-semibold bg-emerald-50 text-emerald-600 border border-emerald-100 rounded px-1.5 py-0.5">Admin Active</span>
               </div>

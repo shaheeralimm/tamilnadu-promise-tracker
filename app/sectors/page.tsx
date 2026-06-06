@@ -107,7 +107,7 @@ export default function SectorsPage() {
         <div className="mb-12">
           <h1 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-4">Sector Analysis</h1>
           <p className="text-muted-foreground text-lg max-w-2xl">
-            A comprehensive breakdown of UDF promises across various governmental sectors, tracking progress and completion rates.
+            A comprehensive breakdown of TVK promises across various governmental sectors, tracking progress and completion rates.
           </p>
         </div>
 
@@ -218,8 +218,8 @@ export default function SectorsPage() {
                     <h3 className="font-bold text-xl text-slate-900 mb-1 group-hover:text-udf-blue transition-colors">
                       {sector.name}
                     </h3>
-                    <p className="font-malayalam text-sm text-slate-500 mb-6">
-                      {sector.nameMl}
+                    <p className="font-tamil text-sm text-slate-500 mb-6">
+                      {sector.nameTa}
                     </p>
                     
                     <div className="mt-auto">

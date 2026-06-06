@@ -45,9 +45,9 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
               {promise.title}
             </h1>
 
-            {promise.titleMl && promise.titleMl !== promise.title && (
-              <p className="font-malayalam text-xl md:text-2xl text-slate-500 font-semibold mb-4 leading-normal">
-                {promise.titleMl}
+            {promise.titleTa && promise.titleTa !== promise.title && (
+              <p className="font-tamil text-xl md:text-2xl text-slate-500 font-semibold mb-4 leading-normal">
+                {promise.titleTa}
               </p>
             )}
             
@@ -80,7 +80,7 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
             &ldquo;<HighlightJargon text={promise.manifestoQuote} />&rdquo;
           </p>
           <div className="mt-4 text-sm font-semibold uppercase tracking-wider text-slate-500">
-            — UDF Election Manifesto 2026
+            — TVK Election Manifesto 2026
           </div>
         </div>
       </div>

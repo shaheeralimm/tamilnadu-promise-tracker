@@ -16,14 +16,14 @@ export default function AboutPage() {
         <div className="space-y-12">
           <section className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm transition-colors duration-300">
             <div className="flex items-center gap-4 mb-6">
-              <div className="bg-udf-blue-bg p-3 rounded-xl text-udf-blue">
+              <div className="bg-blue-50 p-3 rounded-xl text-blue-600">
                 <BookOpen className="h-6 w-6" />
               </div>
               <h2 className="font-display font-bold text-2xl text-slate-900">Our Mission</h2>
             </div>
             <div className="space-y-4 text-slate-600 leading-relaxed">
               <p>
-                Vaaku Paalicho is an independent, citizen-driven initiative designed to track the election promises made by the United Democratic Front (UDF) in Kerala. Our goal is to foster civic engagement and hold elected representatives accountable to their manifesto commitments.
+                Sonnaanga Senjaangala is an independent, citizen-driven initiative designed to track the election promises made by the Tamilaga Vettri Kazhagam (TVK) government in Tamil Nadu. Our goal is to foster civic engagement and hold elected representatives accountable to their manifesto commitments.
               </p>
               <p>
                 We believe that democracy functions best when citizens have access to clear, unbiased, and verifiable information regarding the performance of their government.
@@ -33,25 +33,25 @@ export default function AboutPage() {
 
           <section id="methodology" className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm scroll-mt-20 transition-colors duration-300">
             <div className="flex items-center gap-4 mb-6">
-              <div className="bg-kerala-green-bg p-3 rounded-xl text-kerala-green">
+              <div className="bg-emerald-50 p-3 rounded-xl text-emerald-700">
                 <ShieldCheck className="h-6 w-6" />
               </div>
               <h2 className="font-display font-bold text-2xl text-slate-900">Methodology & Sources</h2>
             </div>
             <div className="space-y-6 text-slate-600 leading-relaxed">
               <p>
-                Every promise tracked on this platform is sourced directly from the official UDF 2026 Election Manifesto. The status of each promise is updated based exclusively on publicly verifiable evidence.
+                Every promise tracked on this platform is sourced directly from the official TVK 2026 Election Manifesto. The status of each promise is updated based exclusively on publicly verifiable evidence.
               </p>
               
               <div className="bg-slate-50 p-6 rounded-xl border border-slate-100 mt-6 transition-colors duration-300">
                 <h3 className="font-bold text-slate-900 mb-4 uppercase tracking-wider text-sm">Evidence Tiers</h3>
                 <ul className="space-y-4">
                   <li className="flex gap-4">
-                    <span className="font-bold text-kerala-green w-16 shrink-0">Tier 1</span>
+                    <span className="font-bold text-emerald-700 w-16 shrink-0">Tier 1</span>
                     <span className="text-slate-700"><strong className="text-slate-900">Official Gazette & GOs:</strong> Government Orders, Gazette notifications, and passed legislative bills. (Highest Reliability)</span>
                   </li>
                   <li className="flex gap-4">
-                    <span className="font-bold text-udf-blue w-16 shrink-0">Tier 2</span>
+                    <span className="font-bold text-blue-600 w-16 shrink-0">Tier 2</span>
                     <span className="text-slate-700"><strong className="text-slate-900">Govt Press Releases:</strong> Official statements from the Chief Minister&apos;s Office (CMO) or departmental press releases.</span>
                   </li>
                   <li className="flex gap-4">
@@ -73,11 +73,11 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div>
                 <h3 className="font-bold text-lg text-slate-900 mb-2">Is this website affiliated with the government?</h3>
-                <p className="text-slate-600">No. Vaaku Paalicho is strictly an independent, non-partisan citizen initiative. We are not affiliated with the Election Commission of India, the Government of Kerala, or the UDF.</p>
+                <p className="text-slate-600">No. Sonnaanga Senjaangala is strictly an independent, non-partisan citizen initiative. We are not affiliated with the Election Commission of India, the Government of Tamil Nadu, or TVK.</p>
               </div>
               <div>
                 <h3 className="font-bold text-lg text-slate-900 mb-2">How can I suggest a correction?</h3>
-                <p className="text-slate-600">If you find inaccurate information or have new evidence regarding a promise, please use our <a href="/submit" className="text-udf-blue hover:underline cursor-pointer">Submit Update</a> form. All submissions require verifiable Tier 1-3 links to be considered.</p>
+                <p className="text-slate-600">If you find inaccurate information or have new evidence regarding a promise, please use our <a href="/submit" className="text-blue-600 hover:underline cursor-pointer">Submit Update</a> form. All submissions require verifiable Tier 1-3 links to be considered.</p>
               </div>
             </div>
           </section>

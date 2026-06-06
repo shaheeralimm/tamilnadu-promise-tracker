@@ -14,7 +14,7 @@ export function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const { data: session } = useSession()
 
-  const isAdmin = session?.user?.email?.toLowerCase() === "danyldt07@gmail.com"
+  const isAdmin = session?.user?.email?.toLowerCase() === "emst.shaheer@gmail.com"
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,10 +47,10 @@ export function Navbar() {
             <Landmark className="h-5 w-5" />
           </div>
           <span className="font-display font-bold text-lg tracking-tight text-foreground sm:hidden">
-            Vaaku Paalicho
+            Sonnaanga Senjaangala
           </span>
           <span className="font-display font-bold text-lg tracking-tight text-foreground hidden sm:inline-block">
-            Vaaku Paalicho · <span className="text-muted-foreground font-normal">Kerala</span>
+            Sonnaanga Senjaangala · <span className="text-muted-foreground font-normal">Tamil Nadu</span>
           </span>
         </Link>
         

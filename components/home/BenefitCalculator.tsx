@@ -8,12 +8,12 @@ import { StatusBadge } from "@/components/shared/StatusBadge"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType } from "@/types"
 
-// Demographics config mapping to benefits and actual UDF manifesto promise slugs
+// Demographics config mapping to benefits and actual TVK manifesto promise slugs
 const BENEFIT_MAPPINGS = [
   {
     id: "woman",
     label: "Female Citizen",
-    labelMl: "വനിതാ പൗരൻ",
+    labelTa: "பெண் குடிமகன்",
     description: "Eligible for free public transport travel schemes",
     benefitValue: 800,
     benefitLabel: "Free Bus Travel",
@@ -22,7 +22,7 @@ const BENEFIT_MAPPINGS = [
   {
     id: "student",
     label: "College Girl Student",
-    labelMl: "കോളേജ് വിദ്യാർത്ഥിനി",
+    labelTa: "கல்லூரி மாணவி",
     description: "Eligible for higher education financial assistance and stipends",
     benefitValue: 1000,
     benefitLabel: "Monthly Student Stipend",
@@ -31,7 +31,7 @@ const BENEFIT_MAPPINGS = [
   {
     id: "pensioner",
     label: "Welfare Pension Beneficiary",
-    labelMl: "ക്ഷേമ പെൻഷൻ ഗുണഭോക്താവ്",
+    labelTa: "நலன் ஓய்வூதிய பயனர்",
     description: "Eligible for social security, agricultural, or welfare pension hikes",
     benefitValue: 1000, // Monthly increase: from ₹2,000 to ₹3,000
     benefitLabel: "Pension Increase (₹2k to ₹3k)",
@@ -39,11 +39,11 @@ const BENEFIT_MAPPINGS = [
   },
   {
     id: "farmer",
-    label: "Rubber Small Farmer",
-    labelMl: "റബ്ബർ കർഷകൻ",
-    description: "Eligible for rubber price subsidies and minimum support price hikes",
-    benefitValue: 4000, // Average monthly gain assuming standard low-tier yields
-    benefitLabel: "Rubber MSP Subsidy Support",
+    label: "Small Farmer",
+    labelTa: "சிறு விவசாயி",
+    description: "Eligible for agricultural support price subsidies and loan waivers",
+    benefitValue: 4000,
+    benefitLabel: "Farmer Support Subsidy",
     promiseSlug: "3-support-price-for-rubber-31"
   }
 ]
@@ -140,8 +140,8 @@ export function BenefitCalculator() {
                             <p className="font-bold text-sm text-slate-800 leading-tight">
                               {item.label}
                             </p>
-                            <span className="font-malayalam text-[10px] font-semibold text-slate-400">
-                              {item.labelMl}
+                            <span className="font-tamil text-[10px] font-semibold text-slate-400">
+                              {item.labelTa}
                             </span>
                           </div>
                           <p className="text-xs text-slate-400 mt-1 leading-normal">
@@ -246,9 +246,9 @@ export function BenefitCalculator() {
                               >
                                 {promise.title}
                               </Link>
-                              {promise.titleMl && (
-                                <p className="font-malayalam text-xs font-medium text-slate-400 truncate mt-0.5 leading-normal">
-                                  {promise.titleMl}
+                              {promise.titleTa && (
+                                <p className="font-tamil text-xs font-medium text-slate-400 truncate mt-0.5 leading-normal">
+                                  {promise.titleTa}
                                 </p>
                               )}
                             </div>

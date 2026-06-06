@@ -46,12 +46,12 @@ export function HeroSection() {
             animate="show"
           >
             <motion.h1 variants={itemVariants} className="font-display font-extrabold text-5xl md:text-6xl lg:text-7xl leading-tight text-slate-900 mb-4 tracking-[-0.04em]">
-              <span className="block text-4xl md:text-5xl text-slate-500 font-malayalam font-semibold mb-2 tracking-normal">യു.ഡി.എഫ് വാഗ്ദാനങ്ങൾ</span>
-              UDF Manifesto <br /> <span className="text-udf-blue">Tracker.</span>
+              <span className="block text-4xl md:text-5xl text-slate-500 font-tamil font-semibold mb-2 tracking-normal">TVK வாக்குறுதிகள்</span>
+              TVK Manifesto <br /> <span className="text-udf-blue">Tracker.</span>
             </motion.h1>
             
             <motion.p variants={itemVariants} className="text-lg md:text-xl text-slate-500 max-w-2xl mb-6 leading-relaxed">
-              An independent, evidence-based ledger tracking the core election promises made by the UDF in Kerala. Built for transparency, trusted by citizens.
+              An independent, evidence-based ledger tracking the core election promises made by TVK in Tamil Nadu. Built for transparency, trusted by citizens.
             </motion.p>
 
             {/* Direct Search Bar for Quick Onboarding */}
@@ -70,7 +70,7 @@ export function HeroSection() {
                 <input
                   type="text"
                   name="search"
-                  placeholder="Search promises (e.g. 'pension', 'ASHA', 'KSRTC')..."
+                  placeholder="Search promises (e.g. 'pension', 'healthcare', 'women')..."
                   className="flex-1 bg-transparent px-4 py-2 text-sm text-slate-800 placeholder-slate-400 focus:outline-none"
                   required
                 />
