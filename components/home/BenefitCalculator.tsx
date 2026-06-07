@@ -14,37 +14,37 @@ const BENEFIT_MAPPINGS = [
     id: "woman",
     label: "Female Citizen",
     labelTa: "பெண் குடிமகன்",
-    description: "Eligible for free public transport travel schemes",
-    benefitValue: 800,
-    benefitLabel: "Free Bus Travel",
-    promiseSlug: "free-bus-travel-for-women-7"
+    description: "Eligible for free public transport and ₹2,500/month Madhippumigu Magalir scheme",
+    benefitValue: 2500,
+    benefitLabel: "Madhippumigu Magalir (₹2,500/mo)",
+    promiseSlug: "madhippumigu-magalir-2500-monthly-24"
   },
   {
     id: "student",
-    label: "College Girl Student",
-    labelTa: "கல்லூரி மாணவி",
-    description: "Eligible for higher education financial assistance and stipends",
-    benefitValue: 1000,
-    benefitLabel: "Monthly Student Stipend",
-    promiseSlug: "1000-monthly-stipend-college-women-8"
+    label: "School Student's Family",
+    labelTa: "மாணவர் குடும்பம்",
+    description: "Eligible for ₹15,000/year Kamarajar Kalvi Urudhi anti-dropout assistance",
+    benefitValue: 1250,
+    benefitLabel: "Kamarajar Kalvi Urudhi (₹15k/yr)",
+    promiseSlug: "kamarajar-kalvi-urudhi-school-dropout-8"
   },
   {
     id: "pensioner",
     label: "Welfare Pension Beneficiary",
     labelTa: "நலன் ஓய்வூதிய பயனர்",
-    description: "Eligible for social security and welfare pension hikes",
-    benefitValue: 1000, // Monthly increase when raised to ₹3,000
-    benefitLabel: "Pension Increase (to ₹3k)",
-    promiseSlug: "welfare-pension-raised-3000-9"
+    description: "Eligible for welfare pension raised to ₹3,000/month",
+    benefitValue: 1000, // estimated increase from current amount
+    benefitLabel: "Pension Increase (to ₹3,000)",
+    promiseSlug: "welfare-pension-3000-9"
   },
   {
     id: "farmer",
-    label: "Small Farmer",
-    labelTa: "சிறு விவசாயி",
-    description: "Eligible for agricultural loan waiver and MSP support",
+    label: "Small Farmer (≤5 acres)",
+    labelTa: "சிறு விவசாயி (≤5 ஏக்கர்)",
+    description: "Eligible for 100% cooperative crop loan waiver and MSP guarantee",
     benefitValue: 4000,
-    benefitLabel: "Farmer Support (loan waiver)",
-    promiseSlug: "farm-loan-waiver-small-marginal-farmers-14"
+    benefitLabel: "Loan Waiver + MSP Support",
+    promiseSlug: "cooperative-crop-loan-waiver-14"
   }
 ]
 
