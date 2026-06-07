@@ -1,0 +1,1984 @@
+[
+  {
+    "id": "dmk-001",
+    "slug": "kalaignar-magalir-urimai-thogai-1000-women",
+    "partyId": "dmk",
+    "title": "₹1,000 per month for women heads of households",
+    "titleTa": "குடும்பத் தலைவிகளுக்கு மாதம் ₹1,000 உரிமைத் தொகை",
+    "description": "Monthly financial assistance of ₹1,000 to all women who are heads of families, to be disbursed directly into their bank accounts. Branded as 'Kalaignar Magalir Urimai Thogai'.",
+    "trackingNote": "Launched January 2023. Over 1.06 crore women receive the benefit monthly. Budget allocation confirmed.",
+    "manifestoQuote": "A monthly sum of Rs.1,000 will be given as a right to all the women in Tamil Nadu who are family heads.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "fulfilled",
+    "icon": "users",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." },
+      { "title": "Kalaignar Magalir Urimai Thogai scheme launched", "url": "https://cms.tn.gov.in/", "publication": "TN Government", "date": "2023-01-01", "tier": 1, "summary": "Scheme launched covering 1.06 crore women." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-002",
+    "slug": "free-bus-travel-women",
+    "partyId": "dmk",
+    "title": "Free bus travel for women on all state transport buses",
+    "titleTa": "அனைத்து அரசு பேருந்துகளிலும் பெண்களுக்கு இலவசப் பயணம்",
+    "description": "All women to be provided free travel on Tamil Nadu State Transport Corporation (TNSTC) and Metropolitan Transport Corporation (MTC) buses across the state.",
+    "trackingNote": "Implemented from May 2021 — Day 1 GO. Continues in effect.",
+    "manifestoQuote": "Women will be provided free bus travel in all state transport buses.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "fulfilled",
+    "icon": "bus",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." },
+      { "title": "Free bus travel GO signed on Day 1", "url": "https://cms.tn.gov.in/", "publication": "TN Government", "date": "2021-05-07", "tier": 1, "summary": "GO signed on inaugural day of DMK government." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-003",
+    "slug": "cm-breakfast-scheme-school-students",
+    "partyId": "dmk",
+    "title": "Free breakfast scheme for government school students",
+    "titleTa": "அரசுப் பள்ளி மாணவர்களுக்கு இலவச காலை உணவுத் திட்டம்",
+    "description": "Nutritious breakfast to be provided free of cost to all students studying in government schools across Tamil Nadu, in addition to the existing midday meal scheme.",
+    "trackingNote": "CM Breakfast Scheme launched 2022. Covering over 14 lakh students in primary schools. Expanded to higher classes subsequently.",
+    "manifestoQuote": "A breakfast scheme will be introduced for government school students in addition to the midday meal scheme.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "fulfilled",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-004",
+    "slug": "makkalai-thedi-maruthuvam-doorstep-healthcare",
+    "partyId": "dmk",
+    "title": "Makkalai Thedi Maruthuvam – doorstep healthcare for all",
+    "titleTa": "மக்களை தேடி மருத்துவம் – வீட்டிலேயே சுகாதாரப் பரிசோதனை",
+    "description": "Comprehensive health screening and treatment to be brought to citizens' doorsteps via trained health workers, with follow-up referral to government hospitals for diagnosed conditions.",
+    "trackingNote": "Launched 2021. Covers over 2 crore people annually. 22 parameters screened at home.",
+    "manifestoQuote": "Healthcare will be brought to the doorstep of every citizen through Makkalai Thedi Maruthuvam.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "fulfilled",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-005",
+    "slug": "illam-thedi-kalvi-home-education",
+    "partyId": "dmk",
+    "title": "Illam Thedi Kalvi – volunteer-based home learning programme",
+    "titleTa": "இல்லம் தேடி கல்வி – தன்னார்வலர் வழி கல்வி திட்டம்",
+    "description": "Volunteers to visit homes and teach children who fell behind during COVID-19 closures, bridging learning loss in primary education through community involvement.",
+    "trackingNote": "Implemented 2021. Over 7 lakh volunteers engaged. Later institutionalised into regular remedial programme.",
+    "manifestoQuote": "Illam Thedi Kalvi will be launched to address learning loss among children due to school closures.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "fulfilled",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-006",
+    "slug": "naan-mudhalvan-youth-skill-development",
+    "partyId": "dmk",
+    "title": "Naan Mudhalvan – skill development initiative for youth",
+    "titleTa": "நான் முதல்வன் – இளைஞர்களுக்கு திறன் மேம்பாட்டு திட்டம்",
+    "description": "Comprehensive skill development programme linking students and youth with industry, providing training, internships and employment opportunities to make Tamil Nadu's youth job-ready.",
+    "trackingNote": "Launched 2022. Over 20 lakh students enrolled. Partnerships with 1,500+ industries.",
+    "manifestoQuote": "Naan Mudhalvan scheme will be launched to train youth with industry-relevant skills and ensure employment.",
+    "sector": { "id": "s6", "name": "Employment", "nameTa": "வேலைவாய்ப்பு", "icon": "briefcase", "color": "#F59E0B" },
+    "status": "fulfilled",
+    "icon": "briefcase",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-007",
+    "slug": "75-percent-reservation-govt-school-engineering",
+    "partyId": "dmk",
+    "title": "7.5% horizontal reservation for government school students in engineering colleges",
+    "titleTa": "அரசுப் பள்ளி மாணவர்களுக்கு பொறியியல் கல்லூரிகளில் 7.5% கிடைமட்ட இட ஒதுக்கீடு",
+    "description": "Dedicated 7.5% seats in government engineering colleges reserved exclusively for students from government schools, to ensure socially disadvantaged students get access to higher technical education.",
+    "trackingNote": "Policy continued and expanded. Originally enacted under previous DMK regime in 2021. Institutionalised and extended.",
+    "manifestoQuote": "7.5% reservation for government school students in engineering colleges will be continued and strengthened.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "fulfilled",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-008",
+    "slug": "varumun-kappom-preventive-healthcare",
+    "partyId": "dmk",
+    "title": "Varumun Kappom – preventive health screening programme",
+    "titleTa": "வருமுன் காப்போம் – நோய் தடுப்பு சுகாதார திட்டம்",
+    "description": "Preventive health scheme focusing on early detection of non-communicable diseases such as diabetes, hypertension, and cancer through community-level screening camps.",
+    "trackingNote": "Implemented. Over 3 crore people screened annually for NCDs.",
+    "manifestoQuote": "Varumun Kappom scheme will focus on preventive healthcare to detect diseases early and reduce mortality.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "fulfilled",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-009",
+    "slug": "old-age-pension-increase-1500",
+    "partyId": "dmk",
+    "title": "Increase old age pension to ₹1,500 per month",
+    "titleTa": "முதியோர் ஓய்வூதியத்தை மாதம் ₹1,500 ஆக உயர்த்துதல்",
+    "description": "Monthly old age pension to be enhanced to ₹1,500, providing better financial security to senior citizens above 60 years who have no other income source.",
+    "trackingNote": "Pension raised from ₹1,000 to ₹1,500 in stages. Full ₹1,500 reached by 2024. Promise fulfilled.",
+    "manifestoQuote": "Old age pension will be raised to Rs.1,500 per month for all eligible senior citizens.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-010",
+    "slug": "create-20-lakh-jobs-five-years",
+    "partyId": "dmk",
+    "title": "Create 20 lakh new jobs within 5 years",
+    "titleTa": "5 ஆண்டுகளில் 20 லட்சம் புதிய வேலைவாய்ப்புகள் உருவாக்குதல்",
+    "description": "Generate 20 lakh (2 million) employment opportunities across government and private sectors within the 5-year term through investment promotion, industrial development and public recruitment.",
+    "trackingNote": "Ongoing. Government claims significant recruitment. Independent verification of full 20 lakh target pending.",
+    "manifestoQuote": "We will create 20 lakh new jobs within the five-year period through investment and government recruitment.",
+    "sector": { "id": "s6", "name": "Employment", "nameTa": "வேலைவாய்ப்பு", "icon": "briefcase", "color": "#F59E0B" },
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-011",
+    "slug": "waive-farmers-cooperative-loans",
+    "partyId": "dmk",
+    "title": "Waive cooperative bank loans of farmers",
+    "titleTa": "விவசாயிகளின் கூட்டுறவு வங்கி கடன்களை தள்ளுபடி செய்தல்",
+    "description": "Complete waiver of outstanding agricultural loans taken by farmers from cooperative banks, providing immediate financial relief to distressed farming community.",
+    "trackingNote": "Partial waiver implemented. ₹12,000 crore announced but full implementation questioned by farmer groups.",
+    "manifestoQuote": "All farmers' loans from cooperative banks will be waived to provide them immediate relief.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "modified",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-012",
+    "slug": "minimum-support-price-paddy-increase",
+    "partyId": "dmk",
+    "title": "Increase procurement price of paddy to ₹2,500 per quintal",
+    "titleTa": "நெல் கொள்முதல் விலையை குவிண்டாலுக்கு ₹2,500 ஆக உயர்த்துதல்",
+    "description": "Increase the state's paddy procurement support price to ₹2,500 per quintal to ensure remunerative prices for rice farmers and protect them from market volatility.",
+    "trackingNote": "Procurement continues at MSP + bonus. State bonus added over central MSP. Full ₹2,500 not consistently achieved.",
+    "manifestoQuote": "Paddy procurement price will be fixed at Rs.2,500 per quintal to ensure farmers get remunerative prices.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-013",
+    "slug": "anti-corruption-lokayukta",
+    "partyId": "dmk",
+    "title": "Establish Lokayukta and strengthen anti-corruption enforcement",
+    "titleTa": "லோகாயுக்தா அமைத்தல் மற்றும் ஊழல் எதிர்ப்பு அமலாக்கம் வலுப்படுத்தல்",
+    "description": "Set up Lokayukta institution to investigate corruption complaints against public officials, and strengthen the DVAC (Directorate of Vigilance and Anti-Corruption) with more powers and resources.",
+    "trackingNote": "DVAC cases filed against AIADMK officials. Lokayukta bill tabled but not passed. Partial implementation only.",
+    "manifestoQuote": "A Lokayukta will be established to ensure clean and corruption-free governance in Tamil Nadu.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "stalled",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-014",
+    "slug": "kalaignar-muthuvaalippu-insurance-scheme",
+    "partyId": "dmk",
+    "title": "Revive Kalaignar Health Insurance Scheme (Muthuvaalippu)",
+    "titleTa": "கலைஞர் காப்பீட்டு திட்டத்தை (முதுவாழ்விப்பு) மறுதொடக்கம்",
+    "description": "Revive the Kalaignar health insurance scheme (Muthuvaalippu) providing cashless medical treatment up to ₹5 lakh per family per year in government and empanelled private hospitals.",
+    "trackingNote": "Revived and expanded. Benefit enhanced to ₹5 lakh. Merged with central scheme for broader coverage.",
+    "manifestoQuote": "The Kalaignar Muthuvaalippu scheme will be revived and enhanced to provide Rs.5 lakh health coverage per family.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "fulfilled",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-015",
+    "slug": "tasmac-closure-sensitive-zones",
+    "partyId": "dmk",
+    "title": "Close TASMAC shops near schools, temples and residential areas",
+    "titleTa": "பள்ளிகள், கோவில்கள் மற்றும் குடியிருப்புப் பகுதிகளில் உள்ள TASMAC கடைகளை மூடுதல்",
+    "description": "Relocate or close TASMAC liquor retail outlets situated within prohibited distances from schools, places of worship, hospitals and densely residential areas.",
+    "trackingNote": "Partial closure done near schools. Many shops relocated. Full implementation contested by social groups.",
+    "manifestoQuote": "TASMAC shops near schools, religious institutions and residential areas will be closed.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "modified",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-016",
+    "slug": "free-rice-ration-shops-continuation",
+    "partyId": "dmk",
+    "title": "Continue free rice distribution through ration shops",
+    "titleTa": "பொது விநியோக முறை மூலம் இலவச அரிசி விநியோகம் தொடர்தல்",
+    "description": "Continue and strengthen the Public Distribution System providing free rice to all ration card holders, ensuring food security for the poor and middle class families of Tamil Nadu.",
+    "trackingNote": "Continued without interruption. Additional rice distributed during COVID and festivals.",
+    "manifestoQuote": "Free rice distribution through ration shops will be continued and expanded without any reduction.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-017",
+    "slug": "minimum-wage-agricultural-labourers-500",
+    "partyId": "dmk",
+    "title": "Fix minimum daily wage for agricultural labourers at ₹500",
+    "titleTa": "விவசாய கூலியாளர்களுக்கு குறைந்தபட்ச நாள் கூலி ₹500 நிர்ணயம்",
+    "description": "Legislate minimum daily wage of ₹500 for agricultural labourers in Tamil Nadu to protect them from exploitation and ensure dignified livelihood.",
+    "trackingNote": "Minimum wage revised upward. Agricultural workers minimum wage now ₹450–₹500 range. Notification issued.",
+    "manifestoQuote": "The minimum daily wage for agricultural labourers will be fixed at Rs.500.",
+    "sector": { "id": "s6", "name": "Employment", "nameTa": "வேலைவாய்ப்பு", "icon": "briefcase", "color": "#F59E0B" },
+    "status": "fulfilled",
+    "icon": "briefcase",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-018",
+    "slug": "fishermen-compensation-fishing-ban",
+    "partyId": "dmk",
+    "title": "Enhance compensation to fishermen during annual fishing ban",
+    "titleTa": "மீனவர்களுக்கு மீன்பிடி தடை காலத்தில் நலன் உதவி உயர்வு",
+    "description": "Increase monthly compensation given to fishermen during the 45-day annual fishing ban period and provide additional assistance to families dependent on fishing for livelihood.",
+    "trackingNote": "Compensation enhanced. ₹6,000 per boat per month during ban period increased from previous ₹4,500.",
+    "manifestoQuote": "Compensation to fishermen during the fishing ban will be enhanced to provide adequate livelihood support.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "fulfilled",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-019",
+    "slug": "chennai-metro-expansion-phase-2",
+    "partyId": "dmk",
+    "title": "Expand Chennai Metro Rail to Phase 2 covering suburban areas",
+    "titleTa": "சென்னை மெட்ரோ ரயில் Phase 2 விரிவாக்கம் – புறநகர் பகுதிகளுக்கு",
+    "description": "Accelerate completion of Chennai Metro Phase 2 (118.9 km network) and begin planning for further suburban expansion to decongest roads and provide mass transit.",
+    "trackingNote": "Phase 2 construction ongoing. Corridor 3 (Madhavaram–SIPCOT) and Corridor 4 under active civil work.",
+    "manifestoQuote": "Chennai Metro Rail Phase 2 will be fast-tracked to provide modern transit connectivity across the city.",
+    "sector": { "id": "s7", "name": "Infrastructure", "nameTa": "உள்கட்டமைப்பு", "icon": "building", "color": "#6B7280" },
+    "status": "in-progress",
+    "icon": "building",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-020",
+    "slug": "solar-panels-every-household",
+    "partyId": "dmk",
+    "title": "Provide solar power panels to every household",
+    "titleTa": "ஒவ்வொரு வீட்டிற்கும் சூரிய ஒளி பலகைகள் வழங்குதல்",
+    "description": "Install rooftop solar photovoltaic panels at every household to generate green energy, reduce electricity bills, and contribute to Tamil Nadu's renewable energy targets.",
+    "trackingNote": "Surya Nagaram scheme launched for 1 lakh households. Progress slower than expected due to grid and tenancy issues.",
+    "manifestoQuote": "Solar panels will be provided to every household in Tamil Nadu to generate clean energy.",
+    "sector": { "id": "s8", "name": "Environment", "nameTa": "சுற்றுச்சூழல்", "icon": "leaf", "color": "#10B981" },
+    "status": "in-progress",
+    "icon": "leaf",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-021",
+    "slug": "tamil-cultural-university-establish",
+    "partyId": "dmk",
+    "title": "Establish Tamil Cultural University",
+    "titleTa": "தமிழ் பண்பாட்டு பல்கலைக்கழகம் நிறுவுதல்",
+    "description": "Set up a dedicated university for Tamil language, literature, culture, and classical arts to preserve and promote Tamil heritage and provide higher education in Tamil studies.",
+    "trackingNote": "Announced. Site identification and approval under process. Full establishment pending.",
+    "manifestoQuote": "A Tamil Cultural University will be established to promote Tamil language, literature and culture.",
+    "sector": { "id": "s11", "name": "Tamil Culture", "nameTa": "தமிழ் பண்பாடு", "icon": "book-open", "color": "#7C3AED" },
+    "status": "in-progress",
+    "icon": "book-open",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-022",
+    "slug": "safe-cities-women-safety-scheme",
+    "partyId": "dmk",
+    "title": "Implement Safe Cities programme to ensure women's safety",
+    "titleTa": "பெண்களின் பாதுகாப்பிற்கான பாதுகாப்பான நகரங்கள் திட்டம்",
+    "description": "Implement the central government's Safe Cities mission with CCTV surveillance, improved street lighting, emergency response infrastructure, and dedicated women police helpdesks.",
+    "trackingNote": "Under implementation in Chennai, Madurai, Coimbatore. CCTV networks being expanded. Police helpdesks set up.",
+    "manifestoQuote": "Safe Cities programme will be implemented across Tamil Nadu to ensure the safety and security of women.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "in-progress",
+    "icon": "users",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-023",
+    "slug": "natural-farming-promotion-zero-budget",
+    "partyId": "dmk",
+    "title": "Promote natural and zero-budget farming across Tamil Nadu",
+    "titleTa": "இயற்கை மற்றும் பூஜ்ஜிய பட்ஜெட் விவசாயத்தை ஊக்குவித்தல்",
+    "description": "Convert at least 20% of Tamil Nadu's agricultural land to natural/organic farming methods within 5 years, reducing input costs and improving soil health and farmer incomes.",
+    "trackingNote": "Natural farming scheme launched. Training camps conducted. Conversion target progress moderate.",
+    "manifestoQuote": "Natural farming will be promoted as an alternative to chemical farming to protect soil health and reduce farmer costs.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-024",
+    "slug": "free-drip-irrigation-small-farmers",
+    "partyId": "dmk",
+    "title": "Free drip and sprinkler irrigation systems for small farmers",
+    "titleTa": "சிறு விவசாயிகளுக்கு இலவச சொட்டு நீர் மற்றும் தெளிப்பு நீர்ப்பாசன அமைப்பு",
+    "description": "Provide drip irrigation and sprinkler systems free of cost to all small and marginal farmers to promote water-efficient farming and reduce dependence on rainfall.",
+    "trackingNote": "Subsidy enhanced to 100% for SC/ST farmers and 75% for others. Not fully free for all categories.",
+    "manifestoQuote": "Free drip and sprinkler irrigation will be provided to all small farmers to promote water conservation.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "modified",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-025",
+    "slug": "disabled-persons-pension-increase",
+    "partyId": "dmk",
+    "title": "Increase disability pension to ₹1,500 per month",
+    "titleTa": "மாற்றுத்திறனாளிகளுக்கான ஓய்வூதியத்தை ₹1,500 ஆக உயர்த்துதல்",
+    "description": "Enhance monthly pension for persons with disabilities to ₹1,500, and ensure all eligible disabled persons are covered under the state disability support scheme.",
+    "trackingNote": "Disability pension increased to ₹1,500. Coverage expanded.",
+    "manifestoQuote": "Disability pension will be increased to Rs.1,500 per month for all differently-abled persons.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-026",
+    "slug": "widow-pension-increase-1500",
+    "partyId": "dmk",
+    "title": "Increase widow pension to ₹1,500 per month",
+    "titleTa": "விதவைகளுக்கான ஓய்வூதியத்தை மாதம் ₹1,500 ஆக உயர்த்துதல்",
+    "description": "Enhance the monthly widow pension to ₹1,500 and ensure all eligible widows are covered under the scheme for dignified living.",
+    "trackingNote": "Widow pension enhanced to ₹1,500. Enrolled under same social welfare revision as old age pension.",
+    "manifestoQuote": "Widow pension will be raised to Rs.1,500 per month for all eligible beneficiaries.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-027",
+    "slug": "cauvery-delta-protection-zone",
+    "partyId": "dmk",
+    "title": "Declare Cauvery delta as a Protected Agricultural Zone",
+    "titleTa": "காவிரி டெல்டாவை பாதுகாக்கப்பட்ட வேளாண் மண்டலமாக அறிவித்தல்",
+    "description": "Enact legislation to declare the Cauvery delta region a protected agricultural zone, preventing industrial projects that could damage agricultural land and water resources in the delta.",
+    "trackingNote": "Cauvery Delta Protected Agricultural Zone Act passed 2022. Industrial projects restricted in delta region.",
+    "manifestoQuote": "The Cauvery delta will be declared a Protected Agricultural Zone to save the fertile farmlands from industrialisation.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "fulfilled",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-028",
+    "slug": "free-uniforms-shoes-bags-government-schools",
+    "partyId": "dmk",
+    "title": "Continue free uniforms, school bags, shoes and textbooks for government school students",
+    "titleTa": "அரசுப் பள்ளி மாணவர்களுக்கு இலவச சீருடை, பை, காலணி மற்றும் பாடநூல்கள் தொடர்தல்",
+    "description": "Continue providing free uniforms, school bags, shoes, geometry boxes and textbooks to all students in government schools to reduce financial burden on parents and improve attendance.",
+    "trackingNote": "Continued without interruption. Enhanced with additional items including scientific calculator.",
+    "manifestoQuote": "Free uniforms, bags, shoes and textbooks will continue to be provided to all government school students.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "fulfilled",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-029",
+    "slug": "sports-complex-every-district",
+    "partyId": "dmk",
+    "title": "Establish world-class sports complex in every district",
+    "titleTa": "ஒவ்வொரு மாவட்டத்திலும் உலத்தர சர்வதேச விளையாட்டு வளாகம் நிறுவுதல்",
+    "description": "Set up one district-level sports complex with modern facilities in every district of Tamil Nadu to identify and nurture sports talent at grassroots level.",
+    "trackingNote": "Sports complexes announced and construction started in several districts. Completion ongoing.",
+    "manifestoQuote": "A world-class sports complex will be established in every district of Tamil Nadu.",
+    "sector": { "id": "s12", "name": "Youth & Sports", "nameTa": "இளைஞர் & விளையாட்டு", "icon": "trophy", "color": "#D97706" },
+    "status": "in-progress",
+    "icon": "trophy",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-030",
+    "slug": "health-insurance-unorganised-workers",
+    "partyId": "dmk",
+    "title": "Health insurance for all unorganised sector workers",
+    "titleTa": "அனைத்து சங்கமற்ற துறை தொழிலாளர்களுக்கும் சுகாதார காப்பீடு",
+    "description": "Extend health insurance coverage under a comprehensive scheme to all workers in the unorganised sector including construction workers, domestic workers, and casual labourers.",
+    "trackingNote": "Construction workers covered under existing scheme. Expansion to all unorganised workers in progress.",
+    "manifestoQuote": "Health insurance will be provided to all unorganised sector workers to protect them from medical emergencies.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "in-progress",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-031",
+    "slug": "protect-wetlands-waterbodies",
+    "partyId": "dmk",
+    "title": "Restore and protect all wetlands and water bodies in Tamil Nadu",
+    "titleTa": "தமிழ்நாட்டில் உள்ள அனைத்து ஈரநிலங்கள் மற்றும் நீர்நிலைகளை மீட்டெடுத்து பாதுகாத்தல்",
+    "description": "Restore encroached wetlands, clean up polluted water bodies, and establish a comprehensive database of all natural water bodies to ensure their legal protection and conservation.",
+    "trackingNote": "Several lakes restored. Poromboke land recovered in some districts. Encroachments cleared in specific cases.",
+    "manifestoQuote": "All encroachments on wetlands and water bodies will be removed and these ecosystems will be fully restored.",
+    "sector": { "id": "s8", "name": "Environment", "nameTa": "சுற்றுச்சூழல்", "icon": "leaf", "color": "#10B981" },
+    "status": "in-progress",
+    "icon": "leaf",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-032",
+    "slug": "government-school-infrastructure-upgrade",
+    "partyId": "dmk",
+    "title": "Upgrade infrastructure of all government schools within 3 years",
+    "titleTa": "அனைத்து அரசுப் பள்ளிகளிலும் 3 ஆண்டுகளில் உள்கட்டமைப்பு மேம்பாடு",
+    "description": "Provide classrooms, toilets, drinking water, smart boards, science labs and digital connectivity to all government schools, making them comparable to private schools.",
+    "trackingNote": "Ennum Ezhuthum (foundational literacy) initiative and school infrastructure upgrades progressing. Smart classrooms in progress.",
+    "manifestoQuote": "All government schools will be upgraded with modern infrastructure within three years.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "in-progress",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-033",
+    "slug": "cauvery-water-full-share-fight",
+    "partyId": "dmk",
+    "title": "Ensure Tamil Nadu receives its full Cauvery water share",
+    "titleTa": "தமிழ்நாட்டிற்கு முழு காவிரி நீர் பங்கை உறுதிப்படுத்துதல்",
+    "description": "Fight at all constitutional and legal forums to ensure Tamil Nadu receives its rightful share of Cauvery water as per the Supreme Court tribunal award, and prevent Karnataka from diverting water.",
+    "trackingNote": "Legal battles continuing. CWMA (Cauvery Water Management Authority) setup. Water sharing disputes ongoing.",
+    "manifestoQuote": "The DMK government will fight vigorously to ensure Tamil Nadu gets its full share of Cauvery water.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-034",
+    "slug": "free-medicines-government-hospitals",
+    "partyId": "dmk",
+    "title": "Provide free essential medicines in all government hospitals",
+    "titleTa": "அனைத்து அரசு மருத்துவமனைகளிலும் இலவச மருந்துகள் வழங்குதல்",
+    "description": "Ensure availability of all essential medicines free of cost in every government hospital, primary health centre and community health centre across Tamil Nadu.",
+    "trackingNote": "Free medicine scheme expanded under TNMSC. Coverage improved. Medicine shortages being addressed.",
+    "manifestoQuote": "Free essential medicines will be made available in all government hospitals without any shortage.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "in-progress",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-035",
+    "slug": "10-percent-reservation-women-government-jobs",
+    "partyId": "dmk",
+    "title": "30% reservation for women in all government job recruitment",
+    "titleTa": "அனைத்து அரசு வேலைவாய்ப்புகளிலும் பெண்களுக்கு 30% இட ஒதுக்கீடு",
+    "description": "Ensure 30% of all government job vacancies are reserved for women candidates across departments, boards and corporations under the state government.",
+    "trackingNote": "30% reservation in government jobs notified. Implementation ongoing in various recruitments.",
+    "manifestoQuote": "30% reservation will be provided to women in all state government recruitment.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "in-progress",
+    "icon": "users",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-036",
+    "slug": "msme-revival-covid-support",
+    "partyId": "dmk",
+    "title": "Special package to revive MSMEs affected by COVID-19",
+    "titleTa": "கோவிட்-19 பாதிக்கப்பட்ட சிறு மற்றும் நடுத்தர தொழில்களுக்கு சிறப்பு மறுமலர்ச்சி திட்டம்",
+    "description": "Provide financial assistance, loan restructuring, and market support to Micro, Small and Medium Enterprises that suffered losses due to the COVID-19 pandemic and associated lockdowns.",
+    "trackingNote": "MSME relief packages implemented. Credit guarantees, interest subvention and market linkage programmes launched.",
+    "manifestoQuote": "A special package will be provided to revive MSMEs affected by COVID-19 to restore employment.",
+    "sector": { "id": "s9", "name": "Economy & Industry", "nameTa": "பொருளாதாரம்", "icon": "trending-up", "color": "#0F766E" },
+    "status": "fulfilled",
+    "icon": "trending-up",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-037",
+    "slug": "pondicherry-full-statehood-demand",
+    "partyId": "dmk",
+    "title": "Demand full statehood for Puducherry from central government",
+    "titleTa": "புதுச்சேரிக்கு முழு மாநில அந்தஸ்து கோரிக்கை மத்திய அரசிடம்",
+    "description": "Pursue with the Union Government to grant full statehood to Puducherry, allowing the elected government there to exercise complete powers without interference from the Lt. Governor.",
+    "trackingNote": "Formal demand made to Centre. No significant constitutional progress.",
+    "manifestoQuote": "DMK will demand full statehood for Puducherry from the central government at the earliest.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-038",
+    "slug": "rural-roads-improvement-panchayat",
+    "partyId": "dmk",
+    "title": "Upgrade all panchayat-level roads to bitumen/cement standards",
+    "titleTa": "அனைத்து பஞ்சாயத்து சாலைகளையும் தார் அல்லது சிமெண்ட் தரத்தில் மேம்படுத்துதல்",
+    "description": "Convert all remaining mud and gravel roads in rural panchayats to all-weather bitumen or cement concrete roads, improving rural connectivity and reducing transport costs.",
+    "trackingNote": "CM Panmurai Chaalai scheme launched. Crores allocated. Road improvement ongoing across districts.",
+    "manifestoQuote": "All panchayat roads will be upgraded to bitumen or cement concrete standards to improve rural connectivity.",
+    "sector": { "id": "s7", "name": "Infrastructure", "nameTa": "உள்கட்டமைப்பு", "icon": "building", "color": "#6B7280" },
+    "status": "in-progress",
+    "icon": "building",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-039",
+    "slug": "new-government-medical-colleges",
+    "partyId": "dmk",
+    "title": "Establish new government medical colleges in underserved districts",
+    "titleTa": "சுகாதார வசதி குறைவான மாவட்டங்களில் புதிய அரசு மருத்துவக் கல்லூரைகள் நிறுவுதல்",
+    "description": "Set up new government medical colleges with attached hospitals in districts that currently lack medical education infrastructure, to increase availability of doctors in rural areas.",
+    "trackingNote": "Several new government medical colleges approved and under construction. Theni, Tiruvallur and others getting new colleges.",
+    "manifestoQuote": "New government medical colleges will be established in districts that currently lack medical education infrastructure.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "in-progress",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-040",
+    "slug": "investments-one-lakh-crore-industry",
+    "partyId": "dmk",
+    "title": "Attract ₹1 lakh crore investment to Tamil Nadu in 5 years",
+    "titleTa": "5 ஆண்டுகளில் தமிழ்நாட்டில் ₹1 லட்சம் கோடி முதலீடு ஈர்த்தல்",
+    "description": "Promote Tamil Nadu as a premier investment destination and attract domestic and foreign investment worth ₹1 lakh crore to create industrial growth and employment.",
+    "trackingNote": "Tamil Nadu Global Investors Meet 2024 held. Over ₹6 lakh crore investment pledged (exceeds target).",
+    "manifestoQuote": "We will attract Rs.1 lakh crore in investment to Tamil Nadu within five years to boost employment.",
+    "sector": { "id": "s9", "name": "Economy & Industry", "nameTa": "பொருளாதாரம்", "icon": "trending-up", "color": "#0F766E" },
+    "status": "fulfilled",
+    "icon": "trending-up",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-041",
+    "slug": "separate-budget-women-welfare",
+    "partyId": "dmk",
+    "title": "Present a separate budget for women's welfare schemes",
+    "titleTa": "பெண்கள் நலன் திட்டங்களுக்கு தனி பட்ஜெட் வழங்குதல்",
+    "description": "Present an exclusive budget statement dedicated to women's welfare, covering all schemes and expenditure benefiting women, to ensure transparency and accountability.",
+    "trackingNote": "Gender budgeting statement presented. Standalone women's budget not introduced as separate document.",
+    "manifestoQuote": "A separate budget will be presented for women's welfare to ensure focused attention on gender equity.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "modified",
+    "icon": "users",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-042",
+    "slug": "tree-planting-one-crore-trees",
+    "partyId": "dmk",
+    "title": "Plant one crore trees to increase Tamil Nadu's forest cover",
+    "titleTa": "தமிழ்நாட்டின் வனப்பரப்பை அதிகரிக்க ஒரு கோடி மரங்கள் நடுதல்",
+    "description": "Mass tree-planting drive to add one crore trees across Tamil Nadu, involving schools, colleges, panchayats and government departments to increase green cover and combat climate change.",
+    "trackingNote": "Multiple tree-planting campaigns conducted. Vanaviduthalai scheme and school plantation drives underway.",
+    "manifestoQuote": "One crore trees will be planted across Tamil Nadu to increase forest cover and combat climate change.",
+    "sector": { "id": "s8", "name": "Environment", "nameTa": "சுற்றுச்சூழல்", "icon": "leaf", "color": "#10B981" },
+    "status": "in-progress",
+    "icon": "leaf",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-043",
+    "slug": "farmer-mental-health-counselling",
+    "partyId": "dmk",
+    "title": "Establish mental health counselling centres for farmers",
+    "titleTa": "விவசாயிகளுக்கு மன நல ஆலோசனை மையங்கள் அமைத்தல்",
+    "description": "Set up dedicated mental health counselling and support services for farmers to address stress, debt-related anxiety and prevent farmer suicides.",
+    "trackingNote": "Farmer helpline launched. Agriculture department counsellors deployed. Farmer welfare committees active.",
+    "manifestoQuote": "Mental health counselling centres will be established to help farmers facing distress and prevent suicides.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-044",
+    "slug": "classical-tamil-studies-centres",
+    "partyId": "dmk",
+    "title": "Establish Classical Tamil Studies Centres across the state",
+    "titleTa": "செம்மொழி தமிழ் ஆய்வு மையங்களை அரசு ஏற்படுத்துதல்",
+    "description": "Set up dedicated centres for the study, research and promotion of Classical Tamil, ancient literature, epigraphy and Sangam-era texts in universities across Tamil Nadu.",
+    "trackingNote": "Classical Tamil Research Institute strengthened. Digital archive of Tamil manuscripts launched.",
+    "manifestoQuote": "Classical Tamil studies centres will be established in universities to promote research in ancient Tamil.",
+    "sector": { "id": "s11", "name": "Tamil Culture", "nameTa": "தமிழ் பண்பாடு", "icon": "book-open", "color": "#7C3AED" },
+    "status": "in-progress",
+    "icon": "book-open",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-045",
+    "slug": "housing-all-homeless-families",
+    "partyId": "dmk",
+    "title": "Provide housing to all homeless and slum-dwelling families",
+    "titleTa": "வீடற்ற மற்றும் குடிசைவாசிகள் அனைவருக்கும் வீடு வழங்குதல்",
+    "description": "Complete pending housing projects and launch new ones to provide permanent pucca houses to all homeless families and slum dwellers in Tamil Nadu under an expanded housing scheme.",
+    "trackingNote": "PMAY and state housing scheme ongoing. Completion targets set. Progress district-wise varies.",
+    "manifestoQuote": "All homeless and slum-dwelling families will be provided with permanent housing within the plan period.",
+    "sector": { "id": "s7", "name": "Infrastructure", "nameTa": "உள்கட்டமைப்பு", "icon": "building", "color": "#6B7280" },
+    "status": "in-progress",
+    "icon": "building",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-046",
+    "slug": "electricity-tariff-no-increase-five-years",
+    "partyId": "dmk",
+    "title": "No increase in domestic electricity tariff for 5 years",
+    "titleTa": "5 ஆண்டுகளுக்கு குடியிருப்பு மின்கட்டணம் உயர்த்த மாட்டோம்",
+    "description": "Freeze domestic electricity tariff rates for residential consumers throughout the 5-year term, protecting households from increasing power bills.",
+    "trackingNote": "Tariff revision done in 2022 for industrial/commercial. Domestic tariff increased modestly. Promise partially broken.",
+    "manifestoQuote": "There will be no increase in domestic electricity tariff during the DMK government's five-year term.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "not-fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-047",
+    "slug": "pollution-industries-strict-action",
+    "partyId": "dmk",
+    "title": "Strict action against polluting industries and close defaulters",
+    "titleTa": "மாசுலாவும் தொழிற்சாலைகளுக்கு கடுமையான நடவடிக்கை மற்றும் மூடல்",
+    "description": "Take strict enforcement action against industries that pollute air, water and soil beyond permissible limits, including closure of repeat offenders and criminal prosecution of owners.",
+    "trackingNote": "TNPCB action taken in specific cases. Sterlite Copper plant kept closed. Some industries penalised.",
+    "manifestoQuote": "Strict action including closure will be taken against industries that pollute the environment beyond permissible limits.",
+    "sector": { "id": "s8", "name": "Environment", "nameTa": "சுற்றுச்சூழல்", "icon": "leaf", "color": "#10B981" },
+    "status": "in-progress",
+    "icon": "leaf",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-048",
+    "slug": "neethipuri-kattumaram-mechanised-boats",
+    "partyId": "dmk",
+    "title": "Regularise and provide licences for mechanised fishing boats",
+    "titleTa": "இயந்திர படகுகளுக்கு உரிமம் வழங்கி சட்டப்படி அங்கீகரித்தல்",
+    "description": "Regularise all existing mechanised fishing boats that are currently operating without proper licences, and streamline the licensing process for new fishing vessels.",
+    "trackingNote": "Licensing process simplified. Most mechanised boats regularised under revised norms.",
+    "manifestoQuote": "All mechanised fishing boats will be regularised and proper licences issued to fishermen.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "fulfilled",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-049",
+    "slug": "college-scholarships-bc-sc-st-students",
+    "partyId": "dmk",
+    "title": "Enhance scholarships for BC, SC/ST students in higher education",
+    "titleTa": "உயர்கல்வியில் பிற்படுத்தப்பட்ட, தாழ்த்தப்பட்ட மாணவர்களுக்கு கல்வி உதவித்தொகை உயர்வு",
+    "description": "Increase scholarship amounts and expand coverage for students from Backward Classes, Scheduled Castes and Scheduled Tribes pursuing higher education in colleges and universities.",
+    "trackingNote": "Scholarship amounts revised upward. Coverage expanded. Post-matric scholarship disbursement improved.",
+    "manifestoQuote": "Scholarships for BC, SC and ST students will be enhanced and disbursed without delay.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "fulfilled",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-050",
+    "slug": "tnpsc-recruitment-corruption-free",
+    "partyId": "dmk",
+    "title": "Ensure transparent and corruption-free TNPSC recruitment",
+    "titleTa": "வெளிப்படையான மற்றும் ஊழலற்ற TNPSC தேர்வு நடத்துதல்",
+    "description": "Reform the Tamil Nadu Public Service Commission recruitment process to eliminate paper leaks, corruption and nepotism, ensuring merit-based selection for all government posts.",
+    "trackingNote": "TNPSC paper leak scandal occurred in 2022. Reforms announced post-leak. SIT investigation launched.",
+    "manifestoQuote": "TNPSC recruitment will be made fully transparent and corruption-free to ensure merit-based selection.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "stalled",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-051",
+    "slug": "unorganised-workers-welfare-board-strengthen",
+    "partyId": "dmk",
+    "title": "Strengthen Unorganised Workers Welfare Boards",
+    "titleTa": "சங்கமற்ற தொழிலாளர் நலன் வாரியங்களை வலுப்படுத்துதல்",
+    "description": "Revamp and strengthen welfare boards for construction workers, domestic workers, auto workers and other unorganised sector workers with better benefits, registration drives and fund management.",
+    "trackingNote": "Construction Workers Welfare Board strengthened. Registration of unorganised workers ongoing digitally.",
+    "manifestoQuote": "Welfare boards for unorganised workers will be strengthened to provide better benefits and support.",
+    "sector": { "id": "s6", "name": "Employment", "nameTa": "வேலைவாய்ப்பு", "icon": "briefcase", "color": "#F59E0B" },
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-052",
+    "slug": "sand-mining-policy-reform",
+    "partyId": "dmk",
+    "title": "Reform sand mining policy to eliminate illegal mining",
+    "titleTa": "சட்டவிரோத மணல் வாரி எடுப்பை தடுக்க மணல் கொள்கை சீர்திருத்தம்",
+    "description": "Introduce a transparent and accountable sand mining policy using technology to track sand movement, eliminate illegal quarrying from river beds and ensure fair pricing for construction sector.",
+    "trackingNote": "Sand mining monitoring portal launched. But illegal sand mining still reported across river districts.",
+    "manifestoQuote": "A reformed sand mining policy will be implemented to eliminate illegal mining and ensure transparent supply.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-053",
+    "slug": "ration-shop-modernisation-computerisation",
+    "partyId": "dmk",
+    "title": "Fully computerise and modernise all ration shops",
+    "titleTa": "அனைத்து ரேஷன் கடைகளையும் கணினிமயமாக்கி நவீனமாக்குதல்",
+    "description": "Complete the digitalisation of all Public Distribution System outlets with point-of-sale devices, biometric authentication and real-time stock monitoring to eliminate leakages.",
+    "trackingNote": "PDS modernisation ongoing. ePoS machines deployed in most shops. Biometric authentication in use.",
+    "manifestoQuote": "All ration shops will be fully computerised to eliminate corruption and ensure efficient food distribution.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-054",
+    "slug": "district-collector-transferred-political-pressure",
+    "partyId": "dmk",
+    "title": "Protect IAS/IPS officers from arbitrary political transfers",
+    "titleTa": "IAS/IPS அதிகாரிகளை தன்னிச்சையான அரசியல் இடமாற்றிலிருந்து பாதுகாத்தல்",
+    "description": "Ensure civil servants are protected from arbitrary transfers driven by political pressure, and set up a transparent transfer policy with minimum tenure guarantees.",
+    "trackingNote": "Transfer policy revised in 2021. However, frequent transfers of district collectors continued as per observers.",
+    "manifestoQuote": "Civil servants will be protected from arbitrary transfers and given minimum assured tenures.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "modified",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-055",
+    "slug": "set-up-1000-new-anganwadis",
+    "partyId": "dmk",
+    "title": "Establish 1,000 new anganwadi centres across Tamil Nadu",
+    "titleTa": "தமிழ்நாடு முழுவதும் 1,000 புதிய அங்கன்வாடி மையங்கள் அமைத்தல்",
+    "description": "Open 1,000 new anganwadi child care centres in areas with high child density or poor ICDS coverage to improve child nutrition, early childhood education and mother health outcomes.",
+    "trackingNote": "New anganwadi centres sanctioned in batches. Staffing and building issues delayed some openings.",
+    "manifestoQuote": "1,000 new anganwadi centres will be established to improve child nutrition and early childhood care.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "in-progress",
+    "icon": "users",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-056",
+    "slug": "house-sites-sc-st-landless-labourers",
+    "partyId": "dmk",
+    "title": "Provide house sites (pattas) to all SC/ST landless labourers",
+    "titleTa": "நிலமற்ற தாழ்த்தப்பட்ட / பழங்குடியின கூலியாளர்களுக்கு வீட்டு மனை (பட்டா) வழங்குதல்",
+    "description": "Distribute house site pattas (ownership documents) to all landless Scheduled Caste and Scheduled Tribe labourers who currently live on government or private land without ownership rights.",
+    "trackingNote": "Patta distribution drives conducted. Several thousand acres assigned. Full saturation pending in many districts.",
+    "manifestoQuote": "House sites with patta will be provided to all landless SC/ST labourers in Tamil Nadu.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "in-progress",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-057",
+    "slug": "ambedkar-hostels-every-district",
+    "partyId": "dmk",
+    "title": "Establish Ambedkar hostels for SC/ST students in every district",
+    "titleTa": "ஒவ்வொரு மாவட்டத்திலும் தாழ்த்தப்பட்ட / பழங்குடியின மாணவர்களுக்கு அம்பேத்கர் விடுதி அமைத்தல்",
+    "description": "Build new Ambedkar residential hostels for Scheduled Caste and Scheduled Tribe college students in every district headquarters to enable higher education without financial barriers.",
+    "trackingNote": "New hostels sanctioned in several districts. Construction ongoing.",
+    "manifestoQuote": "Ambedkar hostels for SC/ST students will be established in all districts to support higher education.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "in-progress",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-058",
+    "slug": "sub-categorisation-sc-internal-reservation",
+    "partyId": "dmk",
+    "title": "Implement sub-categorisation within SC reservation for most deprived groups",
+    "titleTa": "தாழ்த்தப்பட்டோர் இட ஒதுக்கீட்டில் மிகவும் பிற்படுத்தப்பட்டோருக்கு துணை வகைப்படுத்தல்",
+    "description": "Introduce internal sub-categorisation within Scheduled Caste quota to ensure the most marginalised communities among SCs (such as Arunthathiyars) receive a preferential share of reservation benefits.",
+    "trackingNote": "3% internal reservation for Arunthathiyars within SC quota implemented. Supreme Court challenge ongoing (2024 SC judgment supports sub-categorisation).",
+    "manifestoQuote": "Sub-categorisation within SC reservation will be implemented to ensure the most deprived communities benefit.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-059",
+    "slug": "free-sanitary-napkins-school-girls",
+    "partyId": "dmk",
+    "title": "Provide free sanitary napkins to all government school girls",
+    "titleTa": "அரசுப் பள்ளி மாணவிகளுக்கு இலவச சுகாதாரப் பட்டை வழங்குதல்",
+    "description": "Supply free sanitary napkins to all girl students in government and government-aided schools to promote menstrual hygiene, reduce absenteeism and ensure girls stay in school.",
+    "trackingNote": "Scheme launched. Distribution through school health programme. Coverage ongoing.",
+    "manifestoQuote": "Free sanitary napkins will be provided to all girl students in government schools.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "fulfilled",
+    "icon": "users",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-060",
+    "slug": "self-help-group-loans-zero-interest",
+    "partyId": "dmk",
+    "title": "Provide zero-interest loans to all women Self Help Groups",
+    "titleTa": "பெண்கள் சுய உதவிக் குழுக்களுக்கு வட்டியில்லா கடன் வழங்குதல்",
+    "description": "Extend interest-free loans to all registered women Self Help Groups through cooperative banks and NABARD to promote micro-entrepreneurship and rural women's economic empowerment.",
+    "trackingNote": "Zero-interest SHG loans up to ₹3 lakh implemented. Over 3 lakh SHGs benefited.",
+    "manifestoQuote": "All women Self Help Groups will receive zero-interest loans to promote their economic activities.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "fulfilled",
+    "icon": "users",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-061",
+    "slug": "maternity-assistance-increase-18000",
+    "partyId": "dmk",
+    "title": "Increase maternity assistance to ₹18,000 per child",
+    "titleTa": "மகப்பேறு உதவித்தொகையை குழந்தைக்கு ₹18,000 ஆக உயர்த்துதல்",
+    "description": "Enhance the state maternity assistance benefit to ₹18,000 per child for women from below poverty line families, covering nutrition and care costs during pregnancy and after delivery.",
+    "trackingNote": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme enhanced to ₹18,000. Disbursed in instalments.",
+    "manifestoQuote": "Maternity assistance will be increased to Rs.18,000 per child to support women during and after pregnancy.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "fulfilled",
+    "icon": "users",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-062",
+    "slug": "one-stop-centres-women-distress",
+    "partyId": "dmk",
+    "title": "Establish One Stop Centres for women facing violence in all districts",
+    "titleTa": "அனைத்து மாவட்டங்களிலும் பாதிக்கப்பட்ட பெண்களுக்கு ஒரே இடத்தில் சேவை மையம் அமைத்தல்",
+    "description": "Set up One Stop Centres providing integrated services — shelter, medical, legal, police assistance and counselling — for women and girls affected by violence and abuse in every district.",
+    "trackingNote": "One Stop Centres operational in all 38 districts. 24-hour helpline (181) functioning.",
+    "manifestoQuote": "One Stop Centres will be set up in every district to provide integrated support to women facing violence.",
+    "sector": { "id": "s5", "name": "Women & Child", "nameTa": "பெண்கள் & குழந்தை", "icon": "users", "color": "#EC4899" },
+    "status": "fulfilled",
+    "icon": "users",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-063",
+    "slug": "marriage-assistance-increase-50000",
+    "partyId": "dmk",
+    "title": "Increase Kalaignar marriage assistance to ₹50,000",
+    "titleTa": "கலைஞர் திருமண உதவித்தொகையை ₹50,000 ஆக உயர்த்துதல்",
+    "description": "Enhance the Kalaignar Marriage Assistance Scheme cash grant to ₹50,000 to help Below Poverty Line families meet marriage expenses and reduce debt burden.",
+    "trackingNote": "Enhanced to ₹50,000 for BPL families. ₹1 lakh for inter-caste marriages involving SC/ST brides.",
+    "manifestoQuote": "Marriage assistance under the Kalaignar scheme will be enhanced to Rs.50,000.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-064",
+    "slug": "deep-sea-fishing-vessels-fishermen",
+    "partyId": "dmk",
+    "title": "Provide subsidised deep-sea fishing vessels to fishermen cooperatives",
+    "titleTa": "மீனவ கூட்டுறவுகளுக்கு மானிய விலையில் ஆழ் கடல் மீன்பிடி கப்பல்கள் வழங்குதல்",
+    "description": "Supply subsidised deep-sea fishing vessels to fishermen cooperatives to enable them to fish beyond the 12-nautical-mile zone, increase catch, improve income and reduce conflict with Sri Lankan navy.",
+    "trackingNote": "Deep sea fishing vessels provided to selected cooperatives. Expansion to more cooperatives ongoing.",
+    "manifestoQuote": "Subsidised deep-sea fishing vessels will be provided to fishermen cooperatives to increase fishing income.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-065",
+    "slug": "modern-fish-landing-centres-harbours",
+    "partyId": "dmk",
+    "title": "Develop modern fish landing centres and harbours",
+    "titleTa": "நவீன மீன் தரையிறங்கும் மையங்கள் மற்றும் துறைமுகங்கள் அமைத்தல்",
+    "description": "Build and upgrade fish landing centres with cold storage, ice plants, processing facilities and auction halls at major fishing harbours to reduce post-harvest losses and improve prices for fishermen.",
+    "trackingNote": "Several harbour upgrades in progress. Nagapattinam, Rameswaram and other harbours being developed.",
+    "manifestoQuote": "Modern fish landing centres and harbours will be developed to improve post-harvest handling and fishermen income.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-066",
+    "slug": "fishermen-arrested-srilanka-release",
+    "partyId": "dmk",
+    "title": "Secure release of Tamil fishermen arrested by Sri Lanka",
+    "titleTa": "இலங்கையால் கைது செய்யப்பட்ட தமிழக மீனவர்களை விடுவித்தல்",
+    "description": "Pursue diplomatic channels with the central government and Sri Lanka to secure the immediate release of Tamil fishermen arrested while fishing in traditional waters, and get their confiscated boats returned.",
+    "trackingNote": "Diplomatic efforts ongoing. Some fishermen released. Issue persists — arrests continue intermittently.",
+    "manifestoQuote": "The DMK government will work to secure the release of fishermen arrested by Sri Lanka and get their boats returned.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-067",
+    "slug": "handloom-weavers-free-power-supply",
+    "partyId": "dmk",
+    "title": "Provide free electricity to handloom weavers",
+    "titleTa": "கைத்தறி நெசவாளர்களுக்கு இலவச மின் இணைப்பு வழங்குதல்",
+    "description": "Supply free electricity to all handloom weaver units to reduce production costs, make handloom products price-competitive and protect the livelihoods of traditional weavers.",
+    "trackingNote": "Free power supply to handloom weavers continued. Erode, Kancheepuram and Salem district weavers benefited.",
+    "manifestoQuote": "Free electricity will be provided to handloom weavers to reduce their production costs.",
+    "sector": { "id": "s6", "name": "Employment", "nameTa": "வேலைவாய்ப்பு", "icon": "briefcase", "color": "#F59E0B" },
+    "status": "fulfilled",
+    "icon": "briefcase",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-068",
+    "slug": "handloom-market-linkage-export-promotion",
+    "partyId": "dmk",
+    "title": "Promote handloom products through government marketing and export channels",
+    "titleTa": "அரசு சந்தை மற்றும் ஏற்றுமதி வழிகள் மூலம் கைத்தறி தயாரிப்புகளை மேம்படுத்துதல்",
+    "description": "Revamp Co-optex and government handloom outlets, create e-commerce platforms for weavers, and promote Tamil handloom products in national and international markets.",
+    "trackingNote": "Co-optex digital platform launched. GI tags for several TN handloom products obtained.",
+    "manifestoQuote": "Handloom products will be promoted through government marketing channels and export promotion initiatives.",
+    "sector": { "id": "s9", "name": "Economy & Industry", "nameTa": "பொருளாதாரம்", "icon": "trending-up", "color": "#0F766E" },
+    "status": "in-progress",
+    "icon": "trending-up",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-069",
+    "slug": "state-transport-bus-fleet-expansion",
+    "partyId": "dmk",
+    "title": "Expand state transport bus fleet with 10,000 new buses",
+    "titleTa": "அரசு பேருந்து கடத்தல் நிறுவனங்களில் 10,000 புதிய பேருந்துகள் சேர்த்தல்",
+    "description": "Procure and deploy 10,000 new buses across Tamil Nadu's state transport corporations to improve public transport frequency, reduce overcrowding and connect rural areas better.",
+    "trackingNote": "New buses procured in phases. Electric bus fleet introduced in Chennai. Full 10,000 target not yet reached.",
+    "manifestoQuote": "10,000 new buses will be added to state transport corporations to improve public connectivity.",
+    "sector": { "id": "s7", "name": "Infrastructure", "nameTa": "உள்கட்டமைப்பு", "icon": "building", "color": "#6B7280" },
+    "status": "in-progress",
+    "icon": "building",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-070",
+    "slug": "electric-vehicles-government-fleet",
+    "partyId": "dmk",
+    "title": "Transition government transport fleet to electric vehicles",
+    "titleTa": "அரசு போக்குவரத்து வாகனங்களை மின்சார வாகனங்களாக மாற்றுதல்",
+    "description": "Gradually replace government-owned buses, cars and two-wheelers with electric vehicles, and set up charging infrastructure at government offices and transport depots.",
+    "trackingNote": "500+ electric buses deployed in Chennai MTC. EV policy announced. Charging stations being set up.",
+    "manifestoQuote": "The government fleet will be progressively shifted to electric vehicles to reduce pollution and fuel costs.",
+    "sector": { "id": "s8", "name": "Environment", "nameTa": "சுற்றுச்சூழல்", "icon": "leaf", "color": "#10B981" },
+    "status": "in-progress",
+    "icon": "leaf",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-071",
+    "slug": "mullaperiyar-dam-new-dam-construction",
+    "partyId": "dmk",
+    "title": "Press for construction of new Mullaperiyar dam to ensure TN water security",
+    "titleTa": "தமிழ்நாட்டின் நீர் பாதுகாப்பிற்கு புதிய முல்லைப்பெரியாறு அணை கட்டும்படி வலியுறுத்துதல்",
+    "description": "Pursue legally and diplomatically for construction of a new Mullaperiyar dam to replace the 127-year-old existing dam, ensuring continued water supply to five Tamil Nadu districts.",
+    "trackingNote": "Supreme Court case continuing. DMK consistently raises the issue. No new dam constructed yet.",
+    "manifestoQuote": "DMK will vigorously pursue construction of a new Mullaperiyar dam to ensure water security for Tamil Nadu.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-072",
+    "slug": "100-percent-renewable-energy-target",
+    "partyId": "dmk",
+    "title": "Achieve 100% renewable energy capacity by 2030",
+    "titleTa": "2030 ஆம் ஆண்டுக்குள் 100% புதுப்பிக்கத்தக்க ஆற்றல் திறன் அடைதல்",
+    "description": "Scale up Tamil Nadu's solar, wind and other renewable energy capacity to meet 100% of the state's electricity generation needs through renewable sources by 2030.",
+    "trackingNote": "Tamil Nadu has India's largest renewable energy installed capacity. 100% RE by 2030 target being actively pursued.",
+    "manifestoQuote": "Tamil Nadu will achieve 100% renewable energy capacity by 2030 through solar and wind power expansion.",
+    "sector": { "id": "s8", "name": "Environment", "nameTa": "சுற்றுச்சூழல்", "icon": "leaf", "color": "#10B981" },
+    "status": "in-progress",
+    "icon": "leaf",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-073",
+    "slug": "sterlite-plant-permanent-closure",
+    "partyId": "dmk",
+    "title": "Ensure permanent closure of Sterlite Copper plant in Thoothukudi",
+    "titleTa": "தூத்துக்குடியில் ஸ்டெர்லைட் செம்பு ஆலையை நிரந்தரமாக மூடுதல்",
+    "description": "Ensure the Vedanta-owned Sterlite Copper plant in Thoothukudi remains permanently closed, respecting the wishes of the people of the region who lost 13 lives in the 2018 anti-Sterlite protest.",
+    "trackingNote": "Plant remains closed. DMK government opposing reopening in court. Legal battles ongoing.",
+    "manifestoQuote": "The Sterlite Copper plant in Thoothukudi will not be allowed to reopen, respecting the sacrifice of the people.",
+    "sector": { "id": "s8", "name": "Environment", "nameTa": "சுற்றுச்சூழல்", "icon": "leaf", "color": "#10B981" },
+    "status": "in-progress",
+    "icon": "leaf",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-074",
+    "slug": "world-tamil-conference-conduct",
+    "partyId": "dmk",
+    "title": "Organise World Tamil Conference",
+    "titleTa": "உலக தமிழ் மாநாடு நடத்துதல்",
+    "description": "Host the World Tamil Conference to bring together Tamil scholars, leaders and communities from around the world to celebrate Tamil language, culture and heritage.",
+    "trackingNote": "World Tamil Conference held in January 2025 in Chennai. 80+ countries participated.",
+    "manifestoQuote": "The DMK government will organise a World Tamil Conference to celebrate the Tamil language and unite Tamils worldwide.",
+    "sector": { "id": "s11", "name": "Tamil Culture", "nameTa": "தமிழ் பண்பாடு", "icon": "book-open", "color": "#7C3AED" },
+    "status": "fulfilled",
+    "icon": "book-open",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-075",
+    "slug": "thiruvalluvar-statue-world-capitals",
+    "partyId": "dmk",
+    "title": "Install Thiruvalluvar statues in world capitals and Indian cities",
+    "titleTa": "உலகின் தலைநகரங்களிலும் இந்திய நகரங்களிலும் திருவள்ளுவர் சிலை நிறுவுதல்",
+    "description": "Erect statues of poet-saint Thiruvalluvar in world capitals and major Indian cities to spread awareness of Tamil culture and the Thirukkural's universal philosophy.",
+    "trackingNote": "Statues installed in Malaysia, Singapore, Fiji and several Indian cities. More planned.",
+    "manifestoQuote": "Statues of Thiruvalluvar will be installed in world capitals and major Indian cities to spread Tamil culture.",
+    "sector": { "id": "s11", "name": "Tamil Culture", "nameTa": "தமிழ் பண்பாடு", "icon": "book-open", "color": "#7C3AED" },
+    "status": "in-progress",
+    "icon": "book-open",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-076",
+    "slug": "tamil-medium-instruction-all-classes",
+    "partyId": "dmk",
+    "title": "Promote Tamil medium instruction in government schools through all classes",
+    "titleTa": "அரசுப் பள்ளிகளில் அனைத்து வகுப்புகளிலும் தமிழ் வழிக் கல்வியை ஊக்குவித்தல்",
+    "description": "Strengthen Tamil medium instruction in government schools, improve Tamil language pedagogy, and ensure students achieve strong Tamil literacy while also learning English as a bridge language.",
+    "trackingNote": "Tamil medium strengthened. Ennum Ezhuthum foundational literacy programme boosting Tamil reading levels.",
+    "manifestoQuote": "Tamil medium education will be promoted and strengthened in government schools while ensuring English proficiency.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "in-progress",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-077",
+    "slug": "minority-welfare-corporation-strengthen",
+    "partyId": "dmk",
+    "title": "Strengthen Tamil Nadu Minority Welfare Corporation",
+    "titleTa": "தமிழ்நாடு சிறுபான்மையினர் நல கழகத்தை வலுப்படுத்துதல்",
+    "description": "Increase budget and scope of Tamil Nadu Minority Welfare Corporation to provide educational, employment and welfare assistance to Muslim, Christian and other minority communities.",
+    "trackingNote": "Budget for minority welfare increased. Scholarship schemes expanded. New welfare programmes announced.",
+    "manifestoQuote": "The Tamil Nadu Minority Welfare Corporation will be strengthened to provide better support to minority communities.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "in-progress",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-078",
+    "slug": "waqf-board-strengthen-mosques",
+    "partyId": "dmk",
+    "title": "Strengthen Tamil Nadu Waqf Board and protect Waqf properties",
+    "titleTa": "தமிழ்நாடு வக்ஃப் வாரியத்தை வலுப்படுத்தி வக்ஃப் சொத்துக்களை பாதுகாத்தல்",
+    "description": "Revamp the Tamil Nadu Waqf Board with better administration, protect Waqf properties from encroachment, and ensure proper maintenance of mosques and dargahs under Waqf jurisdiction.",
+    "trackingNote": "Waqf Board reforms ongoing. Some encroachments cleared. Central Waqf amendment contested by state government.",
+    "manifestoQuote": "The Tamil Nadu Waqf Board will be strengthened and Waqf properties will be protected from encroachment.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "in-progress",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-079",
+    "slug": "start-up-ecosystem-support-tamilnadu",
+    "partyId": "dmk",
+    "title": "Develop Tamil Nadu as a leading start-up ecosystem",
+    "titleTa": "தமிழ்நாட்டை முன்னணி தொடக்க நிறுவன சுற்றுச்சூழலாக உருவாக்குதல்",
+    "description": "Invest in incubators, accelerators and seed funding for start-ups, create a dedicated Tamil Nadu Start-Up Policy and set up Start-Up Zones in major cities to encourage entrepreneurship.",
+    "trackingNote": "iStart TN programme launched. TIDCO-run incubators active. Tamil Nadu Start-Up Policy announced 2023.",
+    "manifestoQuote": "Tamil Nadu will be developed as India's leading start-up destination through dedicated policy and investment.",
+    "sector": { "id": "s9", "name": "Economy & Industry", "nameTa": "பொருளாதாரம்", "icon": "trending-up", "color": "#0F766E" },
+    "status": "in-progress",
+    "icon": "trending-up",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-080",
+    "slug": "defence-corridor-manufacturing-hub",
+    "partyId": "dmk",
+    "title": "Develop Tamil Nadu Defence Industrial Corridor",
+    "titleTa": "தமிழ்நாடு பாதுகாப்பு தொழில் நடைபாதை அமைத்தல்",
+    "description": "Accelerate development of the Tirunelveli–Coimbatore–Salem–Trichy–Chennai Defence Industrial Corridor to attract defence manufacturing investments and create employment.",
+    "trackingNote": "Defence corridor receiving major investments. Multiple MoUs signed at Global Investors Meet 2024.",
+    "manifestoQuote": "The Tamil Nadu Defence Industrial Corridor will be developed to attract investment and create defence manufacturing jobs.",
+    "sector": { "id": "s9", "name": "Economy & Industry", "nameTa": "பொருளாதாரம்", "icon": "trending-up", "color": "#0F766E" },
+    "status": "in-progress",
+    "icon": "trending-up",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-081",
+    "slug": "strengthen-local-body-devolution",
+    "partyId": "dmk",
+    "title": "Devolve more powers and funds to local bodies",
+    "titleTa": "உள்ளாட்சி அமைப்புகளுக்கு அதிக அதிகாரங்களும் நிதியும் வழங்குதல்",
+    "description": "Strengthen grassroots democracy by transferring more functions, functionaries and funds to panchayats and urban local bodies as mandated by the 73rd and 74th constitutional amendments.",
+    "trackingNote": "Urban local body elections held 2022. Some devolution of powers. Full 3F (funds, functions, functionaries) transfer partial.",
+    "manifestoQuote": "Greater powers and funds will be devolved to local bodies to strengthen grassroots democracy.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-082",
+    "slug": "right-to-information-strengthen",
+    "partyId": "dmk",
+    "title": "Strengthen Right to Information by appointing Information Commissioner",
+    "titleTa": "தகவல் அறியும் உரிமையை வலுப்படுத்த தகவல் ஆணையர் நியமனம்",
+    "description": "Fill vacant posts of State Information Commissioners promptly, ensure RTI applications are disposed within statutory time limits, and penalise public authorities that deny legitimate information requests.",
+    "trackingNote": "New SICs appointed. Backlog of RTI appeals being cleared. Transparency improved compared to previous regime.",
+    "manifestoQuote": "The Right to Information Act will be strengthened by appointing Information Commissioners promptly and ensuring timely disposal.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-083",
+    "slug": "press-freedom-journalist-welfare",
+    "partyId": "dmk",
+    "title": "Protect press freedom and improve journalist welfare",
+    "titleTa": "பத்திரிகை சுதந்திரத்தை பாதுகாத்து பத்திரிகையாளர் நலன் மேம்படுத்துதல்",
+    "description": "Ensure press freedom, remove harassment of journalists, provide health insurance and accreditation benefits to journalists, and avoid sedition cases against reporters for fair reporting.",
+    "trackingNote": "Journalist welfare board strengthened. Health insurance for journalists. Some press freedom concerns raised in specific cases.",
+    "manifestoQuote": "Press freedom will be protected and journalists will be given welfare benefits including health insurance.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-084",
+    "slug": "free-legal-aid-poor-social-justice",
+    "partyId": "dmk",
+    "title": "Strengthen free legal aid services for the poor",
+    "titleTa": "ஏழை மக்களுக்கு இலவச சட்ட உதவி சேவைகளை வலுப்படுத்துதல்",
+    "description": "Expand Tamil Nadu Legal Services Authority (TNSLA) coverage to provide free, quality legal representation to all economically weaker sections in civil and criminal cases.",
+    "trackingNote": "TNSLA expanded. Legal aid clinics in more locations. Para-legal volunteers trained.",
+    "manifestoQuote": "Free legal aid services will be strengthened to ensure the poor have access to quality legal representation.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "in-progress",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-085",
+    "slug": "special-schools-disabled-children",
+    "partyId": "dmk",
+    "title": "Establish special schools and resource centres for disabled children",
+    "titleTa": "மாற்றுத்திறன் குழந்தைகளுக்காக சிறப்புப் பள்ளிகள் மற்றும் வள மையங்கள் அமைத்தல்",
+    "description": "Set up dedicated schools and resource support centres for children with hearing, visual, intellectual and other disabilities, with trained special educators and assistive technology.",
+    "trackingNote": "New special schools and resource rooms in regular schools announced. Training of special educators ongoing.",
+    "manifestoQuote": "Special schools and resource centres will be established in every district for children with disabilities.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "in-progress",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-086",
+    "slug": "accident-victims-immediate-treatment",
+    "partyId": "dmk",
+    "title": "Provide immediate cashless treatment to road accident victims",
+    "titleTa": "சாலை விபத்தில் பாதிக்கப்பட்டவர்களுக்கு உடனடி இலவச சிகிச்சை வழங்குதல்",
+    "description": "Ensure all road accident victims receive immediate cashless emergency treatment at any hospital — government or private — within the golden hour, regardless of their ability to pay.",
+    "trackingNote": "Chief Minister's Accident Relief Scheme (CMARS) active. ₹1.5 lakh cashless treatment for accident victims in government hospitals.",
+    "manifestoQuote": "Road accident victims will receive immediate cashless treatment within the golden hour at any hospital.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "in-progress",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-087",
+    "slug": "dialysis-centres-every-district",
+    "partyId": "dmk",
+    "title": "Establish dialysis centres in every district government hospital",
+    "titleTa": "ஒவ்வொரு மாவட்ட அரசு மருத்துவமனையிலும் டயாலிசிஸ் மையம் அமைத்தல்",
+    "description": "Set up free dialysis centres in every district government hospital so that kidney failure patients from rural areas do not have to travel to cities for regular dialysis treatment.",
+    "trackingNote": "Dialysis units established in all district headquarters hospitals under government scheme.",
+    "manifestoQuote": "Free dialysis centres will be set up in every district government hospital to serve kidney patients.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "fulfilled",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-088",
+    "slug": "cancer-treatment-free-government-hospitals",
+    "partyId": "dmk",
+    "title": "Provide free cancer treatment in all government hospitals",
+    "titleTa": "அனைத்து அரசு மருத்துவமனைகளிலும் இலவச புற்றுநோய் சிகிச்சை வழங்குதல்",
+    "description": "Ensure all stages of cancer treatment including surgery, chemotherapy and radiation are available free of cost in government hospitals, and set up cancer care units in district hospitals.",
+    "trackingNote": "Cancer care units established in several district hospitals. Free treatment under insurance and TNMSC.",
+    "manifestoQuote": "Free cancer treatment including surgery and chemotherapy will be available in all government hospitals.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "in-progress",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-089",
+    "slug": "government-recruitment-backlog-clear",
+    "partyId": "dmk",
+    "title": "Clear all government job recruitment backlog within 1 year",
+    "titleTa": "அரசு வேலை நியமன தாமதங்களை 1 ஆண்டுக்குள் நிறைவேற்றுதல்",
+    "description": "Fill all vacant government posts across departments, boards and corporations that have been pending for years due to government freezes or delayed recruitment drives.",
+    "trackingNote": "Large scale recruitments conducted. Over 1 lakh posts filled across departments. Some backlogs remain.",
+    "manifestoQuote": "All pending government job vacancies will be filled within one year to provide employment to the youth.",
+    "sector": { "id": "s6", "name": "Employment", "nameTa": "வேலைவாய்ப்பு", "icon": "briefcase", "color": "#F59E0B" },
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-090",
+    "slug": "it-ites-second-tier-cities-promotion",
+    "partyId": "dmk",
+    "title": "Promote IT and ITES industries in second-tier cities",
+    "titleTa": "இரண்டாம் நிலை நகரங்களில் தகவல் தொழில்நுட்ப தொழில்களை ஊக்குவித்தல்",
+    "description": "Develop IT parks and technology corridors in cities like Madurai, Coimbatore, Trichy and Salem to spread IT employment beyond Chennai and reduce migration pressure.",
+    "trackingNote": "TIDEL Parks in Coimbatore, Madurai and other cities progressing. IT companies establishing presence in tier-2 cities.",
+    "manifestoQuote": "IT and ITES industries will be promoted in second-tier cities to create employment across Tamil Nadu.",
+    "sector": { "id": "s9", "name": "Economy & Industry", "nameTa": "பொருளாதாரம்", "icon": "trending-up", "color": "#0F766E" },
+    "status": "in-progress",
+    "icon": "trending-up",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-091",
+    "slug": "afternoon-supplementary-food-school",
+    "partyId": "dmk",
+    "title": "Provide afternoon supplementary nutrition to school students",
+    "titleTa": "பள்ளி மாணவர்களுக்கு மதியம் கூடுதல் ஊட்டச்சத்து வழங்குதல்",
+    "description": "Supplement the existing midday meal with additional afternoon nutritional snacks including fruits, eggs or biscuits to improve overall child nutrition and reduce hunger-related dropout.",
+    "trackingNote": "Eggs and bananas added to midday meal. Supplementary nutrition provided under various nutrition schemes.",
+    "manifestoQuote": "Supplementary nutritious food will be provided to school children in addition to the midday meal.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "fulfilled",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-092",
+    "slug": "free-laptop-college-students",
+    "partyId": "dmk",
+    "title": "Provide free laptops to all first-generation college students",
+    "titleTa": "முதல் தலைமுறை கல்லூரி மாணவர்களுக்கு இலவச மடிக்கணினி வழங்குதல்",
+    "description": "Distribute free laptops to all students who are the first in their family to attend college and belong to government-aided institutions, enabling digital learning access.",
+    "trackingNote": "Free laptop scheme (Kalaignar Seyal Thitta laptop) implemented. Over 4 lakh laptops distributed.",
+    "manifestoQuote": "Free laptops will be provided to all first-generation college students in government and government-aided colleges.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "fulfilled",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-093",
+    "slug": "toilet-construction-every-house",
+    "partyId": "dmk",
+    "title": "Ensure every house in Tamil Nadu has a toilet",
+    "titleTa": "தமிழ்நாட்டில் ஒவ்வொரு வீட்டிலும் கழிப்பறை கட்டி வழங்குதல்",
+    "description": "Complete construction of individual household toilets and community toilet complexes to eliminate open defecation and achieve full sanitation coverage across urban and rural Tamil Nadu.",
+    "trackingNote": "Tamil Nadu declared ODF (Open Defecation Free). Toilet coverage over 95%. Maintenance challenges remain.",
+    "manifestoQuote": "Every house in Tamil Nadu will be provided with a toilet to achieve full sanitation coverage.",
+    "sector": { "id": "s7", "name": "Infrastructure", "nameTa": "உள்கட்டமைப்பு", "icon": "building", "color": "#6B7280" },
+    "status": "fulfilled",
+    "icon": "building",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-094",
+    "slug": "piped-drinking-water-all-households",
+    "partyId": "dmk",
+    "title": "Provide piped drinking water to every household",
+    "titleTa": "ஒவ்வொரு வீட்டிலும் குழாய் மூலம் குடிநீர் வழங்குதல்",
+    "description": "Ensure 100% household tap water connections across all rural and urban areas through Jal Jeevan Mission and state schemes, providing clean drinking water within the home.",
+    "trackingNote": "Jal Jeevan Mission being implemented. Over 90% household coverage in TN. Final mile connectivity ongoing.",
+    "manifestoQuote": "Piped drinking water will be provided to every household in Tamil Nadu.",
+    "sector": { "id": "s7", "name": "Infrastructure", "nameTa": "உள்கட்டமைப்பு", "icon": "building", "color": "#6B7280" },
+    "status": "in-progress",
+    "icon": "building",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-095",
+    "slug": "chennaiyil-thiruvizha-urban-regeneration",
+    "partyId": "dmk",
+    "title": "Implement comprehensive urban regeneration in Chennai",
+    "titleTa": "சென்னையில் விரிவான நகர மறுசீரமைப்பு திட்டம் செயல்படுத்துதல்",
+    "description": "Carry out comprehensive urban regeneration of Chennai including flood mitigation, road widening, storm water drains, Cooum and Adyar river restoration and improved civic amenities.",
+    "trackingNote": "Cooum and Adyar restoration underway. Chennai City Partnership project with ADB ongoing. Flood mitigation infrastructure being built.",
+    "manifestoQuote": "Comprehensive urban regeneration of Chennai including flood mitigation and river restoration will be undertaken.",
+    "sector": { "id": "s7", "name": "Infrastructure", "nameTa": "உள்கட்டமைப்பு", "icon": "building", "color": "#6B7280" },
+    "status": "in-progress",
+    "icon": "building",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-096",
+    "slug": "free-gas-cylinder-two-per-year",
+    "partyId": "dmk",
+    "title": "Provide 2 free LPG cylinders per year to BPL families",
+    "titleTa": "வறுமை கோட்டிற்கு கீழ் உள்ள குடும்பங்களுக்கு ஆண்டுக்கு 2 இலவச சமையல் சிலிண்டர்",
+    "description": "Supply two free LPG cooking gas cylinders per year to all Below Poverty Line families to reduce their domestic fuel expenses and promote clean cooking energy.",
+    "trackingNote": "2 free LPG cylinders per year to BPL families with Pongal gift package. Being disbursed annually.",
+    "manifestoQuote": "Two free LPG cylinders per year will be provided to BPL families to reduce fuel costs.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-097",
+    "slug": "ennum-ezhuthum-foundational-literacy",
+    "partyId": "dmk",
+    "title": "Achieve foundational literacy and numeracy for all primary students",
+    "titleTa": "அனைத்து தொடக்கப் பள்ளி மாணவர்களும் அடிப்படை கல்வி மற்றும் கணக்கு திறன் அடைதல்",
+    "description": "Implement the Ennum Ezhuthum (numeracy and literacy) mission to ensure every student completes Class 3 with basic reading and arithmetic skills, addressing the foundational learning crisis.",
+    "trackingNote": "Ennum Ezhuthum mission launched 2021. Assessment-based remediation conducted. Significant improvement in learning outcomes reported.",
+    "manifestoQuote": "Every child will achieve foundational literacy and numeracy by Class 3 through a dedicated mission.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "fulfilled",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-098",
+    "slug": "new-university-districts-without-university",
+    "partyId": "dmk",
+    "title": "Establish state universities in districts that lack one",
+    "titleTa": "பல்கலைக்கழகம் இல்லாத மாவட்டங்களில் அரசு பல்கலைக்கழகம் நிறுவுதல்",
+    "description": "Set up at least one state university in every district that currently lacks higher education infrastructure, to reduce distance barriers to higher education for rural students.",
+    "trackingNote": "New government arts and science colleges opened in several districts. Full university in all districts still in progress.",
+    "manifestoQuote": "New state universities will be established in districts that currently lack higher education infrastructure.",
+    "sector": { "id": "s2", "name": "Education", "nameTa": "கல்வி", "icon": "graduation-cap", "color": "#0EA5E9" },
+    "status": "in-progress",
+    "icon": "graduation-cap",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-099",
+    "slug": "animal-husbandry-support-dairy-farmers",
+    "partyId": "dmk",
+    "title": "Increase milk procurement price and support dairy farmers",
+    "titleTa": "பால் கொள்முதல் விலையை உயர்த்தி பால் உற்பத்தியாளர்களுக்கு ஆதரவு வழங்குதல்",
+    "description": "Increase the procurement price of cow and buffalo milk by Aavin cooperative to ensure dairy farmers get remunerative prices and provide free veterinary care to milch cattle.",
+    "trackingNote": "Aavin procurement price increased. Vet care camps conducted. Aavin losses remain a financial challenge.",
+    "manifestoQuote": "Milk procurement price will be increased and dairy farmers will be supported with veterinary care and improved facilities.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-100",
+    "slug": "inter-caste-marriage-incentive-increase",
+    "partyId": "dmk",
+    "title": "Increase incentive for inter-caste marriages to ₹2.5 lakh",
+    "titleTa": "சாதி வேறுபாடு கடந்த திருமணங்களுக்கு ஊக்கத்தொகையை ₹2.5 லட்சமாக உயர்த்துதல்",
+    "description": "Enhance the Dr. Ambedkar inter-caste marriage incentive to ₹2.5 lakh to encourage social integration, fight caste discrimination and protect couples who face social boycott.",
+    "trackingNote": "Dr. Ambedkar scheme for inter-caste marriages enhanced to ₹1.5 lakh (partial). Full ₹2.5 lakh proposed but not yet official.",
+    "manifestoQuote": "The incentive for inter-caste marriages will be enhanced to Rs.2.5 lakh to promote social equality.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "modified",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-101",
+    "slug": "honour-killing-special-court",
+    "partyId": "dmk",
+    "title": "Set up special courts and fast-track trials for honour killing cases",
+    "titleTa": "கொலை மிரட்டல் வழக்குகளுக்கு சிறப்பு நீதிமன்றம் அமைத்து விரைவு விசாரணை நடத்துதல்",
+    "description": "Establish dedicated fast-track courts to try honour killing and caste-based violence cases, ensuring swift justice and deterrence for crimes against inter-caste couples.",
+    "trackingNote": "Fast track courts for such cases exist. Tamil Nadu Prohibition of Harassment of Women Act invoked. Some specific cases resolved.",
+    "manifestoQuote": "Special courts will be established for fast-track trials of honour killing and caste-based violence cases.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-102",
+    "slug": "flood-disaster-relief-permanent-fund",
+    "partyId": "dmk",
+    "title": "Create permanent flood relief and disaster mitigation fund",
+    "titleTa": "வெள்ள நிவாரண மற்றும் பேரிடர் தடுப்பிற்கு நிரந்தர நிதி ஏற்படுத்துதல்",
+    "description": "Establish a dedicated permanent flood disaster relief and mitigation fund to ensure rapid response to cyclones, floods and droughts without depending solely on central government releases.",
+    "trackingNote": "SDRF (State Disaster Relief Fund) enhanced. TN has one of the better disaster response mechanisms in India.",
+    "manifestoQuote": "A permanent disaster relief and flood mitigation fund will be established for rapid disaster response.",
+    "sector": { "id": "s10", "name": "Governance", "nameTa": "ஆட்சி", "icon": "landmark", "color": "#1D4ED8" },
+    "status": "fulfilled",
+    "icon": "landmark",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-103",
+    "slug": "drug-rehabilitation-centres-every-district",
+    "partyId": "dmk",
+    "title": "Establish drug rehabilitation centres in every district",
+    "titleTa": "ஒவ்வொரு மாவட்டத்திலும் போதைப்பொருள் மறுவாழ்வு மையங்கள் அமைத்தல்",
+    "description": "Set up government-funded drug de-addiction and rehabilitation centres in every district to address the growing substance abuse problem, offering medical treatment and psychological support.",
+    "trackingNote": "De-addiction centres established/upgraded in most districts. Awareness campaigns conducted.",
+    "manifestoQuote": "Drug de-addiction and rehabilitation centres will be set up in every district to fight substance abuse.",
+    "sector": { "id": "s3", "name": "Healthcare", "nameTa": "சுகாதாரம்", "icon": "heart-pulse", "color": "#EF4444" },
+    "status": "in-progress",
+    "icon": "heart-pulse",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-104",
+    "slug": "pension-unregistered-workers-600",
+    "partyId": "dmk",
+    "title": "Provide ₹600/month pension to unorganised sector workers above 60",
+    "titleTa": "60 வயதுக்கு மேற்பட்ட சங்கமற்ற தொழிலாளர்களுக்கு மாதம் ₹600 ஓய்வூதியம்",
+    "description": "Grant a monthly pension of ₹600 to all unorganised sector workers above 60 years who are not covered by any other pension scheme, under the PM Shram Yogi Maandhan or state equivalent.",
+    "trackingNote": "PM Shram Yogi Maandhan (PMSYM) extended to eligible workers. State pension also covers many through social security schemes.",
+    "manifestoQuote": "All unorganised sector workers above 60 will receive a monthly pension to support their old age.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "in-progress",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-105",
+    "slug": "transgender-welfare-policy-identity",
+    "partyId": "dmk",
+    "title": "Implement comprehensive transgender welfare policy",
+    "titleTa": "திருநங்கைகளுக்கு விரிவான நலன் கொள்கை செயல்படுத்துதல்",
+    "description": "Implement a comprehensive state policy for transgender persons covering identity cards, reservation in education and employment, healthcare, shelter, and social security.",
+    "trackingNote": "Tamil Nadu Transgender Welfare Board active. Welfare schemes expanded. Identity documents issued. TN a progressive state on transgender rights.",
+    "manifestoQuote": "A comprehensive welfare policy for transgender persons will be implemented covering identity, education, employment and healthcare.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – Tamil", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_Tamil_c209777711", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-106",
+    "slug": "sports-excellence-olympians-support",
+    "partyId": "dmk",
+    "title": "Provide enhanced support and cash awards to Tamil Nadu Olympic athletes",
+    "titleTa": "தமிழ்நாடு ஒலிம்பிக் வீரர்களுக்கு மேம்படுத்தப்பட்ட ஆதரவும் பரிசுத்தொகையும் வழங்குதல்",
+    "description": "Increase cash awards for Tamil Nadu athletes winning medals at Olympics, Asian Games and Commonwealth Games, and provide full state support for their training, equipment and travel.",
+    "trackingNote": "Cash awards enhanced after 2021 Olympics. Several TN athletes supported. Tamil Nadu Sports Development Authority strengthened.",
+    "manifestoQuote": "Tamil Nadu athletes winning medals at international games will receive enhanced cash awards and full government support.",
+    "sector": { "id": "s12", "name": "Youth & Sports", "nameTa": "இளைஞர் & விளையாட்டு", "icon": "trophy", "color": "#D97706" },
+    "status": "fulfilled",
+    "icon": "trophy",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-107",
+    "slug": "silk-saree-weavers-support-kancheepuram",
+    "partyId": "dmk",
+    "title": "Support Kancheepuram silk weavers with raw material subsidy and GI protection",
+    "titleTa": "காஞ்சீபுரம் பட்டு நெசவாளர்களுக்கு மூல பொருள் மானியம் மற்றும் புவியியல் குறிப்பு பாதுகாப்பு",
+    "description": "Provide raw silk at subsidised rates to Kancheepuram silk weavers, strengthen GI (Geographical Indication) tag enforcement to prevent fake Kancheepuram silk, and develop direct-to-consumer marketing.",
+    "trackingNote": "Raw silk subsidy continued. GI enforcement strengthened. Weavers' market linkage improved.",
+    "manifestoQuote": "Kancheepuram silk weavers will be supported with subsidised raw materials and strengthened GI tag protection.",
+    "sector": { "id": "s9", "name": "Economy & Industry", "nameTa": "பொருளாதாரம்", "icon": "trending-up", "color": "#0F766E" },
+    "status": "in-progress",
+    "icon": "trending-up",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-108",
+    "slug": "coastal-community-resilience-programme",
+    "partyId": "dmk",
+    "title": "Implement coastal community disaster resilience programme",
+    "titleTa": "கடலோர சமூகங்களுக்கு பேரிடர் மீட்பு திட்டம் செயல்படுத்துதல்",
+    "description": "Build cyclone shelters, early warning systems and resilient housing for coastal fishing communities vulnerable to cyclones and sea-level rise, protecting lives and livelihoods.",
+    "trackingNote": "Coastal resilience works ongoing. New cyclone shelters built in coastal districts. NDMA early warning systems active.",
+    "manifestoQuote": "Coastal communities will be protected through cyclone shelters, early warning systems and resilient housing.",
+    "sector": { "id": "s1", "name": "Agriculture", "nameTa": "வேளாண்மை", "icon": "wheat", "color": "#65A30D" },
+    "status": "in-progress",
+    "icon": "wheat",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-109",
+    "slug": "tribal-welfare-st-rights-forest",
+    "partyId": "dmk",
+    "title": "Implement Forest Rights Act fully and protect tribal communities",
+    "titleTa": "வன உரிமைச் சட்டத்தை முழுமையாக செயல்படுத்தி பழங்குடியின சமூகங்களை பாதுகாத்தல்",
+    "description": "Fully implement the Forest Rights Act to recognise individual and community land rights of tribal communities in Tamil Nadu's hill and forest regions, and prevent displacement for development projects.",
+    "trackingNote": "FRA titles issued in Nilgiris, Sathyamangalam and other tribal areas. Process continues with many pending applications.",
+    "manifestoQuote": "The Forest Rights Act will be fully implemented to recognise tribal land rights and prevent displacement.",
+    "sector": { "id": "s4", "name": "Social Security", "nameTa": "சமூக பாதுகாப்பு", "icon": "shield", "color": "#8B5CF6" },
+    "status": "in-progress",
+    "icon": "shield",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dmk-110",
+    "slug": "industrial-workers-safety-act-enforcement",
+    "partyId": "dmk",
+    "title": "Strict enforcement of industrial safety laws and worker rights",
+    "titleTa": "தொழிற்சாலை பாதுகாப்பு சட்டங்கள் மற்றும் தொழிலாளர் உரிமைகளை கண்டிப்பாக செயல்படுத்துதல்",
+    "description": "Strengthen labour inspection and enforce occupational health and safety standards in all factories, prosecute employers who violate safety norms, and ensure workmen compensation is paid promptly.",
+    "trackingNote": "Labour department digitised. Factory inspection improved. Industrial accidents still reported in some units.",
+    "manifestoQuote": "Industrial safety laws will be strictly enforced to protect workers from accidents and ensure their rights.",
+    "sector": { "id": "s6", "name": "Employment", "nameTa": "வேலைவாய்ப்பு", "icon": "briefcase", "color": "#F59E0B" },
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      { "title": "DMK Manifesto 2021 – English", "url": "https://dmk.blob.core.windows.net/website/assets/DMK_Manifesto2021_English_809d88d084", "publication": "DMK Official", "date": "2021-03-01", "tier": 1, "summary": "Original manifesto promise." }
+    ],
+    "lastUpdated": "2026-06-07",
+    "createdAt": "2026-06-07"
+  }
+]

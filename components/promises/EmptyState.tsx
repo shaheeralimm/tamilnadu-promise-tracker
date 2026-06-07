@@ -1,7 +1,35 @@
 import React from "react"
-import { SearchX } from "lucide-react"
+import { SearchX, Clock } from "lucide-react"
 
-export function EmptyState() {
+interface EmptyStateProps {
+  noPartyData?: boolean
+  partyName?: string
+}
+
+export function EmptyState({ noPartyData, partyName }: EmptyStateProps) {
+  if (noPartyData) {
+    return (
+      <div className="w-full py-20 flex flex-col items-center justify-center text-center bg-amber-50/60 rounded-2xl border border-dashed border-amber-200">
+        <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mb-6 text-amber-500">
+          <Clock className="h-8 w-8" />
+        </div>
+        <h3 className="font-display font-bold text-2xl text-slate-800 mb-2">
+          Data coming soon
+        </h3>
+        <p className="text-slate-600 max-w-sm mb-2 text-sm leading-relaxed">
+          {partyName ? `${partyName} promise data` : "This party's data"} is currently being compiled and verified.
+        </p>
+        <p className="text-slate-400 max-w-sm text-xs">
+          Check back soon, or{" "}
+          <a href="/about" className="underline underline-offset-2 hover:text-slate-600 transition-colors">
+            learn how you can contribute
+          </a>
+          .
+        </p>
+      </div>
+    )
+  }
+
   return (
     <div className="w-full py-20 flex flex-col items-center justify-center text-center bg-slate-50/50 rounded-2xl border border-dashed border-slate-200">
       <div className="w-16 h-16 bg-slate-100 rounded-full flex items-center justify-center mb-6 text-slate-400">

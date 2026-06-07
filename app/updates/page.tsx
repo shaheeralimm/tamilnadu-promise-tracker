@@ -1,7 +1,7 @@
 import React from "react"
 import { ExternalLink, Rss } from "lucide-react"
 import { TierBadge } from "@/components/promise/TierBadge"
-import promisesData from "@/data/promises.json"
+import promisesData from "@/lib/getAllPromises"
 import { SourceTier } from "@/types"
 import Link from "next/link"
 

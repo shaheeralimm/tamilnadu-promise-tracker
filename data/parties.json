@@ -1,0 +1,24 @@
+[
+  {
+    "id": "tvk",
+    "name": "Tamilaga Vettri Kazhagam",
+    "nameTa": "தமிழக வெற்றி கழகம்",
+    "shortName": "TVK",
+    "color": "#2563EB",
+    "electionYear": 2026,
+    "cmName": "C. Joseph Vijay",
+    "manifestoUrl": "https://tvk.org.in/manifesto-2026",
+    "status": "active"
+  },
+  {
+    "id": "dmk",
+    "name": "Dravida Munnetra Kazhagam",
+    "nameTa": "திராவிட முன்னேற்றக் கழகம்",
+    "shortName": "DMK",
+    "color": "#DC2626",
+    "electionYear": 2021,
+    "cmName": "M.K. Stalin",
+    "manifestoUrl": "https://dmk.in/manifesto-2021",
+    "status": "historical"
+  }
+]

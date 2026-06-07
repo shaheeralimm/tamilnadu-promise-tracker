@@ -1,0 +1,32 @@
+{
+  "_readme": {
+    "description": "GO Map — override statuses for DMK 2021 promises after extraction.",
+    "usage": "node scratch/extract_dmk_pdf.cjs dmk-manifesto-2021.pdf --go-map scratch/go_map.json",
+    "fields": {
+      "status": "One of: fulfilled | in-progress | stalled | not-fulfilled | evaded | modified | pending",
+      "goNumber": "Official GO number e.g. G.O.Ms.No. 123",
+      "goUrl": "Direct URL to TN e-Governance gazette or official PDF",
+      "goDate": "Date of GO issuance in YYYY-MM-DD format",
+      "note": "Short tracking note (replaces auto-generated note)"
+    }
+  },
+  "dmk-001": {
+    "status": "fulfilled",
+    "goNumber": "G.O.Ms.No. 1",
+    "goUrl": "https://tn.gov.in/order/go-ms-no-1-2021",
+    "goDate": "2021-05-14",
+    "note": "Implemented via GO on Day 1. Verify current status."
+  },
+  "dmk-002": {
+    "status": "in-progress",
+    "note": "Scheme announced, implementation ongoing."
+  },
+  "dmk-010": {
+    "status": "stalled",
+    "note": "Announced in budget 2022 but no GO issued as of 2024."
+  },
+  "dmk-050": {
+    "status": "not-fulfilled",
+    "note": "No evidence of implementation found. Deadline passed."
+  }
+}

@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { useSession, signIn, signOut } from "next-auth/react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
+import { siteConfig } from "@/lib/config"
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -14,7 +15,9 @@ export function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const { data: session } = useSession()
 
-  const isAdmin = session?.user?.email?.toLowerCase() === "emst.shaheer@gmail.com"
+  const adminEmails = (process.env.NEXT_PUBLIC_ADMIN_EMAILS ?? "emst.shaheer@gmail.com")
+    .split(",").map((e: string) => e.trim().toLowerCase())
+  const isAdmin = !!session?.user?.email && adminEmails.includes(session.user.email.toLowerCase())
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,16 +50,17 @@ export function Navbar() {
             <Landmark className="h-5 w-5" />
           </div>
           <span className="font-display font-bold text-lg tracking-tight text-foreground sm:hidden">
-            Sonnaanga Senjaangala
+            {siteConfig.siteName}
           </span>
           <span className="font-display font-bold text-lg tracking-tight text-foreground hidden sm:inline-block">
-            Sonnaanga Senjaangala · <span className="text-muted-foreground font-normal">Tamil Nadu</span>
+            {siteConfig.siteName} · <span className="text-muted-foreground font-normal">Tamil Nadu</span>
           </span>
         </Link>
         
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
           <Link href="/promises" className="hover:text-foreground transition-colors">Promises</Link>
           <Link href="/sectors" className="hover:text-foreground transition-colors">Sectors</Link>
+          <Link href="/parties" className="hover:text-foreground transition-colors">Governments</Link>
           <Link href="/updates" className="hover:text-foreground transition-colors">Updates</Link>
           <Link href="/impact" className="hover:text-foreground transition-colors">Impact</Link>
           <Link href="/about" className="hover:text-foreground transition-colors">About</Link>
@@ -125,14 +129,24 @@ export function Navbar() {
                     <div className="h-[1px] bg-slate-100 my-1.5" />
 
                     {isAdmin && (
-                      <Link
-                        href="/admin/submissions"
-                        onClick={() => setDropdownOpen(false)}
-                        className="flex items-center gap-2 px-3 py-2 text-xs font-bold text-amber-700 hover:bg-amber-50 rounded-lg transition-colors"
-                      >
-                        <ShieldCheck className="h-4 w-4 text-amber-500" />
-                        Admin Panel
-                      </Link>
+                      <>
+                        <Link
+                          href="/admin/submissions"
+                          onClick={() => setDropdownOpen(false)}
+                          className="flex items-center gap-2 px-3 py-2 text-xs font-bold text-amber-700 hover:bg-amber-50 rounded-lg transition-colors"
+                        >
+                          <ShieldCheck className="h-4 w-4 text-amber-500" />
+                          Admin Panel
+                        </Link>
+                        <Link
+                          href="/admin/settings"
+                          onClick={() => setDropdownOpen(false)}
+                          className="flex items-center gap-2 px-3 py-2 text-xs font-bold text-amber-700 hover:bg-amber-50 rounded-lg transition-colors"
+                        >
+                          <ShieldCheck className="h-4 w-4 text-amber-500" />
+                          Site Settings
+                        </Link>
+                      </>
                     )}
 
                     <Link
@@ -161,7 +175,7 @@ export function Navbar() {
               </AnimatePresence>
             </div>
           ) : (
-            <Button onClick={() => signIn("google")} variant="default" className="bg-tvk-blue hover:bg-tvk-blue-dark text-white rounded-full px-5 shadow-sm">
+            <Button onClick={() => signIn("google")} variant="ghost" className="bg-tvk-blue hover:bg-tvk-blue-dark text-white rounded-full px-5 shadow-sm">
               Sign In
             </Button>
           )}

@@ -4,7 +4,7 @@ import { DetailHeader } from "@/components/promise/DetailHeader"
 import { EvidenceTimeline } from "@/components/promise/EvidenceTimeline"
 import { Disclaimer } from "@/components/shared/Disclaimer"
 import { HorizontalCard } from "@/components/promises/HorizontalCard"
-import promisesData from "@/data/promises.json"
+import promisesData from "@/lib/getAllPromises"
 import { Promise as PromiseType } from "@/types"
 
 interface PromiseDetailPageProps {

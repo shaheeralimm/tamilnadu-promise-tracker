@@ -5,7 +5,7 @@ import { motion, AnimatePresence, animate } from "framer-motion"
 import { Calculator, Check, ArrowRight, Info, HelpCircle } from "lucide-react"
 import Link from "next/link"
 import { StatusBadge } from "@/components/shared/StatusBadge"
-import promisesData from "@/data/promises.json"
+import promisesData from "@/lib/getAllPromises"
 import { Promise as PromiseType } from "@/types"
 
 // Demographics config mapping to benefits and actual TVK manifesto promise slugs

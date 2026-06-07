@@ -2,7 +2,7 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { ArrowLeft, Calendar, FileText, CheckCircle, ShieldCheck, Printer, Bookmark } from "lucide-react"
-import promisesData from "@/data/promises.json"
+import promisesData from "@/lib/getAllPromises"
 import { Promise as PromiseType } from "@/types"
 import { PrintButton } from "@/components/shared/PrintButton"
 
