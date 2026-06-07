@@ -7,7 +7,7 @@ import Link from "next/link"
 
 const frameworkCards = [
   {
-    icon: <ClipboardCheck className="h-6 w-6 text-udf-blue" />,
+    icon: <ClipboardCheck className="h-6 w-6 text-tvk-blue" />,
     title: "100% Manifesto Sourced",
     titleTa: "அதிகாரப்பூர்வ அறிக்கையிலிருந்து",
     description: "Every single tracked commitment is directly extracted from the official TVK 2026 Election Manifesto. No rumors, no political spin, and no external bias.",
@@ -23,11 +23,11 @@ const frameworkCards = [
     iconBg: "bg-indigo-100 "
   },
   {
-    icon: <ShieldCheck className="h-6 w-6 text-kerala-green" />,
+    icon: <ShieldCheck className="h-6 w-6 text-tvk-green" />,
     title: "Strict 3-Tier Verification",
     titleTa: "கடுமையான 3-நிலை சரிபார்ப்பு",
     description: "Every status transition is backed by publicly verifiable links classified into Tiers: Gazette Orders (Tier 1), CMO Press Releases (Tier 2), or Credible Media Wires (Tier 3).",
-    bgClass: "bg-kerala-green-bg  hover:bg-kerala-green-bg/80  border-emerald-100 ",
+    bgClass: "bg-tvk-green-bg  hover:bg-tvk-green-bg/80  border-emerald-100 ",
     iconBg: "bg-emerald-100 "
   }
 ]
@@ -40,7 +40,7 @@ export function TrustFramework() {
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 mb-4 transition-colors duration-300">
-            <span className="w-1.5 h-1.5 rounded-full bg-udf-blue" />
+            <span className="w-1.5 h-1.5 rounded-full bg-tvk-blue" />
             <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500">Methodology & Transparency</span>
           </div>
           

@@ -43,7 +43,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group" onClick={() => setIsOpen(false)}>
-          <div className="bg-udf-blue text-white p-1.5 rounded-md group-hover:bg-udf-blue-dark transition-colors">
+          <div className="bg-tvk-blue text-white p-1.5 rounded-md group-hover:bg-tvk-blue-dark transition-colors">
             <Landmark className="h-5 w-5" />
           </div>
           <span className="font-display font-bold text-lg tracking-tight text-foreground sm:hidden">
@@ -74,7 +74,7 @@ export function Navbar() {
         <div className="flex items-center gap-3">
 
           <Link href="/submit">
-            <Button variant="ghost" className="hidden sm:flex text-udf-blue hover:text-udf-blue-dark hover:bg-udf-blue-bg">
+            <Button variant="ghost" className="hidden sm:flex text-tvk-blue hover:text-tvk-blue-dark hover:bg-tvk-blue-bg">
               Submit Update
             </Button>
           </Link>
@@ -98,7 +98,7 @@ export function Navbar() {
                     unoptimized
                   />
                 ) : (
-                  <div className="h-8 w-8 rounded-full bg-udf-blue text-white flex items-center justify-center text-xs font-bold border border-slate-200 sm:border-none shadow-sm sm:shadow-none">
+                  <div className="h-8 w-8 rounded-full bg-tvk-blue text-white flex items-center justify-center text-xs font-bold border border-slate-200 sm:border-none shadow-sm sm:shadow-none">
                     {session.user?.name?.charAt(0) || "U"}
                   </div>
                 )}
@@ -161,7 +161,7 @@ export function Navbar() {
               </AnimatePresence>
             </div>
           ) : (
-            <Button onClick={() => signIn("google")} variant="default" className="bg-udf-blue hover:bg-udf-blue-dark text-white rounded-full px-5 shadow-sm">
+            <Button onClick={() => signIn("google")} variant="default" className="bg-tvk-blue hover:bg-tvk-blue-dark text-white rounded-full px-5 shadow-sm">
               Sign In
             </Button>
           )}
@@ -191,35 +191,35 @@ export function Navbar() {
               <Link 
                 href="/promises" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-tvk-blue py-2 border-b border-slate-100 transition-colors"
               >
                 Promises
               </Link>
               <Link 
                 href="/sectors" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-tvk-blue py-2 border-b border-slate-100 transition-colors"
               >
                 Sectors
               </Link>
               <Link 
                 href="/updates" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-tvk-blue py-2 border-b border-slate-100 transition-colors"
               >
                 Updates
               </Link>
               <Link 
                 href="/impact" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-tvk-blue py-2 border-b border-slate-100 transition-colors"
               >
                 Impact
               </Link>
               <Link 
                 href="/about" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-tvk-blue py-2 border-b border-slate-100 transition-colors"
               >
                 About
               </Link>
@@ -240,7 +240,7 @@ export function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className="mt-2 w-full"
               >
-                <Button className="w-full bg-udf-blue hover:bg-udf-blue-dark text-white rounded-lg py-2.5 shadow-sm">
+                <Button className="w-full bg-tvk-blue hover:bg-tvk-blue-dark text-white rounded-lg py-2.5 shadow-sm">
                   Submit Update
                 </Button>
               </Link>

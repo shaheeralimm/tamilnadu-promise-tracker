@@ -120,7 +120,7 @@ export function BenefitCalculator() {
                     onClick={() => toggleSelection(item.id)}
                     className={`p-4 rounded-xl border-2 text-left cursor-pointer transition-all select-none flex flex-col gap-2 ${
                       isSelected
-                        ? "border-udf-blue bg-blue-50/20 shadow-sm"
+                        ? "border-tvk-blue bg-blue-50/20 shadow-sm"
                         : "border-slate-100 bg-slate-50/50 hover:border-slate-200 hover:bg-slate-50"
                     }`}
                   >
@@ -129,7 +129,7 @@ export function BenefitCalculator() {
                         <div
                           className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-all mt-0.5 ${
                             isSelected
-                              ? "bg-udf-blue border-udf-blue text-white"
+                              ? "bg-tvk-blue border-tvk-blue text-white"
                               : "border-slate-300 bg-white"
                           }`}
                         >
@@ -174,7 +174,7 @@ export function BenefitCalculator() {
                                 const val = Math.max(0, parseInt(e.target.value) || 0)
                                 setCustomValues((prev) => ({ ...prev, [item.id]: val }))
                               }}
-                              className="w-full bg-white border border-slate-200 rounded-lg pl-6 pr-2 py-1 text-xs font-bold text-slate-800 focus:outline-none focus:border-udf-blue focus:ring-1 focus:ring-udf-blue transition-all"
+                              className="w-full bg-white border border-slate-200 rounded-lg pl-6 pr-2 py-1 text-xs font-bold text-slate-800 focus:outline-none focus:border-tvk-blue focus:ring-1 focus:ring-tvk-blue transition-all"
                             />
                           </div>
                           <span className="text-[10px] text-slate-400">/ month</span>
@@ -237,12 +237,12 @@ export function BenefitCalculator() {
                             className="bg-slate-50 border border-slate-100 hover:border-slate-200 rounded-xl p-4 flex items-center justify-between transition-colors shadow-xs group"
                           >
                             <div className="flex-1 min-w-0 pr-4">
-                              <span className="text-[9px] font-bold text-udf-blue uppercase tracking-wider block mb-0.5">
+                              <span className="text-[9px] font-bold text-tvk-blue uppercase tracking-wider block mb-0.5">
                                 {benefitInfo?.benefitLabel} (+₹{(benefitInfo ? customValues[benefitInfo.id] : 0).toLocaleString("en-IN")}/mo)
                               </span>
                               <Link 
                                 href={`/promises/${promise.slug}`}
-                                className="font-bold text-sm text-slate-800 group-hover:text-udf-blue transition-colors line-clamp-1 block"
+                                className="font-bold text-sm text-slate-800 group-hover:text-tvk-blue transition-colors line-clamp-1 block"
                               >
                                 {promise.title}
                               </Link>
@@ -256,7 +256,7 @@ export function BenefitCalculator() {
                               <StatusBadge status={promise.status} className="text-[10px]" />
                               <Link 
                                 href={`/promises/${promise.slug}`}
-                                className="w-7 h-7 rounded-full bg-white border border-slate-200 group-hover:border-udf-blue group-hover:text-udf-blue flex items-center justify-center transition-colors shadow-xs cursor-pointer"
+                                className="w-7 h-7 rounded-full bg-white border border-slate-200 group-hover:border-tvk-blue group-hover:text-tvk-blue flex items-center justify-center transition-colors shadow-xs cursor-pointer"
                               >
                                 <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
                               </Link>
@@ -291,7 +291,7 @@ export function BenefitCalculator() {
                 </span>
                 <Link 
                   href="/promises" 
-                  className="font-bold text-udf-blue hover:text-udf-blue-dark transition-colors inline-flex items-center gap-1 cursor-pointer"
+                  className="font-bold text-tvk-blue hover:text-tvk-blue-dark transition-colors inline-flex items-center gap-1 cursor-pointer"
                 >
                   Browse all promises
                   <ArrowRight className="h-3 w-3" />

@@ -1,4 +1,4 @@
-import React from "react"
+﻿import React from "react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { ArrowLeft, Calendar, FileText, CheckCircle, ShieldCheck, Printer, Bookmark } from "lucide-react"
@@ -46,7 +46,7 @@ export default async function ArchivePage({ params }: ArchivePageProps) {
         <div className="flex items-center justify-between mb-8 text-sm">
           <Link 
             href={`/promises/${promise.slug}`}
-            className="inline-flex items-center gap-2 px-4 py-2 bg-white text-slate-700 hover:text-udf-blue font-semibold rounded-xl border border-slate-200 shadow-sm transition-all hover:shadow-md group"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-white text-slate-700 hover:text-tvk-blue font-semibold rounded-xl border border-slate-200 shadow-sm transition-all hover:shadow-md group"
           >
             <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
             Back to Promise Details

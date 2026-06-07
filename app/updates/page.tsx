@@ -55,7 +55,7 @@ export default function UpdatesPage() {
                     href={update.url} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="shrink-0 inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-udf-blue transition-colors bg-slate-50 px-4 py-2 rounded-lg border border-slate-100 cursor-pointer"
+                    className="shrink-0 inline-flex items-center gap-2 text-sm font-medium text-slate-500 hover:text-tvk-blue transition-colors bg-slate-50 px-4 py-2 rounded-lg border border-slate-100 cursor-pointer"
                   >
                     Read Source
                     <ExternalLink className="h-4 w-4" />
@@ -66,7 +66,7 @@ export default function UpdatesPage() {
                   <div className="text-xs text-slate-500 font-semibold uppercase tracking-wider mb-2">Related Promise</div>
                   <Link href={`/promises/${update.promiseSlug}`} className="group flex items-center gap-3 cursor-pointer">
                     <div className="w-2 h-2 rounded-full" style={{ backgroundColor: update.sector.color }} />
-                    <span className="font-medium text-slate-700 group-hover:text-udf-blue transition-colors line-clamp-1">{update.promiseTitle}</span>
+                    <span className="font-medium text-slate-700 group-hover:text-tvk-blue transition-colors line-clamp-1">{update.promiseTitle}</span>
                   </Link>
                 </div>
               </div>

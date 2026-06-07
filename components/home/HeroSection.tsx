@@ -47,7 +47,7 @@ export function HeroSection() {
           >
             <motion.h1 variants={itemVariants} className="font-display font-extrabold text-5xl md:text-6xl lg:text-7xl leading-tight text-slate-900 mb-4 tracking-[-0.04em]">
               <span className="block text-4xl md:text-5xl text-slate-500 font-tamil font-semibold mb-2 tracking-normal">TVK வாக்குறுதிகள்</span>
-              TVK Manifesto <br /> <span className="text-udf-blue">Tracker.</span>
+              TVK Manifesto <br /> <span className="text-tvk-blue">Tracker.</span>
             </motion.h1>
             
             <motion.p variants={itemVariants} className="text-lg md:text-xl text-slate-500 max-w-2xl mb-6 leading-relaxed">
@@ -65,7 +65,7 @@ export function HeroSection() {
                     window.location.href = `/promises?q=${encodeURIComponent(query.toString())}`;
                   }
                 }} 
-                className="flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-full p-1.5 focus-within:border-udf-blue focus-within:bg-white focus-within:ring-4 focus-within:ring-udf-blue/5 transition-all duration-300 shadow-sm"
+                className="flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-full p-1.5 focus-within:border-tvk-blue focus-within:bg-white focus-within:ring-4 focus-within:ring-tvk-blue/5 transition-all duration-300 shadow-sm"
               >
                 <input
                   type="text"
@@ -74,7 +74,7 @@ export function HeroSection() {
                   className="flex-1 bg-transparent px-4 py-2 text-sm text-slate-800 placeholder-slate-400 focus:outline-none"
                   required
                 />
-                <Button type="submit" size="sm" className="bg-udf-blue hover:bg-udf-blue-dark text-white rounded-full px-5 h-9 text-xs font-semibold shrink-0 cursor-pointer">
+                <Button type="submit" size="sm" className="bg-tvk-blue hover:bg-tvk-blue-dark text-white rounded-full px-5 h-9 text-xs font-semibold shrink-0 cursor-pointer">
                   Search
                 </Button>
               </form>
@@ -106,7 +106,7 @@ export function HeroSection() {
             <div className="relative bg-white rounded-xl border border-slate-200 shadow-lg overflow-hidden transform hover:rotate-0 transition-all duration-500">
 
               {/* Blue top accent line */}
-              <div className="h-[3px] w-full bg-udf-blue" />
+              <div className="h-[3px] w-full bg-tvk-blue" />
 
               {/* Header */}
               <div className="px-6 pt-5 pb-4 flex items-center justify-between border-b border-slate-100">
@@ -115,8 +115,8 @@ export function HeroSection() {
                   <h3 className="text-sm font-bold text-slate-900 tracking-tight">Current Status Overview</h3>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-kerala-green animate-pulse" />
-                  <span className="text-[10px] font-semibold text-kerala-green uppercase tracking-wider">Live</span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-tvk-green animate-pulse" />
+                  <span className="text-[10px] font-semibold text-tvk-green uppercase tracking-wider">Live</span>
                 </div>
               </div>
 
@@ -130,8 +130,8 @@ export function HeroSection() {
                 >
                   <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">Total Tracked</span>
                   <div className="flex items-center gap-2">
-                    <span className="font-display font-bold text-2xl text-slate-900 tabular-nums group-hover:text-udf-blue transition-colors duration-200">{totalTracked}</span>
-                    <ArrowRight className="h-3.5 w-3.5 text-slate-300 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-udf-blue transition-all duration-200" />
+                    <span className="font-display font-bold text-2xl text-slate-900 tabular-nums group-hover:text-tvk-blue transition-colors duration-200">{totalTracked}</span>
+                    <ArrowRight className="h-3.5 w-3.5 text-slate-300 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-tvk-blue transition-all duration-200" />
                   </div>
                 </Link>
 
@@ -141,12 +141,12 @@ export function HeroSection() {
                   className="group flex items-center justify-between px-6 py-4 hover:bg-slate-50 transition-colors duration-200"
                 >
                   <div className="flex items-center gap-2.5">
-                    <span className="w-2 h-2 rounded-full bg-kerala-green flex-shrink-0" />
+                    <span className="w-2 h-2 rounded-full bg-tvk-green flex-shrink-0" />
                     <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">Fulfilled</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="font-display font-bold text-2xl text-kerala-green tabular-nums">{fulfilledCount}</span>
-                    <ArrowRight className="h-3.5 w-3.5 text-kerala-green/30 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-kerala-green transition-all duration-200" />
+                    <span className="font-display font-bold text-2xl text-tvk-green tabular-nums">{fulfilledCount}</span>
+                    <ArrowRight className="h-3.5 w-3.5 text-tvk-green/30 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-tvk-green transition-all duration-200" />
                   </div>
                 </Link>
 
@@ -156,12 +156,12 @@ export function HeroSection() {
                   className="group flex items-center justify-between px-6 py-4 hover:bg-slate-50 transition-colors duration-200"
                 >
                   <div className="flex items-center gap-2.5">
-                    <span className="w-2 h-2 rounded-full bg-udf-blue flex-shrink-0" />
+                    <span className="w-2 h-2 rounded-full bg-tvk-blue flex-shrink-0" />
                     <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">In Progress</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="font-display font-bold text-2xl text-udf-blue tabular-nums">{inProgressCount}</span>
-                    <ArrowRight className="h-3.5 w-3.5 text-udf-blue/30 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-udf-blue transition-all duration-200" />
+                    <span className="font-display font-bold text-2xl text-tvk-blue tabular-nums">{inProgressCount}</span>
+                    <ArrowRight className="h-3.5 w-3.5 text-tvk-blue/30 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-tvk-blue transition-all duration-200" />
                   </div>
                 </Link>
 
@@ -177,7 +177,7 @@ export function HeroSection() {
                 </div>
                 <div className="h-1 rounded-full bg-slate-200 overflow-hidden">
                   <motion.div
-                    className="h-full rounded-full bg-kerala-green"
+                    className="h-full rounded-full bg-tvk-green"
                     initial={{ width: 0 }}
                     animate={{ width: `${totalTracked > 0 ? (fulfilledCount / totalTracked) * 100 : 0}%` }}
                     transition={{ duration: 1.1, delay: 0.5, ease: "easeOut" }}

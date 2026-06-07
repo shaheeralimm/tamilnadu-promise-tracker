@@ -69,8 +69,8 @@ function SubmitForm({ session }: { session: Session }) {
         animate={{ opacity: 1, scale: 1 }}
         className="text-center py-12"
       >
-        <div className="bg-kerala-green-bg w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
-          <CheckCircle2 className="h-10 w-10 text-kerala-green" />
+        <div className="bg-tvk-green-bg w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
+          <CheckCircle2 className="h-10 w-10 text-tvk-green" />
         </div>
         <h2 className="text-2xl font-display font-bold text-slate-900 mb-2">Thank you for your contribution!</h2>
         <p className="text-muted-foreground mb-8 max-w-md mx-auto">
@@ -78,7 +78,7 @@ function SubmitForm({ session }: { session: Session }) {
         </p>
         <button 
           onClick={handleResetForm}
-          className="bg-udf-blue hover:bg-udf-blue-dark text-white px-6 py-2.5 rounded-lg font-medium transition-colors cursor-pointer"
+          className="bg-tvk-blue hover:bg-tvk-blue-dark text-white px-6 py-2.5 rounded-lg font-medium transition-colors cursor-pointer"
         >
           Submit Another Update
         </button>
@@ -130,8 +130,8 @@ function SubmitForm({ session }: { session: Session }) {
           type="text" 
           value={promiseId}
           onChange={(e) => setPromiseId(e.target.value)}
-          placeholder="e.g. UDF-2026-001"
-          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all bg-slate-50 text-slate-900"
+          placeholder="e.g. TVK-2026-001"
+          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-tvk-blue focus:ring-1 focus:ring-tvk-blue outline-none transition-all bg-slate-50 text-slate-900"
         />
         <p className="text-xs text-muted-foreground">If you are submitting evidence for a specific promise, enter its ID.</p>
       </div>
@@ -147,7 +147,7 @@ function SubmitForm({ session }: { session: Session }) {
           value={evidenceUrl}
           onChange={(e) => setEvidenceUrl(e.target.value)}
           placeholder="https://news-site.com/article"
-          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all bg-white text-slate-900"
+          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-tvk-blue focus:ring-1 focus:ring-tvk-blue outline-none transition-all bg-white text-slate-900"
         />
       </div>
 
@@ -162,7 +162,7 @@ function SubmitForm({ session }: { session: Session }) {
           value={details}
           onChange={(e) => setDetails(e.target.value)}
           placeholder="Please describe the update, cabinet decision, or GO number associated with this evidence..."
-          className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all resize-none bg-white text-slate-900 text-sm leading-relaxed placeholder:text-slate-400 font-ui shadow-xs"
+          className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-tvk-blue focus:ring-1 focus:ring-tvk-blue outline-none transition-all resize-none bg-white text-slate-900 text-sm leading-relaxed placeholder:text-slate-400 font-ui shadow-xs"
         ></textarea>
       </div>
       {errorMessage && (
@@ -175,7 +175,7 @@ function SubmitForm({ session }: { session: Session }) {
       <button 
         type="submit" 
         disabled={isSubmitting}
-        className="w-full bg-udf-blue hover:bg-udf-blue-dark text-white font-medium py-3 rounded-lg flex items-center justify-center gap-2 transition-all disabled:opacity-70 disabled:cursor-not-allowed cursor-pointer"
+        className="w-full bg-tvk-blue hover:bg-tvk-blue-dark text-white font-medium py-3 rounded-lg flex items-center justify-center gap-2 transition-all disabled:opacity-70 disabled:cursor-not-allowed cursor-pointer"
       >
         {isSubmitting ? (
           <div className="h-5 w-5 border-2 border-white border-t-transparent rounded-full animate-spin" />

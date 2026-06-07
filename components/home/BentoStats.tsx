@@ -159,7 +159,7 @@ export function BentoStats() {
                           {d.name}
                         </span>
                       </div>
-                      <span className="text-xs font-bold text-slate-700 tabular-nums group-hover:text-udf-blue transition-colors">
+                      <span className="text-xs font-bold text-slate-700 tabular-nums group-hover:text-tvk-blue transition-colors">
                         {d.value}
                       </span>
                     </Link>
@@ -205,7 +205,7 @@ export function BentoStats() {
                 <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-400">
                   Most Active Sector
                 </p>
-                <TrendingUp className="h-4 w-4 text-slate-300 group-hover:text-udf-blue transition-colors duration-200" />
+                <TrendingUp className="h-4 w-4 text-slate-300 group-hover:text-tvk-blue transition-colors duration-200" />
               </div>
 
               <div className="flex items-center gap-3 mb-4">
@@ -232,7 +232,7 @@ export function BentoStats() {
                 </div>
                 <div className="h-[2px] rounded-full bg-slate-100 overflow-hidden">
                   <motion.div
-                    className="h-full rounded-full bg-udf-blue"
+                    className="h-full rounded-full bg-tvk-blue"
                     initial={{ width: 0 }}
                     whileInView={{ width: `${Math.round((stats.mostActiveSector.count / stats.total) * 100)}%` }}
                     viewport={{ once: true }}
@@ -241,7 +241,7 @@ export function BentoStats() {
                 </div>
               </div>
 
-              <div className="mt-3 flex items-center gap-1 text-udf-blue opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+              <div className="mt-3 flex items-center gap-1 text-tvk-blue opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                 <span className="text-[11px] font-semibold">View promises</span>
                 <ArrowRight className="h-3 w-3" />
               </div>

@@ -170,7 +170,7 @@ export default function SectorsPage() {
                       className="w-2.5 h-2.5 rounded-full shrink-0" 
                       style={{ backgroundColor: sector.color }}
                     />
-                    <span className="text-sm font-semibold text-slate-700 group-hover:text-udf-blue transition-colors">
+                    <span className="text-sm font-semibold text-slate-700 group-hover:text-tvk-blue transition-colors">
                       {sector.name}
                     </span>
                   </div>
@@ -215,7 +215,7 @@ export default function SectorsPage() {
                       </div>
                     </div>
                     
-                    <h3 className="font-bold text-xl text-slate-900 mb-1 group-hover:text-udf-blue transition-colors">
+                    <h3 className="font-bold text-xl text-slate-900 mb-1 group-hover:text-tvk-blue transition-colors">
                       {sector.name}
                     </h3>
                     <p className="font-tamil text-sm text-slate-500 mb-6">
@@ -230,7 +230,7 @@ export default function SectorsPage() {
                       <SectorBar percentage={sector.completionPercent} color={sector.color} />
                     </div>
                     
-                    <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-500 group-hover:text-udf-blue transition-colors">
+                    <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-500 group-hover:text-tvk-blue transition-colors">
                       <span>View all {sector.total} promises</span>
                       <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </div>

@@ -41,11 +41,11 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
 
-  --color-udf-blue: #2563EB;
-  --color-udf-blue-dark: #1D4ED8;
-  --color-udf-blue-bg: #EFF6FF;
-  --color-kerala-green: #15803D;
-  --color-kerala-green-bg: #F0FDF4;
+  --color-tvk-blue: #2563EB;
+  --color-tvk-blue-dark: #1D4ED8;
+  --color-tvk-blue-bg: #EFF6FF;
+  --color-tvk-green: #15803D;
+  --color-tvk-green-bg: #F0FDF4;
   --color-evaded: #DC2626;
   --color-pending: #6B7280;
   

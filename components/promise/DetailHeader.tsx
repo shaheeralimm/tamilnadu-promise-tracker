@@ -26,9 +26,9 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
       <div className="container mx-auto px-4 md:px-8 pt-8 pb-12">
         {/* Breadcrumb */}
         <nav className="flex items-center text-xs font-medium text-slate-500 mb-8">
-          <Link href="/" className="hover:text-udf-blue transition-colors cursor-pointer">Home</Link>
+          <Link href="/" className="hover:text-tvk-blue transition-colors cursor-pointer">Home</Link>
           <ChevronRight className="h-3 w-3 mx-2" />
-          <Link href="/promises" className="hover:text-udf-blue transition-colors cursor-pointer">Promises</Link>
+          <Link href="/promises" className="hover:text-tvk-blue transition-colors cursor-pointer">Promises</Link>
           <ChevronRight className="h-3 w-3 mx-2" />
           <span className="text-slate-800 line-clamp-1 max-w-[200px] md:max-w-none">{promise.title}</span>
         </nav>

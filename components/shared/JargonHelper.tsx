@@ -92,7 +92,7 @@ export function JargonHelper({ term, displayText }: JargonHelperProps) {
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="inline-flex items-baseline gap-0.5 font-semibold text-slate-900 border-b border-dashed border-udf-blue hover:text-udf-blue transition-colors cursor-help focus:outline-none focus:ring-2 focus:ring-udf-blue/20 rounded px-0.5 -mx-0.5"
+        className="inline-flex items-baseline gap-0.5 font-semibold text-slate-900 border-b border-dashed border-tvk-blue hover:text-tvk-blue transition-colors cursor-help focus:outline-none focus:ring-2 focus:ring-tvk-blue/20 rounded px-0.5 -mx-0.5"
         type="button"
       >
         {displayText}
@@ -114,7 +114,7 @@ export function JargonHelper({ term, displayText }: JargonHelperProps) {
 
             <span className="relative z-10 block">
               <span className="block text-sm font-bold text-slate-900 mb-2 border-b border-slate-100 pb-1 flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-udf-blue" />
+                <span className="w-1.5 h-1.5 rounded-full bg-tvk-blue" />
                 {info.title}
               </span>
               
