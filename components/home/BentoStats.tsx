@@ -183,7 +183,7 @@ export function BentoStats() {
                 Cabinet Term Progress
               </p>
               <div className="flex-grow flex items-center">
-                <CountdownTimer startDate="2026-05-18T00:00:00Z" />
+                <CountdownTimer startDate="2026-05-10T00:00:00Z" />
               </div>
             </div>
           </motion.div>

@@ -26,7 +26,7 @@ function useElapsed(startDate: string) {
 
 export function CountdownTimer({
   startDate,
-  termEndDate = "2031-05-18T00:00:00Z",
+  termEndDate = "2031-05-10T00:00:00Z",
 }: CountdownTimerProps) {
   const { elapsed, mounted } = useElapsed(startDate)
 
