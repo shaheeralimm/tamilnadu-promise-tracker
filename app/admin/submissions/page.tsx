@@ -141,7 +141,7 @@ export default function AdminSubmissionsPage() {
       
       const targetPromise = sub.promiseId ? promiseMap.get(sub.promiseId) : null
       const promiseTitle = targetPromise ? targetPromise.title.toLowerCase() : ""
-      const promiseTitleMl = targetPromise ? targetPromise.titleMl.toLowerCase() : ""
+      const promiseTitleTa = targetPromise ? targetPromise.titleTa.toLowerCase() : ""
 
       const matchesSearch =
         searchQuery === "" ||
@@ -151,7 +151,7 @@ export default function AdminSubmissionsPage() {
         sub.submittedBy.email.toLowerCase().includes(searchQuery.toLowerCase()) ||
         (sub.promiseId && sub.promiseId.toLowerCase().includes(searchQuery.toLowerCase())) ||
         promiseTitle.includes(searchQuery.toLowerCase()) ||
-        promiseTitleMl.includes(searchQuery.toLowerCase())
+        promiseTitleTa.includes(searchQuery.toLowerCase())
 
       return matchesFilter && matchesSearch
     })
@@ -162,7 +162,7 @@ export default function AdminSubmissionsPage() {
     return (
       <div className="min-h-screen bg-slate-50/50 flex flex-col items-center justify-center p-4">
         <div className="flex flex-col items-center gap-4 text-center">
-          <RefreshCw className="h-10 w-10 text-udf-blue animate-spin" />
+          <RefreshCw className="h-10 w-10 text-tvk-blue animate-spin" />
           <p className="text-slate-500 font-medium text-sm animate-pulse">
             Verifying administrative access and loading database...
           </p>
@@ -215,7 +215,7 @@ export default function AdminSubmissionsPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-8 text-left text-xs leading-relaxed text-slate-600">
             <span className="font-bold text-slate-900 uppercase tracking-wider block mb-1">To gain access:</span>
-            Add your Google email address to the <code className="bg-slate-100 px-1 py-0.5 rounded text-slate-800">ADMIN_EMAILS</code> list inside the [.env.local](file:///d:/udf-promises-anti/.env.local) file in your workspace, and restart the development server.
+            Add your Google email address to the <code className="bg-slate-100 px-1 py-0.5 rounded text-slate-800">ADMIN_EMAILS</code> list in your <code className="bg-slate-100 px-1 py-0.5 rounded text-slate-800">.env.local</code> file and restart the development server.
           </div>
           <div className="flex flex-col sm:flex-row gap-3">
             <button
@@ -250,7 +250,7 @@ export default function AdminSubmissionsPage() {
           <p className="text-slate-500 text-sm mb-6">{error}</p>
           <button
             onClick={fetchSubmissions}
-            className="bg-udf-blue hover:bg-udf-blue-dark text-white font-medium px-6 py-2 rounded-lg transition-colors cursor-pointer text-sm"
+            className="bg-tvk-blue hover:bg-tvk-blue-dark text-white font-medium px-6 py-2 rounded-lg transition-colors cursor-pointer text-sm"
           >
             Retry Fetch
           </button>
@@ -272,7 +272,7 @@ export default function AdminSubmissionsPage() {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Vaaku Paalicho</p>
+                <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Sonnaanga Senjaangala</p>
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
                 <span className="text-[9px] font-semibold bg-emerald-50 text-emerald-600 border border-emerald-100 rounded px-1.5 py-0.5">Admin Active</span>
               </div>
@@ -358,7 +358,7 @@ export default function AdminSubmissionsPage() {
               placeholder="Search details, emails, promise IDs..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-9 pr-4 py-2 text-xs rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all bg-white text-slate-900"
+              className="w-full pl-9 pr-4 py-2 text-xs rounded-lg border border-slate-200 focus:border-tvk-blue focus:ring-1 focus:ring-tvk-blue outline-none transition-all bg-white text-slate-900"
             />
           </div>
         </div>
@@ -366,7 +366,7 @@ export default function AdminSubmissionsPage() {
         {/* Submissions list rendering */}
         {isLoading && submissions.length === 0 ? (
           <div className="py-20 flex flex-col items-center justify-center gap-4 text-center">
-            <RefreshCw className="h-8 w-8 text-udf-blue animate-spin" />
+            <RefreshCw className="h-8 w-8 text-tvk-blue animate-spin" />
             <p className="text-slate-400 text-sm">Synchronizing ledger...</p>
           </div>
         ) : filteredSubmissions.length === 0 ? (
@@ -438,9 +438,9 @@ export default function AdminSubmissionsPage() {
                           {targetPromise ? (
                             <Link
                               href={`/promises/${targetPromise.slug}`}
-                              className="group flex items-center gap-1.5 text-xs text-udf-blue font-semibold hover:underline"
+                              className="group flex items-center gap-1.5 text-xs text-tvk-blue font-semibold hover:underline"
                             >
-                              <FileText className="h-3.5 w-3.5 text-slate-400 group-hover:text-udf-blue transition-colors" />
+                              <FileText className="h-3.5 w-3.5 text-slate-400 group-hover:text-tvk-blue transition-colors" />
                               <span>{targetPromise.id}: {targetPromise.title}</span>
                             </Link>
                           ) : sub.promiseId ? (
@@ -468,10 +468,10 @@ export default function AdminSubmissionsPage() {
                             href={sub.evidenceUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-xs font-semibold text-udf-blue hover:underline flex items-center gap-1 max-w-sm sm:max-w-xl truncate group"
+                            className="text-xs font-semibold text-tvk-blue hover:underline flex items-center gap-1 max-w-sm sm:max-w-xl truncate group"
                           >
                             <span className="truncate">{sub.evidenceUrl}</span>
-                            <ExternalLink className="h-3 w-3 shrink-0 text-slate-400 group-hover:text-udf-blue transition-colors" />
+                            <ExternalLink className="h-3 w-3 shrink-0 text-slate-400 group-hover:text-tvk-blue transition-colors" />
                           </a>
                         </div>
 

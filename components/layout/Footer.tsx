@@ -11,7 +11,7 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <Landmark className="h-6 w-6 text-muted-foreground" />
             <span className="font-display font-semibold text-lg text-foreground">
-              Vaaku Paalicho
+              Sonnaanga Senjaangala
             </span>
           </div>
           
@@ -27,7 +27,7 @@ export function Footer() {
         <div className="pt-8 border-t border-border/50 flex flex-col items-center gap-4">
           <Disclaimer />
           <p className="text-xs text-slate-400">
-            © {new Date().getFullYear()} Vaaku Paalicho Kerala. Open source initiative.
+            © {new Date().getFullYear()} Sonnaanga Senjaangala Tamil Nadu. Open source initiative.
           </p>
         </div>
       </div>

@@ -53,7 +53,7 @@ export function FilterSidebar({
           <span className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400">Active Filters</span>
           <button
             onClick={handleClearAll}
-            className="text-xs font-bold text-udf-blue hover:text-udf-blue-dark transition-colors cursor-pointer"
+            className="text-xs font-bold text-tvk-blue hover:text-tvk-blue-dark transition-colors cursor-pointer"
           >
             Clear All
           </button>
@@ -69,7 +69,7 @@ export function FilterSidebar({
             placeholder="Keywords..." 
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="pl-9 bg-white border-slate-200 text-slate-800 focus-visible:ring-udf-blue transition-colors"
+            className="pl-9 bg-white border-slate-200 text-slate-800 focus-visible:ring-tvk-blue transition-colors"
           />
         </div>
       </div>
@@ -107,9 +107,9 @@ export function FilterSidebar({
               role="checkbox"
               aria-checked={selectedSectors.includes(sector.id)}
               tabIndex={0}
-              className="flex items-center gap-3 cursor-pointer group select-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-udf-blue focus-visible:ring-offset-2 rounded px-1 -mx-1"
+              className="flex items-center gap-3 cursor-pointer group select-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-tvk-blue focus-visible:ring-offset-2 rounded px-1 -mx-1"
             >
-              <div className={`w-4 h-4 rounded border flex items-center justify-center transition-colors ${ selectedSectors.includes(sector.id) ? "bg-udf-blue border-udf-blue text-white" : "border-slate-300 bg-white group-hover:border-udf-blue " }`}>
+              <div className={`w-4 h-4 rounded border flex items-center justify-center transition-colors ${ selectedSectors.includes(sector.id) ? "bg-tvk-blue border-tvk-blue text-white" : "border-slate-300 bg-white group-hover:border-tvk-blue " }`}>
                 {selectedSectors.includes(sector.id) && (
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 5L4 7L8 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -128,7 +128,7 @@ export function FilterSidebar({
       <div>
         <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-3">Sort By</h3>
         <select 
-          className="w-full bg-white border border-slate-200 rounded-md px-3 py-2 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-udf-blue focus:border-transparent transition-all duration-300"
+          className="w-full bg-white border border-slate-200 rounded-md px-3 py-2 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-tvk-blue focus:border-transparent transition-all duration-300"
           value={sortOption}
           onChange={(e) => setSortOption(e.target.value)}
         >

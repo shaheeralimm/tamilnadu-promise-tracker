@@ -1,4 +1,4 @@
-import React from "react"
+﻿import React from "react"
 import { notFound } from "next/navigation"
 import { DetailHeader } from "@/components/promise/DetailHeader"
 import { EvidenceTimeline } from "@/components/promise/EvidenceTimeline"
@@ -44,7 +44,7 @@ export default async function PromiseDetailPage({ params }: PromiseDetailPagePro
           <div className="mt-16 pt-8 border-t border-slate-200">
             <Disclaimer className="text-left mx-0" />
             <div className="mt-6">
-              <a href={`/submit?promiseId=${promise.id}`} className="text-sm font-semibold text-udf-blue hover:text-udf-blue-dark transition-colors">
+              <a href={`/submit?promiseId=${promise.id}`} className="text-sm font-semibold text-tvk-blue hover:text-tvk-blue-dark transition-colors">
                 Submit a correction or update for this promise →
               </a>
             </div>

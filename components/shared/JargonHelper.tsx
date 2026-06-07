@@ -9,51 +9,56 @@ interface JargonHelperProps {
   displayText: string
 }
 
-const jargonDictionary: Record<string, { title: string; en: string; ml: string }> = {
-  "cial model": {
-    title: "CIAL Model (പി.പി.പി)",
-    en: "Public-Private Partnership (PPP) model where government, public, and private investors own shares, like Cochin International Airport Limited.",
-    ml: "സർക്കാരും പൊതുജനങ്ങളും സ്വകാര്യ വ്യക്തികളും ചേർന്നു ഓഹരി പങ്കാളിത്തത്തോടെ നടത്തുന്ന വികസന മാതൃക (പി.പി.പി മാതൃക)."
+const jargonDictionary: Record<string, { title: string; en: string; ta: string }> = {
+  "ppp": {
+    title: "PPP (Public-Private Partnership)",
+    en: "A model where government and private sector jointly fund and operate infrastructure or service projects.",
+    ta: "அரசும் தனியாரும் இணைந்து உள்கட்டமைப்பு திட்டங்களை நிர்வகிக்கும் கூட்டு முதலீட்டு மாதிரி."
   },
   "dpr": {
-    title: "DPR (വിശദമായ പദ്ധതി രൂപരേഖ)",
-    en: "Detailed Project Report: The formal technical and financial blueprint of a project before execution.",
-    ml: "ഒരു പദ്ധതിയുടെ സാങ്കേതിക-സാമ്പത്തിക വശങ്ങൾ വ്യക്തമാക്കുന്ന വിശദമായ പദ്ധതി റിപ്പോർട്ട്."
+    title: "DPR (Detailed Project Report)",
+    en: "The formal technical and financial blueprint of a project prepared before execution and fund release.",
+    ta: "ஒரு திட்டத்தின் தொழில்நுட்ப மற்றும் நிதி விவரங்களை கொண்ட அதிகாரபூர்வ ஆவணம்."
   },
-  "mvd": {
-    title: "MVD (മോട്ടോർ വാഹന വകുപ്പ്)",
-    en: "Motor Vehicles Department: The state government body regulating licenses, registrations, and vehicle modifications.",
-    ml: "സംസ്ഥാനത്തെ വാഹനാതിർത്തികളും ഡ്രൈവിംഗ് ലൈസൻസുകളും നിയമങ്ങളും നിയന്ത്രിക്കുന്ന പൊതു വകുപ്പ്."
-  },
-  "plan outlay": {
-    title: "Plan Outlay (വികസന ഫണ്ട്)",
-    en: "The total budget allocated by the state government for development and welfare schemes in a fiscal year.",
-    ml: "വികസന ക്ഷേമ പദ്ധതികൾക്കായി സംസ്ഥാന സർക്കാർ ഒരു വർഷം നീക്കിവെക്കുന്ന മൊത്തം തുക."
-  },
-  "ex-gratia": {
-    title: "Ex-Gratia (കാരുണ്യ ധനസഹായം)",
-    en: "A payment made out of goodwill or moral obligation rather than legal liability (e.g. government negligence relief).",
-    ml: "നിയമപരമായ ബാധ്യതകൾക്കപ്പുറം സർക്കാരിന്റെ ധാർമ്മിക ഉത്തരവാദിത്തത്തോടെ നൽകുന്ന സാമ്പത്തിക നഷ്ടപരിഹാരം."
-  },
-  "kpsc": {
-    title: "KPSC (കേരള പി.എസ്.സി)",
-    en: "Kerala Public Service Commission: The state administration recruitment board that conducts civil service exams.",
-    ml: "സർക്കാർ തസ്തികകളിലേക്ക് ജീവനക്കാരെ തെരഞ്ഞെടുക്കുന്നതിനുള്ള ഭരണഘടനാ സ്ഥാപനം (പബ്ലിക് സർവീസ് കമ്മീഷൻ)."
+  "tnpsc": {
+    title: "TNPSC (தமிழ்நாடு அரசு பணியாளர் தேர்வாணையம்)",
+    en: "Tamil Nadu Public Service Commission: The state body that conducts civil service recruitment exams for government posts.",
+    ta: "தமிழ்நாடு அரசு பணியிடங்களுக்கான ஆட்சேர்ப்பு தேர்வுகளை நடத்தும் அரசமைப்பு நிறுவனம்."
   },
   "psc": {
-    title: "PSC (പി.എസ്.സി)",
+    title: "PSC (Public Service Commission)",
     en: "Public Service Commission: The government recruitment body for state public sector and civil services.",
-    ml: "സർക്കാർ ജീവനക്കാരെയും ഉദ്യോഗാർത്ഥികളെയും സുതാര്യമായി നിയമിക്കുന്നതിനുള്ള പബ്ലിക് സർവീസ് കമ്മീഷൻ."
+    ta: "மாநில அரசு பணியாளர்களை வெளிப்படையாக நியமிக்கும் பொது சேவை ஆணையம்."
+  },
+  "ex-gratia": {
+    title: "Ex-Gratia (கருணை நிவாரண உதவி)",
+    en: "A payment made out of goodwill or moral obligation rather than legal liability (e.g. government relief for negligence).",
+    ta: "சட்டரீதியான பொறுப்பை தாண்டி அரசின் ஒழுக்க கடமையாக வழங்கப்படும் நிதி நிவாரணம்."
+  },
+  "msp": {
+    title: "MSP (Minimum Support Price)",
+    en: "Minimum Support Price: A government-guaranteed floor price for agricultural produce to protect farmers from market volatility.",
+    ta: "விவசாயிகளை சந்தை ஏற்றத்தாழ்வுகளிலிருந்து பாதுகாக்க அரசு உத்தரவாதம் அளிக்கும் குறைந்தபட்ச கொள்முதல் விலை."
+  },
+  "cmchis": {
+    title: "CMCHIS (முதலமைச்சர் விரிவான சுகாதார காப்பீட்டுத் திட்டம்)",
+    en: "Chief Minister's Comprehensive Health Insurance Scheme: Tamil Nadu's flagship health insurance covering BPL families up to ₹5 lakh.",
+    ta: "ஏழை குடும்பங்களுக்கு ₹5 லட்சம் வரை சுகாதார காப்பீடு வழங்கும் தமிழ்நாடு அரசின் முன்னோடி திட்டம்."
+  },
+  "go": {
+    title: "GO (Government Order)",
+    en: "Government Order: An official directive issued by the state government formalising a policy, appointment, or administrative decision.",
+    ta: "ஒரு கொள்கை, நியமனம் அல்லது நிர்வாக முடிவை அதிகாரப்பூர்வமாக்கும் மாநில அரசின் ஆணை (G.O.)."
+  },
+  "plan outlay": {
+    title: "Plan Outlay (திட்ட நிதி ஒதுக்கீடு)",
+    en: "The total budget allocated by the state government for development and welfare schemes in a fiscal year.",
+    ta: "ஒரு நிதி ஆண்டில் வளர்ச்சி மற்றும் நலத்திட்டங்களுக்கு மாநில அரசு ஒதுக்கும் மொத்த நிதி."
   },
   "life mission": {
-    title: "LIFE Mission (ലൈഫ് മിഷൻ)",
-    en: "Kerala's comprehensive state-sponsored housing program targeting homes for all landless and homeless citizens.",
-    ml: "ഭവനരഹിതരായ എല്ലാ ജനങ്ങൾക്കും വീട് നിർമ്മിച്ച് നൽകുന്നതിനുള്ള കേരള സർക്കാരിന്റെ സമ്പൂർണ്ണ പാർപ്പിട പദ്ധതി."
-  },
-  "silverline": {
-    title: "SilverLine (കെ-റെയിൽ പദ്ധതി)",
-    en: "The proposed semi-high-speed rail project from Kasaragod to Thiruvananthapuram, recently scrapped due to protests.",
-    ml: "തിരുവനന്തപുരം മുതൽ കാസർഗോഡ് വരെ വിഭാവനം ചെയ്തതും പിന്നീട് ഉപേക്ഷിച്ചതുമായ സെമി ഹൈസ്പീഡ് റെയിൽ പദ്ധതി (കെ-റെയിൽ)."
+    title: "வீட்டுவசதி திட்டம் (Housing Mission)",
+    en: "State-sponsored housing schemes targeting homes for all landless and homeless citizens under TVK's manifesto.",
+    ta: "நிலமற்ற மற்றும் வீடற்ற அனைத்து குடிமக்களுக்கும் வீடு வழங்க TVK அறிவித்த மாநில பாரிய வீட்டுவசதி திட்டம்."
   }
 }
 
@@ -87,7 +92,7 @@ export function JargonHelper({ term, displayText }: JargonHelperProps) {
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="inline-flex items-baseline gap-0.5 font-semibold text-slate-900 border-b border-dashed border-udf-blue hover:text-udf-blue transition-colors cursor-help focus:outline-none focus:ring-2 focus:ring-udf-blue/20 rounded px-0.5 -mx-0.5"
+        className="inline-flex items-baseline gap-0.5 font-semibold text-slate-900 border-b border-dashed border-tvk-blue hover:text-tvk-blue transition-colors cursor-help focus:outline-none focus:ring-2 focus:ring-tvk-blue/20 rounded px-0.5 -mx-0.5"
         type="button"
       >
         {displayText}
@@ -109,15 +114,15 @@ export function JargonHelper({ term, displayText }: JargonHelperProps) {
 
             <span className="relative z-10 block">
               <span className="block text-sm font-bold text-slate-900 mb-2 border-b border-slate-100 pb-1 flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-udf-blue" />
+                <span className="w-1.5 h-1.5 rounded-full bg-tvk-blue" />
                 {info.title}
               </span>
               
               <span className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-0.5">English</span>
               <span className="block text-xs text-slate-600 mb-3 leading-relaxed">{info.en}</span>
               
-              <span className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-0.5 font-malayalam">മലയാളം</span>
-              <span className="block text-xs text-slate-600 font-malayalam leading-relaxed block">{info.ml}</span>
+              <span className="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-0.5 font-tamil">தமிழ்</span>
+              <span className="block text-xs text-slate-600 font-tamil leading-relaxed block">{info.ta}</span>
             </span>
           </motion.span>
         )}

@@ -12,15 +12,15 @@ export function StatusBadge({ status, className }: StatusBadgeProps) {
   switch (status) {
     case "fulfilled":
       return (
-        <Badge variant="outline" className={`bg-kerala-green-bg text-kerala-green border-kerala-green/20 ${className}`}>
+        <Badge variant="outline" className={`bg-tvk-green-bg text-tvk-green border-tvk-green/20 ${className}`}>
           <CheckCircle2 className="mr-1 h-3 w-3" />
           Fulfilled
         </Badge>
       )
     case "in-progress":
       return (
-        <Badge variant="outline" className={`bg-udf-blue-bg text-udf-blue border-udf-blue/20 relative overflow-hidden ${className}`}>
-          <span className="absolute inset-0 bg-udf-blue/10 animate-pulse" />
+        <Badge variant="outline" className={`bg-tvk-blue-bg text-tvk-blue border-tvk-blue/20 relative overflow-hidden ${className}`}>
+          <span className="absolute inset-0 bg-tvk-blue/10 animate-pulse" />
           <Clock className="mr-1 h-3 w-3 z-10" />
           <span className="z-10">In Progress</span>
         </Badge>

@@ -11,13 +11,13 @@ export function TierBadge({ tier, className }: TierBadgeProps) {
   switch (tier) {
     case 1:
       return (
-        <Badge variant="outline" className={`bg-kerala-green-bg text-kerala-green border-kerala-green/20 ${className}`}>
+        <Badge variant="outline" className={`bg-tvk-green-bg text-tvk-green border-tvk-green/20 ${className}`}>
           Tier 1 — Official Gazette
         </Badge>
       )
     case 2:
       return (
-        <Badge variant="outline" className={`bg-udf-blue-bg text-udf-blue border-udf-blue/20 ${className}`}>
+        <Badge variant="outline" className={`bg-tvk-blue-bg text-tvk-blue border-tvk-blue/20 ${className}`}>
           Tier 2 — Govt Press Release
         </Badge>
       )

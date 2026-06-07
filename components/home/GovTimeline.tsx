@@ -5,51 +5,45 @@ import { motion } from "framer-motion"
 
 const timelineEvents = [
   {
-    date: "MAY 18, 2026",
+    date: "MAY 10, 2026",
     title: "Oath of Office",
-    description: "The new UDF cabinet officially takes oath at the Central Stadium, Thiruvananthapuram.",
+    description: "C. Joseph Vijay was sworn in as Chief Minister of Tamil Nadu at the Jawaharlal Nehru Indoor Stadium, accompanied by an initial 10-member cabinet.",
     status: "fulfilled"
   },
   {
-    date: "MAY 18, 2026",
-    title: "First Cabinet Decisions",
-    description: "Approved free bus travel for women and raised ASHA workers' honorarium by ₹3,000.",
+    date: "MAY 10, 2026",
+    title: "Day-One Government Orders",
+    description: "CM Vijay immediately signed three major files: (1) 200 units free electricity for domestic consumers, (2) establishment of the Singa Pen Special Force (women's safety), and (3) formation of the Anti-Narcotics Task Force.",
     status: "fulfilled"
   },
   {
-    date: "MAY 19, 2026",
-    title: "NYAY Scheme Data Collection",
-    description: "Finance department initiates BPL data collection for the direct cash transfer scheme.",
+    date: "MAY 16, 2026",
+    title: "Portfolio Allocation",
+    description: "Portfolios for the initial cabinet formally allocated. CM Vijay retained Home, General Administration, Police, Women's Welfare, Youth Welfare, and Water Resources. Marie Wilson: Finance; KA Sengottaiyan: Revenue; S. Keerthana: Industries; KG Arun Raj: Health.",
+    status: "fulfilled"
+  },
+  {
+    date: "MAY 21–22, 2026",
+    title: "Cabinet Expansion — 35 Ministers",
+    description: "Two major expansions: 23 new ministers sworn in on May 21, followed by two more from IUML and VCK on May 22, bringing the full cabinet to 35 ministers. Congress MLAs allocated Tourism and Higher Education portfolios.",
+    status: "fulfilled"
+  },
+  {
+    date: "JUN 5, 2026",
+    title: "First Cabinet Meeting",
+    description: "CM Vijay chaired the inaugural Cabinet meeting at the state Secretariat. Three major decisions: (1) 436-project time-bound governance roadmap across all departments, (2) major TASMAC administrative overhaul for procurement-to-retail transparency, and (3) legal action to protect state water rights against the Mekedatu dam.",
     status: "in-progress"
   },
   {
-    date: "MAY 20, 2026",
-    title: "Landmark Cabinet Decisions",
-    description: "Cabinet recommended KPSC rank list extensions, officially scrapped the controversial SilverLine project, announced a 100-day action plan, and approved a ₹5 lakh medical negligence compensation.",
-    status: "in-progress"
-  },
-  {
-    date: "MAY 21, 2026",
-    title: "Cabinet Portfolio Allocation",
-    description: "Official portfolio distribution approved by the Governor. CM V.D. Satheesan retains Finance, Law, and Ports, while Ramesh Chennithala is assigned Home and K. Muraleedharan gets Health.",
-    status: "fulfilled"
-  },
-  {
-    date: "MAY 23, 2026",
-    title: "Delhi Governance Meet",
-    description: "CM V.D. Satheesan visits New Delhi to coordinate with central leaders on welfare rollouts, legislative strategy, and high-priority infrastructure development.",
-    status: "fulfilled"
-  },
-  {
-    date: "JUN 01, 2026",
-    title: "First Policy Address",
-    description: "Expected Governor's address outlining the legislative agenda and welfare rollout timeline.",
+    date: "NOV 10, 2026",
+    title: "Right to Service Act Deadline",
+    description: "Manifesto commitment: the Tamil Nadu Right to Service Act and Vetri Tamil Nadu Super App must be enacted and launched within six months of taking office (by November 10, 2026).",
     status: "pending"
   },
   {
-    date: "JUL 10, 2026",
+    date: "2026–2027",
     title: "State Budget Presentation",
-    description: "Expected presentation of the revised State Budget and the separate Agricultural Budget.",
+    description: "First full state budget to be presented by Finance Minister Marie Wilson, expected to reflect manifesto priorities including Madhippumigu Magalir ₹2,500/month, welfare pension revision to ₹3,000, and MSME ₹15,000 crore credit guarantee fund.",
     status: "pending"
   }
 ]
@@ -70,9 +64,9 @@ export function GovTimeline() {
             
             let bulletColor = "bg-slate-300 "
             if (isFulfilled) {
-              bulletColor = "bg-kerala-green "
+              bulletColor = "bg-emerald-600 "
             } else if (isInProgress) {
-              bulletColor = "bg-udf-blue "
+              bulletColor = "bg-blue-600 "
             }
 
             return (
@@ -95,7 +89,7 @@ export function GovTimeline() {
                 <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-0">
                   {/* Date label - absolutely positioned on desktop to the left */}
                   <div className="md:absolute md:-left-[140px] md:top-0.5 md:w-[100px] md:text-right">
-                    <span className={`text-xs font-bold uppercase tracking-widest ${isFulfilled ? 'text-kerala-green ' : isInProgress ? 'text-udf-blue ' : 'text-slate-400 '}`}>
+                    <span className={`text-xs font-bold uppercase tracking-widest ${isFulfilled ? 'text-emerald-600 ' : isInProgress ? 'text-blue-600 ' : 'text-slate-400 '}`}>
                       {event.date}
                     </span>
                   </div>

@@ -26,9 +26,9 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
       <div className="container mx-auto px-4 md:px-8 pt-8 pb-12">
         {/* Breadcrumb */}
         <nav className="flex items-center text-xs font-medium text-slate-500 mb-8">
-          <Link href="/" className="hover:text-udf-blue transition-colors cursor-pointer">Home</Link>
+          <Link href="/" className="hover:text-tvk-blue transition-colors cursor-pointer">Home</Link>
           <ChevronRight className="h-3 w-3 mx-2" />
-          <Link href="/promises" className="hover:text-udf-blue transition-colors cursor-pointer">Promises</Link>
+          <Link href="/promises" className="hover:text-tvk-blue transition-colors cursor-pointer">Promises</Link>
           <ChevronRight className="h-3 w-3 mx-2" />
           <span className="text-slate-800 line-clamp-1 max-w-[200px] md:max-w-none">{promise.title}</span>
         </nav>
@@ -45,9 +45,9 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
               {promise.title}
             </h1>
 
-            {promise.titleMl && promise.titleMl !== promise.title && (
-              <p className="font-malayalam text-xl md:text-2xl text-slate-500 font-semibold mb-4 leading-normal">
-                {promise.titleMl}
+            {promise.titleTa && promise.titleTa !== promise.title && (
+              <p className="font-tamil text-xl md:text-2xl text-slate-500 font-semibold mb-4 leading-normal">
+                {promise.titleTa}
               </p>
             )}
             
@@ -80,7 +80,7 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
             &ldquo;<HighlightJargon text={promise.manifestoQuote} />&rdquo;
           </p>
           <div className="mt-4 text-sm font-semibold uppercase tracking-wider text-slate-500">
-            — UDF Election Manifesto 2026
+            — TVK Election Manifesto 2026
           </div>
         </div>
       </div>

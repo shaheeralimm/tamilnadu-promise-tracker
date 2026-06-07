@@ -1,4 +1,4 @@
-import React from "react"
+﻿import React from "react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { ArrowLeft, Calendar, FileText, CheckCircle, ShieldCheck, Printer, Bookmark } from "lucide-react"
@@ -46,7 +46,7 @@ export default async function ArchivePage({ params }: ArchivePageProps) {
         <div className="flex items-center justify-between mb-8 text-sm">
           <Link 
             href={`/promises/${promise.slug}`}
-            className="inline-flex items-center gap-2 px-4 py-2 bg-white text-slate-700 hover:text-udf-blue font-semibold rounded-xl border border-slate-200 shadow-sm transition-all hover:shadow-md group"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-white text-slate-700 hover:text-tvk-blue font-semibold rounded-xl border border-slate-200 shadow-sm transition-all hover:shadow-md group"
           >
             <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
             Back to Promise Details
@@ -63,12 +63,12 @@ export default async function ArchivePage({ params }: ArchivePageProps) {
         {/* Tactical Document View (Tactile Material Design) */}
         {isGazette ? (
           /* =========================================================================
-             TIER 1: OFFICIAL KERALA GAZETTE / GOVERNMENT ORDER LAYOUT
+             TIER 1: OFFICIAL TAMIL NADU GAZETTE / GOVERNMENT ORDER LAYOUT
              ========================================================================= */
           <div className="bg-[#fcfbf7] border-t-8 border-emerald-800 text-emerald-950 p-8 sm:p-12 rounded-2xl shadow-xl border border-emerald-900/10 relative overflow-hidden transition-all duration-300">
             {/* Fine watermark background */}
             <div className="absolute inset-0 pointer-events-none opacity-[0.02] flex items-center justify-center rotate-45 select-none">
-              <span className="text-8xl font-black uppercase tracking-widest text-emerald-900">KERALA GOVERNMENT</span>
+              <span className="text-8xl font-black uppercase tracking-widest text-emerald-900">TAMIL NADU GOVERNMENT</span>
             </div>
 
             {/* Official Gazette Header */}
@@ -79,13 +79,13 @@ export default async function ArchivePage({ params }: ArchivePageProps) {
                 </div>
               </div>
               
-              <h1 className="font-serif text-3xl font-extrabold tracking-wide uppercase">Kerala State Gazette</h1>
+              <h1 className="font-serif text-3xl font-extrabold tracking-wide uppercase">Tamil Nadu State Gazette</h1>
               <p className="text-xs uppercase font-extrabold tracking-widest text-emerald-700/80 mt-1">Extraordinary • Published By Authority</p>
               
               <div className="flex justify-between items-center text-[10px] sm:text-xs font-bold uppercase border-t border-emerald-800/10 mt-4 pt-3 text-emerald-800/70">
-                <span>Vol. LXIX</span>
-                <span>Thiruvananthapuram, {source.date}</span>
-                <span>No. UDF-{promise.id}-{sourceIndex + 1}</span>
+                <span>Vol. I</span>
+                <span>Chennai, {source.date}</span>
+                <span>No. TVK-{promise.id}-{sourceIndex + 1}</span>
               </div>
             </div>
 
@@ -209,7 +209,7 @@ export default async function ArchivePage({ params }: ArchivePageProps) {
                   </p>
 
                   <p className="pt-4 text-base">
-                    This news event serves as critical documentation of government policy implementation. The UDF government led by Chief Minister V.D. Satheesan has moved forward with initial execution, setting timelines and department guidelines to fulfill this commitment within the specified legislative session.
+                    This news event serves as critical documentation of government policy implementation. The TVK government led by Chief Minister C. Joseph Vijay has moved forward with initial execution, setting timelines and department guidelines to fulfill this commitment.
                   </p>
                 </div>
               </div>

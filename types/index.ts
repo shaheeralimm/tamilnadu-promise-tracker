@@ -5,7 +5,7 @@ export interface Promise {
   id: string;
   slug: string;
   title: string;
-  titleMl: string;
+  titleTa: string;
   description: string;
   trackingNote?: string | null;
   manifestoQuote: string;
@@ -30,7 +30,7 @@ export interface Source {
 export interface Sector {
   id: string;
   name: string;
-  nameMl: string;
+  nameTa: string;
   icon: string;
   color: string;
 }

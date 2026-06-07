@@ -1,70 +1,656 @@
 [
   {
     "id": "p1",
-    "slug": "free-ksrtc-bus-travel-for-women-1",
-    "title": "Free KSRTC bus travel for women",
-    "titleMl": "സ്ത്രീകൾക്ക് സൗജന്യ കെ.എസ്.ആർ.ടി.സി ബസ് യാത്ര",
-    "description": "Provide free travel for women on Kerala State Road Transport Corporation (KSRTC) buses.",
-    "trackingNote": "Mark Fulfilled only after official GO/scheme order and actual rollout begins.",
-    "manifestoQuote": "Provide free travel for women on Kerala State Road Transport Corporation (KSRTC) buses.",
+    "slug": "free-200-units-electricity-1",
+    "title": "200 units free electricity for domestic households",
+    "titleTa": "வீட்டு நுகர்வோருக்கு 200 யூனிட் இலவச மின்சாரம்",
+    "description": "A Government Order providing 200 units of free electricity per month to all domestic households consuming up to 500 units monthly, signed by CM C. Joseph Vijay on May 10, 2026 — his first day in office.",
+    "trackingNote": "GO signed May 10 2026. Track implementation through TANGEDCO billing cycles.",
+    "manifestoQuote": "200 units of free electricity will be provided to all domestic consumers as an immediate priority.",
     "sector": {
-      "id": "s1",
-      "name": "Women & Transport",
-      "nameMl": "സ്ത്രീകളും ഗതാഗതവും",
-      "icon": "users",
-      "color": "#3B82F6"
+      "id": "s4",
+      "name": "Social Security",
+      "nameTa": "சமூக பாதுகாப்பு",
+      "icon": "shield",
+      "color": "#8B5CF6"
     },
-    "status": "in-progress",
-    "icon": "users",
+    "status": "fulfilled",
+    "icon": "zap",
     "sources": [
       {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.thehindu.com/news/national/kerala/udf-government-to-implement-two-indira-guarantees-including-free-bus-travel-for-women/article70993287.ece",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
+        "title": "CM Vijay signs Day-1 GOs: free electricity, women's safety force, anti-narcotics task force",
+        "url": "https://www.instagram.com/p/DYJb53hCKrU/",
+        "publication": "Hindustan Times (Instagram)",
+        "date": "2026-05-10",
         "tier": 2,
-        "summary": "UDF 2026 manifesto / Indira Guarantee; first cabinet approval reported."
+        "summary": "Joseph Vijay signed the GO for 200 units free electricity on his first day in office."
       },
       {
-        "title": "Newly-formed Kerala Cabinet clears free KSRTC travel for women, ASHA pay hike",
-        "url": "https://www.newindianexpress.com/states/kerala/2026/May/18/newly-formed-kerala-cabinet-clears-free-ksrtc-travel-for-women-asha-pay-hike",
-        "publication": "The New Indian Express",
-        "date": "2026-05-18",
-        "tier": 3,
-        "summary": "In its first cabinet meeting on May 18, 2026, the newly elected UDF government approved the rollout of free KSRTC bus travel for women alongside wage hikes for scheme workers."
-      },
-      {
-        "title": "KSRTC free travel for women confirmed from June 15; gender ticketing system introduced",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/27/ksrtc-free-travel-women-update.html",
-        "publication": "Manorama Online / Mathrubhumi",
-        "date": "2026-05-27",
-        "tier": 3,
-        "summary": "KSRTC confirmed that free bus travel for women will begin June 15, 2026, covering ordinary, limited-stop, city circular, and fast-passenger services (premium excluded). A 'gender ticketing' system was introduced on May 9 to enable the rollout. Final operational guidelines are being finalized."
-      },
-      {
-        "title": "Kerala Governor's policy address to the 16th Legislative Assembly outlines welfare guarantees",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/29/kerala-governor-policy-address-16th-assembly.html",
-        "publication": "Onmanorama",
-        "date": "2026-05-29",
+        "title": "Vijay announced three significant decisions after taking oath",
+        "url": "https://www.youtube.com/watch?v=4vt4v7_6OJE",
+        "publication": "YouTube / News Channel",
+        "date": "2026-05-10",
         "tier": 2,
-        "summary": "Governor Rajendra Vishwanath Arlekar's customary policy address to the Kerala Legislative Assembly formally announced upcoming key welfare initiatives under the new UDF government's 'Vision 2031' roadmap, including the rollout of free KSRTC travel for women starting June 15, 2026."
+        "summary": "Video report confirming Day-1 decision for 200 units free electricity."
       }
     ],
-    "lastUpdated": "2026-05-30T02:59:00.759Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   },
   {
     "id": "p2",
-    "slug": "1-000-monthly-stipend-for-college-going-girl-students-2",
-    "title": "₹1,000 monthly stipend for college-going girl students",
-    "titleMl": "കോളേജ് വിദ്യാർത്ഥിനികൾക്ക് പ്രതിമാസം ₹1,000 സ്റ്റൈപ്പൻഡ്",
-    "description": "Provide ₹1,000 per month as financial assistance to college-going girl students.",
-    "trackingNote": "Track government order, eligibility rules, budget allocation, and first disbursal.",
-    "manifestoQuote": "Provide ₹1,000 per month as financial assistance to college-going girl students.",
+    "slug": "rani-velu-nachiyar-womens-safety-force-2",
+    "title": "Rani Velu Nachiyar Force — elite women's safety force",
+    "titleTa": "ராணி வேலுநாச்சியார் படை — பெண்கள் பாதுகாப்பு படை",
+    "description": "Establishment of an elite women's safety force (initially signed as 'Singa Pen Special Force' via Day-1 GO on May 10, 2026). Full deployment as the 'Rani Velu Nachiyar Force' — 500 plain-clothes teams with body cameras deployed statewide — is the manifesto implementation target.",
+    "trackingNote": "GO establishing the force signed May 10 2026 (status: fulfilled). Full 500-team statewide deployment with body cameras is pending implementation.",
+    "manifestoQuote": "A dedicated 'Rani Velu Nachiyar Padai' will be established with 500 plain-clothes teams equipped with body cameras to ensure women's safety across Tamil Nadu.",
+    "sector": {
+      "id": "s1",
+      "name": "Women & Welfare",
+      "nameTa": "பெண்கள் & நலன்",
+      "icon": "users",
+      "color": "#EC4899"
+    },
+    "status": "in-progress",
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "CM Vijay signs Day-1 GOs — Singa Pen Special Force established",
+        "url": "https://www.instagram.com/p/DYJb53hCKrU/",
+        "publication": "Hindustan Times (Instagram)",
+        "date": "2026-05-10",
+        "tier": 2,
+        "summary": "CM Vijay signed the GO establishing the women's safety force on Day 1."
+      },
+      {
+        "title": "Zero Tolerance Crimes — Rani Velu Nachiyar Force (500 teams)",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p3",
+    "slug": "drug-free-tamil-nadu-anti-narcotics-3",
+    "title": "Drug Free Tamil Nadu — Anti-Narcotics Task Force",
+    "titleTa": "போதைப்பொருள் இல்லா தமிழ்நாடு — சிறப்புப் படை",
+    "description": "Formation of an Anti-Narcotics Task Force to combat drug trafficking and substance abuse, signed via Government Order on May 10, 2026. Full implementation includes strict laws, community policing, and anti-drug forums in all schools and colleges.",
+    "trackingNote": "GO signed May 10 2026. Track statewide operations, school/college forums, and law enforcement outcomes.",
+    "manifestoQuote": "Tamil Nadu will be transformed into a drug-free state through stringent laws, community policing, and anti-drug forums in schools and colleges.",
+    "sector": {
+      "id": "s8",
+      "name": "Law & Order",
+      "nameTa": "சட்டம் & ஒழுங்கு",
+      "icon": "shield",
+      "color": "#EF4444"
+    },
+    "status": "fulfilled",
+    "icon": "shield",
+    "sources": [
+      {
+        "title": "CM Vijay signs Day-1 GOs: free electricity, women's safety force, anti-narcotics task force",
+        "url": "https://www.instagram.com/p/DYJb53hCKrU/",
+        "publication": "Hindustan Times (Instagram)",
+        "date": "2026-05-10",
+        "tier": 2,
+        "summary": "Anti-Narcotics Task Force formed via Day-1 GO by CM Vijay."
+      },
+      {
+        "title": "Drug Free Tamil Nadu",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p4",
+    "slug": "tasmac-administrative-overhaul-4",
+    "title": "TASMAC administrative overhaul for transparency",
+    "titleTa": "டாஸ்மாக் நிர்வாக சீர்திருத்தம்",
+    "description": "A major administrative overhaul of TASMAC retail liquor operations initiated at the first Cabinet meeting (June 5, 2026), targeting transparency from procurement to retail sale.",
+    "trackingNote": "Cabinet decision June 5 2026. Track gazette notification of new TASMAC policy framework.",
+    "manifestoQuote": "TASMAC will be reformed to eliminate corruption and bring full transparency in procurement and retail operations.",
+    "sector": {
+      "id": "s7",
+      "name": "Governance & Admin",
+      "nameTa": "நிர்வாகம் & ஆட்சி",
+      "icon": "landmark",
+      "color": "#6366F1"
+    },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "First cabinet meeting of TVK-led TN government — TASMAC reforms",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/first-cabinet-meeting-of-tvk-led-tamil-nadu-government-to-focus-on-tasmac-reforms-investment-promotion/article71061191.ece",
+        "publication": "The Hindu",
+        "date": "2026-06-05",
+        "tier": 2,
+        "summary": "State government planning major administrative overhaul of TASMAC from procurement to retail."
+      },
+      {
+        "title": "CM Vijay chairs first cabinet meeting: 436-project roadmap unveiled",
+        "url": "https://thefederal.com/category/states/south/tamil-nadu/cm-vijay-first-cabinet-meeting-roadmap-436-projects-245564",
+        "publication": "The Federal",
+        "date": "2026-06-05",
+        "tier": 3,
+        "summary": "TASMAC reforms initiated as part of broader 436-project governance agenda."
+      }
+    ],
+    "lastUpdated": "2026-06-05T00:00:00.000Z",
+    "createdAt": "2026-06-05T00:00:00.000Z"
+  },
+  {
+    "id": "p5",
+    "slug": "mekedatu-dam-legal-action-5",
+    "title": "Legal action against Mekedatu dam to protect TN water rights",
+    "titleTa": "மேகேதாட்டு அணை — தமிழ்நாடு நீர் உரிமை பாதுகாப்பு",
+    "description": "Cabinet resolved on June 5, 2026 to take legal action to protect Tamil Nadu's Cauvery water rights against the proposed Mekedatu dam construction by the neighbouring state.",
+    "trackingNote": "Cabinet resolution June 5 2026. Track filing of legal petition before Supreme Court or CWMA.",
+    "manifestoQuote": "The TVK government will take every legal and constitutional measure to protect Tamil Nadu's rightful share of Cauvery waters.",
+    "sector": {
+      "id": "s9",
+      "name": "Water Resources",
+      "nameTa": "நீர் வளங்கள்",
+      "icon": "droplets",
+      "color": "#06B6D4"
+    },
+    "status": "in-progress",
+    "icon": "droplets",
+    "sources": [
+      {
+        "title": "CM Vijay first cabinet meeting — Mekedatu legal action resolved",
+        "url": "https://thefederal.com/category/states/south/tamil-nadu/cm-vijay-first-cabinet-meeting-roadmap-436-projects-245564",
+        "publication": "The Federal",
+        "date": "2026-06-05",
+        "tier": 3,
+        "summary": "Cabinet resolved to take legal action against Mekedatu project to protect state water interests."
+      }
+    ],
+    "lastUpdated": "2026-06-05T00:00:00.000Z",
+    "createdAt": "2026-06-05T00:00:00.000Z"
+  },
+  {
+    "id": "p6",
+    "slug": "436-project-governance-roadmap-6",
+    "title": "436-project time-bound governance roadmap",
+    "titleTa": "436 திட்டங்கள் — காலக்கெடு ஆட்சி திட்டம்",
+    "description": "CM Vijay unveiled a comprehensive 436-project roadmap spanning all government departments with specific, time-bound execution targets at the first Cabinet meeting on June 5, 2026.",
+    "trackingNote": "Cabinet meeting June 5 2026. Track department-wise rollout of individual projects.",
+    "manifestoQuote": "The TVK government will operate on a clear, time-bound project roadmap ensuring accountability across all departments.",
+    "sector": {
+      "id": "s7",
+      "name": "Governance & Admin",
+      "nameTa": "நிர்வாகம் & ஆட்சி",
+      "icon": "landmark",
+      "color": "#6366F1"
+    },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "CM Vijay chairs first cabinet meeting: 436-project roadmap unveiled",
+        "url": "https://thefederal.com/category/states/south/tamil-nadu/cm-vijay-first-cabinet-meeting-roadmap-436-projects-245564",
+        "publication": "The Federal",
+        "date": "2026-06-05",
+        "tier": 3,
+        "summary": "436-project roadmap with time-bound execution goals across all government departments unveiled."
+      }
+    ],
+    "lastUpdated": "2026-06-05T00:00:00.000Z",
+    "createdAt": "2026-06-05T00:00:00.000Z"
+  },
+  {
+    "id": "p7",
+    "slug": "vettri-payanam-free-bus-women-7",
+    "title": "Vettri Payanam Thittam — free bus travel for women",
+    "titleTa": "வெற்றிப் பயணம் திட்டம் — பெண்களுக்கு இலவச பேருந்து",
+    "description": "Free travel for women on all government bus services (TNSTC and MTC) across Tamil Nadu, allowing travel between any district without financial burden, with improved bus frequency.",
+    "trackingNote": null,
+    "manifestoQuote": "Free travel for women will be implemented across all government bus services. Women can commute from any corner of Tamil Nadu to any destination without financial burden.",
+    "sector": {
+      "id": "s1",
+      "name": "Women & Welfare",
+      "nameTa": "பெண்கள் & நலன்",
+      "icon": "users",
+      "color": "#EC4899"
+    },
+    "status": "pending",
+    "icon": "bus",
+    "sources": [
+      {
+        "title": "Vettri Payanam Thittam — free bus travel for women",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p8",
+    "slug": "kamarajar-kalvi-urudhi-school-dropout-8",
+    "title": "Kamarajar Kalvi Urudhi — ₹15,000/year to prevent school dropout",
+    "titleTa": "காமராஜர் கல்வி உறுதித் திட்டம் — ₹15,000 கல்வி உதவி",
+    "description": "Annual financial assistance of ₹15,000 to every mother or guardian to ensure no child drops out of school from Class 1 to Class 12.",
+    "trackingNote": null,
+    "manifestoQuote": "To ensure no child drops out of school from Class 1 to Class 12, an annual financial assistance of ₹15,000 will be provided to every mother or guardian.",
     "sector": {
       "id": "s2",
-      "name": "Students & Women",
-      "nameMl": "വിദ്യാർത്ഥിനികളും സ്ത്രീകളും",
+      "name": "Education",
+      "nameTa": "கல்வி",
+      "icon": "graduation-cap",
+      "color": "#3B82F6"
+    },
+    "status": "pending",
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "Kamarajar Kalvi Urudhi Thittam",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p9",
+    "slug": "welfare-pension-3000-9",
+    "title": "Welfare pension raised to ₹3,000 per month",
+    "titleTa": "நலத்துறை ஓய்வூதியம் மாதம் ₹3,000-ஆக உயர்வு",
+    "description": "Increase the monthly welfare pension for all beneficiaries (elderly, widows, differently-abled, destitute) to ₹3,000 per month.",
+    "trackingNote": null,
+    "manifestoQuote": "The welfare pension for all eligible beneficiaries will be raised to ₹3,000 per month.",
+    "sector": {
+      "id": "s4",
+      "name": "Social Security",
+      "nameTa": "சமூக பாதுகாப்பு",
+      "icon": "shield",
+      "color": "#8B5CF6"
+    },
+    "status": "pending",
+    "icon": "heart-handshake",
+    "sources": [
+      {
+        "title": "Welfare pension raised to ₹3,000",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p10",
+    "slug": "free-breakfast-govt-schools-10",
+    "title": "Free breakfast scheme for all government school students",
+    "titleTa": "அரசுப் பள்ளி மாணவர்களுக்கு இலவச காலை உணவு",
+    "description": "Expansion of the free breakfast scheme to all students in government and government-aided schools across Tamil Nadu.",
+    "trackingNote": null,
+    "manifestoQuote": "Every child in a government school will start their day with a nutritious free breakfast so hunger is never a barrier to learning.",
+    "sector": {
+      "id": "s2",
+      "name": "Education",
+      "nameTa": "கல்வி",
+      "icon": "graduation-cap",
+      "color": "#3B82F6"
+    },
+    "status": "pending",
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "Tamil Nadu government formation — TVK ministers and portfolios",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-formation-know-the-tvk-ministers-in-c-joseph-vijays-cabinet/article70961530.ece",
+        "publication": "The Hindu",
+        "date": "2026-05-10",
+        "tier": 3,
+        "summary": "The Hindu's coverage of the TVK government formation confirming key manifesto commitments and cabinet portfolio allocations."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p11",
+    "slug": "cmchis-health-insurance-expansion-11",
+    "title": "Universal health insurance expansion for all families",
+    "titleTa": "அனைத்து குடும்பங்களுக்கும் சுகாதார காப்பீடு விரிவாக்கம்",
+    "description": "Expansion of CMCHIS (Chief Minister's Comprehensive Health Insurance Scheme) with enhanced coverage limits to cover all families in Tamil Nadu.",
+    "trackingNote": "Health portfolio allocated to KG Arun Raj (May 16 2026).",
+    "manifestoQuote": "No family in Tamil Nadu will be denied healthcare due to financial inability. Health insurance will be universalised.",
+    "sector": {
+      "id": "s3",
+      "name": "Health",
+      "nameTa": "சுகாதாரம்",
+      "icon": "heart",
+      "color": "#10B981"
+    },
+    "status": "pending",
+    "icon": "heart",
+    "sources": [
+      {
+        "title": "Universal health insurance expansion",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      },
+      {
+        "title": "Tamil Nadu ministries — Vijay keeps Home, full list of portfolios",
+        "url": "https://www.ndtv.com/india-news/tamil-nadu-ministries-vijay-keeps-home-changes-finance-full-list-11526929",
+        "publication": "NDTV",
+        "date": "2026-05-16",
+        "tier": 3,
+        "summary": "Full list of Tamil Nadu cabinet portfolio allocations following the May 21-22 cabinet expansion to 35 ministers."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p12",
+    "slug": "vetri-entrepreneurship-25lakh-collateral-free-12",
+    "title": "Vetri Entrepreneurship Scheme — ₹25 lakh collateral-free business loans",
+    "titleTa": "வெற்றி தொழில்முனைவோர் திட்டம் — ₹25 லட்சம் பிணையமில்லா கடன்",
+    "description": "Government-guaranteed collateral-free business loans of up to ₹25 lakh for young entrepreneurs to start or scale businesses across Tamil Nadu.",
+    "trackingNote": null,
+    "manifestoQuote": "To promote youth entrepreneurship, the government will guarantee collateral-free business loans of up to ₹25 lakh, enabling young individuals to become entrepreneurs.",
+    "sector": {
+      "id": "s5",
+      "name": "Youth & Employment",
+      "nameTa": "இளைஞர் & வேலைவாய்ப்பு",
+      "icon": "briefcase",
+      "color": "#F59E0B"
+    },
+    "status": "pending",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Vetri Entrepreneurship Scheme",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p13",
+    "slug": "housing-landless-homeless-13",
+    "title": "Government housing for landless and homeless families",
+    "titleTa": "நிலமற்ற, வீடற்ற குடும்பங்களுக்கு அரசு வீட்டுவசதி",
+    "description": "Construction and allocation of government housing to all landless and homeless families in Tamil Nadu, prioritising rural poor, Dalits, and tribal communities.",
+    "trackingNote": "Housing portfolio to be confirmed from full cabinet list.",
+    "manifestoQuote": "No family in Tamil Nadu will be without a roof. The TVK government will build housing for all homeless and landless citizens.",
+    "sector": {
+      "id": "s12",
+      "name": "Housing",
+      "nameTa": "வீட்டுவசதி",
+      "icon": "home",
+      "color": "#A78BFA"
+    },
+    "status": "pending",
+    "icon": "home",
+    "sources": [
+      {
+        "title": "Tamil Nadu government formation — TVK ministers and portfolios",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-formation-know-the-tvk-ministers-in-c-joseph-vijays-cabinet/article70961530.ece",
+        "publication": "The Hindu",
+        "date": "2026-05-10",
+        "tier": 3,
+        "summary": "The Hindu's coverage of the TVK government formation confirming key manifesto commitments and cabinet portfolio allocations."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p14",
+    "slug": "cooperative-crop-loan-waiver-14",
+    "title": "Cooperative crop loan waiver — 100% (≤5 acres), 50% (>5 acres)",
+    "titleTa": "கூட்டுறவுப் பயிர்க்கடன் தள்ளுபடி — ≤5 ஏக்கர் 100%, >5 ஏக்கர் 50%",
+    "description": "Full (100%) waiver of cooperative crop loans for farmers with up to 5 acres of land; 50% waiver for farmers with more than 5 acres, providing comprehensive debt relief.",
+    "trackingNote": null,
+    "manifestoQuote": "For farmers with up to 5 acres, cooperative crop loans will be fully waived. For those with more than 5 acres, a 50% waiver will be provided.",
+    "sector": {
+      "id": "s6",
+      "name": "Agriculture & Farmers",
+      "nameTa": "விவசாயம் & விவசாயிகள்",
+      "icon": "tractor",
+      "color": "#84CC16"
+    },
+    "status": "pending",
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Agricultural cooperative loan waiver",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p15",
+    "slug": "education-assurance-20lakh-loan-15",
+    "title": "Education Assurance Scheme — ₹20 lakh collateral-free education loans",
+    "titleTa": "கல்வி உத்தரவாதம் திட்டம் — ₹20 லட்சம் பிணையமில்லா கல்விக் கடன்",
+    "description": "Collateral-free education loans of up to ₹20 lakh guaranteed for students pursuing post-Class 12 education through to PhD, ensuring financial constraints never block higher education.",
+    "trackingNote": null,
+    "manifestoQuote": "To ensure financial constraints do not hinder higher education, collateral-free education loans of up to ₹20 lakh will be guaranteed for students from post-Class 12 to PhD.",
+    "sector": {
+      "id": "s2",
+      "name": "Education",
+      "nameTa": "கல்வி",
+      "icon": "graduation-cap",
+      "color": "#3B82F6"
+    },
+    "status": "pending",
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "Education Assurance Scheme",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p16",
+    "slug": "msp-paddy-3500-sugarcane-4500-16",
+    "title": "Legally guaranteed MSP — ₹3,500/quintal paddy, ₹4,500/tonne sugarcane",
+    "titleTa": "சட்டப்பூர்வ ஆதரவு விலை — நெல் ₹3,500/குவிண்டால், கரும்பு ₹4,500/டன்",
+    "description": "A legally guaranteed Minimum Support Price ensuring ₹3,500 per quintal for paddy and ₹4,500 per tonne for sugarcane, with state procurement centres to eliminate distress sales.",
+    "trackingNote": null,
+    "manifestoQuote": "A legally guaranteed MSP will be ensured: ₹3,500 per quintal for paddy and ₹4,500 per tonne for sugarcane will be provided.",
+    "sector": {
+      "id": "s6",
+      "name": "Agriculture & Farmers",
+      "nameTa": "விவசாயம் & விவசாயிகள்",
+      "icon": "tractor",
+      "color": "#84CC16"
+    },
+    "status": "pending",
+    "icon": "scale",
+    "sources": [
+      {
+        "title": "Legally guaranteed MSP for agricultural produce",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p17",
+    "slug": "unemployment-assistance-graduates-4000-17",
+    "title": "Unemployment assistance — ₹4,000 graduates, ₹2,500 diploma holders",
+    "titleTa": "வேலையின்மை கொடுப்பனவு — பட்டதாரி ₹4,000, டிப்ளமோ ₹2,500",
+    "description": "Monthly financial assistance for job-seeking youth: ₹4,000 per month for graduates and ₹2,500 per month for diploma holders, as a youth welfare initiative while they seek employment.",
+    "trackingNote": null,
+    "manifestoQuote": "Financial assistance will be provided to job-seeking youth: ₹4,000 per month for graduates and ₹2,500 per month for diploma holders.",
+    "sector": {
+      "id": "s5",
+      "name": "Youth & Employment",
+      "nameTa": "இளைஞர் & வேலைவாய்ப்பு",
+      "icon": "briefcase",
+      "color": "#F59E0B"
+    },
+    "status": "pending",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Unemployment Assistance for Youth",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p18",
+    "slug": "neet-exemption-state-medical-18",
+    "title": "NEET exemption for Tamil Nadu medical college admissions",
+    "titleTa": "நீட் விலக்கு — மாநில மருத்துவக் கல்லூரி சேர்க்கை",
+    "description": "Legislative and legal push for a permanent NEET exemption for Tamil Nadu medical college admissions, restoring the state board merit-based selection system.",
+    "trackingNote": null,
+    "manifestoQuote": "The TVK government will fight for a permanent NEET exemption to protect Tamil Nadu's students.",
+    "sector": {
+      "id": "s2",
+      "name": "Education",
+      "nameTa": "கல்வி",
+      "icon": "graduation-cap",
+      "color": "#3B82F6"
+    },
+    "status": "pending",
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "Tamil Nadu government formation — TVK ministers and portfolios",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-formation-know-the-tvk-ministers-in-c-joseph-vijays-cabinet/article70961530.ece",
+        "publication": "The Hindu",
+        "date": "2026-05-10",
+        "tier": 3,
+        "summary": "The Hindu's coverage of the TVK government formation confirming key manifesto commitments and cabinet portfolio allocations."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p19",
+    "slug": "sc-st-welfare-fund-enhancement-19",
+    "title": "Enhanced SC/ST welfare fund and scholarship programme",
+    "titleTa": "தலித் & பழங்குடியினருக்கு மேம்படுத்தப்பட்ட நலத்திட்டம்",
+    "description": "Substantial increase in state welfare fund, scholarships, and reservation enforcement support for Scheduled Caste and Scheduled Tribe communities.",
+    "trackingNote": "Cabinet has best-ever SC representation — historic milestone (The Hindu, May 2026).",
+    "manifestoQuote": "The TVK government will ensure Dalit and tribal communities receive full constitutional rights, enhanced welfare funds, and zero-tolerance enforcement of reservation policies.",
+    "sector": {
+      "id": "s11",
+      "name": "SC/ST Welfare",
+      "nameTa": "தலித் & பழங்குடி நலன்",
+      "icon": "users",
+      "color": "#F97316"
+    },
+    "status": "pending",
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Vijay's cabinet marks Tamil Nadu's best SC representation till date",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/historic-shift-vijays-cabinet-marks-tamil-nadus-best-sc-representation-till-date/article71007377.ece",
+        "publication": "The Hindu",
+        "date": "2026-05-22",
+        "tier": 3,
+        "summary": "Tamil Nadu cabinet marks best-ever SC representation with 22 ministers under age 45."
+      }
+    ],
+    "lastUpdated": "2026-05-22T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p20",
+    "slug": "minimum-wage-hike-unorganised-sector-20",
+    "title": "Minimum wage hike for unorganised sector workers",
+    "titleTa": "அமைப்புசாரா துறை தொழிலாளர்களுக்கு குறைந்தபட்ச ஊதிய உயர்வு",
+    "description": "Significant revision and hike of minimum wages for unorganised sector workers including construction, agricultural labour, domestic workers, and daily wage earners.",
+    "trackingNote": null,
+    "manifestoQuote": "Every worker in Tamil Nadu deserves a living wage. The TVK government will revise minimum wages to ensure dignity and economic security for all workers.",
+    "sector": {
+      "id": "s10",
+      "name": "Labour & Workers",
+      "nameTa": "தொழிலாளர் நலன்",
+      "icon": "hard-hat",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "hard-hat",
+    "sources": [
+      {
+        "title": "Minimum wage revision for unorganised sector",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p21",
+    "slug": "singa-pengal-shg-5lakh-interest-free-21",
+    "title": "Singa Pengal Empowerment — ₹5 lakh interest-free SHG loans + MSME grant",
+    "titleTa": "சிங்கப் பெண்கள் மேம்பாட்டுத் திட்டம் — ₹5 லட்சம் வட்டியில்லா கடன்",
+    "description": "Interest-free financial assistance up to ₹5 lakh for women-led self-help groups, with repayment of existing loans. SHGs that register as MSMEs receive an annual ₹5 lakh grant (100% subsidy).",
+    "trackingNote": "Women's Welfare portfolio retained by CM Vijay directly.",
+    "manifestoQuote": "Women-led SHGs will receive interest-free loans up to ₹5 lakh. SHGs transitioning into registered MSMEs will receive an annual grant of ₹5 lakh as a 100% subsidy.",
+    "sector": {
+      "id": "s1",
+      "name": "Women & Welfare",
+      "nameTa": "பெண்கள் & நலன்",
       "icon": "users",
       "color": "#EC4899"
     },
@@ -72,2260 +658,1089 @@
     "icon": "users",
     "sources": [
       {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto / Indira Guarantee."
+        "title": "Singa Pengal Empowerment Scheme",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p3",
-    "slug": "oommen-chandy-health-insurance-scheme-3",
-    "title": "Oommen Chandy Health Insurance Scheme",
-    "titleMl": "ഉമ്മൻചാണ്ടി ആരോഗ്യ ഇൻഷുറൻസ് പദ്ധതി",
-    "description": "Provide health insurance coverage up to ₹25 lakh per household/family.",
-    "trackingNote": "Track scheme notification, insurer/hospital network, eligibility, and claim availability.",
-    "manifestoQuote": "Provide health insurance coverage up to ₹25 lakh per household/family.",
-    "sector": {
-      "id": "s3",
-      "name": "Health",
-      "nameMl": "ആരോഗ്യം",
-      "icon": "heart-pulse",
-      "color": "#10B981"
-    },
-    "status": "in-progress",
-    "icon": "heart-pulse",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto / Indira Guarantee."
-      },
-      {
-        "title": "Kerala Governor's policy address to the 16th Legislative Assembly outlines welfare guarantees",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/29/kerala-governor-policy-address-16th-assembly.html",
-        "publication": "Onmanorama",
-        "date": "2026-05-29",
-        "tier": 2,
-        "summary": "The Oommen Chandy Health Insurance Scheme was formally announced as a core priority of the new UDF government in the Governor's assembly policy address, promising free annual health insurance coverage of up to ₹25 lakh per family."
-      }
-    ],
-    "lastUpdated": "2026-05-30T02:59:00.762Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p4",
-    "slug": "increase-welfare-pension-to-3-000-4",
-    "title": "Increase welfare pension to ₹3,000",
-    "titleMl": "ക്ഷേമ പെൻഷൻ ₹3,000 ആയി വർദ്ധിപ്പിക്കൽ",
-    "description": "Increase eligible social security and welfare pensions to ₹3,000 per month.",
-    "trackingNote": "Track budget provision, pension order, and actual payment at revised rate.",
-    "manifestoQuote": "Increase eligible social security and welfare pensions to ₹3,000 per month.",
-    "sector": {
-      "id": "s4",
-      "name": "Welfare",
-      "nameMl": "ക്ഷേമം",
-      "icon": "shield-check",
-      "color": "#F59E0B"
-    },
-    "status": "in-progress",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto / Indira Guarantee."
-      },
-      {
-        "title": "Social security pension disbursement from May 25",
-        "url": "https://www.thehindu.com/news/national/kerala/social-security-pension-disbursement-from-may-25/article70998663.ece",
-        "publication": "The Hindu",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "The state government allocated ₹1,070 crore for the distribution of social security and welfare pensions to 62 lakh beneficiaries starting May 25, 2026. The monthly payout remains at the existing rate of ₹2,000, as the promised hike to ₹3,000 has not yet been implemented."
-      },
-      {
-        "title": "Kerala Governor's policy address to the 16th Legislative Assembly outlines welfare guarantees",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/29/kerala-governor-policy-address-16th-assembly.html",
-        "publication": "Onmanorama",
-        "date": "2026-05-29",
-        "tier": 2,
-        "summary": "The UDF government's customary policy address delivered by Governor Rajendra Vishwanath Arlekar formally committed to raising social security and welfare pensions to ₹3,000 per month, although actual rollout remains phased and subject to the expert panel's upcoming Financial White Paper assessment."
-      }
-    ],
-    "lastUpdated": "2026-05-30T02:59:00.762Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p5",
-    "slug": "interest-free-youth-entrepreneur-loans-5",
-    "title": "Interest-free youth entrepreneur loans",
-    "titleMl": "യുവ സംരംഭകർക്ക് പലിശരഹിത വായ്പ",
-    "description": "Provide interest-free loans up to ₹5 lakh for young entrepreneurs to start small businesses.",
-    "trackingNote": "Track scheme guidelines, nodal agency, application portal, sanctioned loans, and disbursement.",
-    "manifestoQuote": "Provide interest-free loans up to ₹5 lakh for young entrepreneurs to start small businesses.",
-    "sector": {
-      "id": "s5",
-      "name": "Youth & Employment",
-      "nameMl": "യുവജനങ്ങളും തൊഴിലും",
-      "icon": "users",
-      "color": "#6366F1"
-    },
-    "status": "pending",
-    "icon": "users",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto / Indira Guarantee."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p6",
-    "slug": "separate-department-for-senior-citizens-6",
-    "title": "Separate department for senior citizens",
-    "titleMl": "മുതിർന്ന പൗരന്മാർക്കായി പ്രത്യേക വകുപ്പ്",
-    "description": "Create a dedicated government department for the welfare and protection of senior citizens.",
-    "trackingNote": "Mark Fulfilled after official department creation order and allocation of portfolio/staff/budget.",
-    "manifestoQuote": "Create a dedicated government department for the welfare and protection of senior citizens.",
-    "sector": {
-      "id": "s6",
-      "name": "Senior Citizens",
-      "nameMl": "മുതിർന്ന പൗരന്മാർ",
-      "icon": "users",
-      "color": "#6B7280"
-    },
-    "status": "in-progress",
-    "icon": "users",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF manifesto promise; first cabinet decision reported."
-      },
-      {
-        "title": "Kerala govt's decision to set up dedicated Senior Citizens Welfare Department hailed as timely",
-        "url": "https://www.thehindu.com/news/national/kerala/kerala-govts-decision-to-set-up-dedicated-senior-citizens-welfare-department-hailed-as-timely/article71003285.ece",
-        "publication": "The Hindu",
-        "date": "2026-05-20",
-        "tier": 3,
-        "summary": "The newly elected Kerala Cabinet approved the creation of a dedicated department for the welfare and protection of senior citizens during its first meeting on May 18, 2026. Stakeholders and senior citizen advocacy groups welcomed the move as timely."
-      },
-      {
-        "title": "Kerala Cabinet approves Governor's address and drafts Senior Citizens Affairs department framework",
-        "url": "https://www.devdiscourse.com/article/politics/3050488-kerala-cabinet-approves-governors-policy-address",
-        "publication": "Devdiscourse / The Hindu",
-        "date": "2026-05-25",
-        "tier": 3,
-        "summary": "In a special cabinet meeting on May 25, 2026, CM V.D. Satheesan chaired discussions regarding shifting administrative subjects and responsibilities from the Social Justice Department to the newly formed Department for Senior Citizens Affairs."
-      }
-    ],
-    "lastUpdated": "2026-05-26T13:16:10.943Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p7",
-    "slug": "law-to-protect-social-security-pensions-7",
-    "title": "Law to protect social security pensions",
-    "titleMl": "സാമൂഹ്യ സുരക്ഷാ പെൻഷനുകൾ ഉറപ്പാക്കാൻ നിയമനിർമ്മാണം",
-    "description": "Bring legislation to ensure eligible people receive social security pensions.",
-    "trackingNote": "Track bill introduction, assembly passage, gazette notification, and implementation rules.",
-    "manifestoQuote": "Bring legislation to ensure eligible people receive social security pensions.",
-    "sector": {
-      "id": "s4",
-      "name": "Welfare",
-      "nameMl": "ക്ഷേമം",
-      "icon": "shield-check",
-      "color": "#F59E0B"
-    },
-    "status": "in-progress",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      },
-      {
-        "title": "UDF government unveils 'Vision 2031' policy roadmap for Kerala",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/23/udf-government-unveils-vision-2031-policy-roadmap-for-kerala.html",
-        "publication": "Onmanorama",
-        "date": "2026-05-23",
-        "tier": 3,
-        "summary": "The newly elected UDF government in Kerala unveiled its comprehensive 'Vision 2031' policy roadmap on May 23, 2026, which proposes to declare welfare pensions as a statutory right for citizens and establish a regulatory commission to manage and safeguard pension distribution."
-      }
-    ],
-    "lastUpdated": "2026-05-26T13:21:17.706Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p8",
-    "slug": "revamp-welfare-fund-boards-8",
-    "title": "Revamp welfare fund boards",
-    "titleMl": "ക്ഷേമനിധി ബോർഡുകൾ പുനഃസംഘടിപ്പിക്കൽ",
-    "description": "Revamp welfare fund boards to improve functioning and delivery of benefits.",
-    "trackingNote": "Track government order, board restructuring, benefit reforms, and financial allocation.",
-    "manifestoQuote": "Revamp welfare fund boards to improve functioning and delivery of benefits.",
-    "sector": {
-      "id": "s7",
-      "name": "Welfare Boards",
-      "nameMl": "ക്ഷേമനിധി ബോർഡുകൾ",
-      "icon": "shield-check",
-      "color": "#F97316"
-    },
-    "status": "pending",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p9",
-    "slug": "clear-welfare-board-arrears-9",
-    "title": "Clear welfare board arrears",
-    "titleMl": "ക്ഷേമനിധി ബോർഡ് കുടിശ്ശികകൾ തീർപ്പാക്കൽ",
-    "description": "Clear pending arrears related to welfare fund boards.",
-    "trackingNote": "Track amount pending, amount released, beneficiary categories, and payment completion.",
-    "manifestoQuote": "Clear pending arrears related to welfare fund boards.",
-    "sector": {
-      "id": "s7",
-      "name": "Welfare Boards",
-      "nameMl": "ക്ഷേമനിധി ബോർഡുകൾ",
-      "icon": "shield-check",
-      "color": "#F97316"
-    },
-    "status": "pending",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p10",
-    "slug": "expand-indira-canteens-10",
-    "title": "Expand Indira Canteens",
-    "titleMl": "ഇന്ദിര കാന്റീനുകൾ വ്യാപിപ്പിക്കൽ",
-    "description": "Expand Indira Canteens to provide affordable food support.",
-    "trackingNote": "Track number of canteens opened, locations, meal pricing, and operating agencies.",
-    "manifestoQuote": "Expand Indira Canteens to provide affordable food support.",
-    "sector": {
-      "id": "s8",
-      "name": "Food Security",
-      "nameMl": "ഭക്ഷ്യസുരക്ഷ",
-      "icon": "shield-check",
-      "color": "#EF4444"
-    },
-    "status": "pending",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-28T17:01:16.093Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p11",
-    "slug": "free-ration-support-11",
-    "title": "Free ration support",
-    "titleMl": "സൗജന്യ റേഷൻ പദ്ധതി",
-    "description": "Provide free ration support for eligible groups in special circumstances or vulnerable regions.",
-    "trackingNote": "Track official eligibility criteria, ration quantity, duration, and implementation order.",
-    "manifestoQuote": "Provide free ration support for eligible groups in special circumstances or vulnerable regions.",
-    "sector": {
-      "id": "s8",
-      "name": "Food Security",
-      "nameMl": "ഭക്ഷ്യസുരക്ഷ",
-      "icon": "shield-check",
-      "color": "#EF4444"
-    },
-    "status": "pending",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p12",
-    "slug": "nava-aashraya-scheme-12",
-    "title": "Nava Aashraya scheme",
-    "titleMl": "നവ ആശ്രയ പദ്ധതി",
-    "description": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.",
-    "trackingNote": "Track scheme launch, beneficiary identification, local body implementation, and fund release.",
-    "manifestoQuote": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.",
-    "sector": {
-      "id": "s9",
-      "name": "Poverty Alleviation",
-      "nameMl": "ദാരിദ്ര്യ നിർമ്മാർജ്ജനം",
-      "icon": "shield-check",
-      "color": "#14B8A6"
-    },
-    "status": "pending",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p13",
-    "slug": "support-for-most-vulnerable-sections-13",
-    "title": "Support for most vulnerable sections",
-    "titleMl": "ഏറ്റവും ദുർബല വിഭാഗങ്ങൾക്കുള്ള പിന്തുണ",
-    "description": "Identify and support the most vulnerable sections of society through targeted welfare measures.",
-    "trackingNote": "Track survey/identification process, scheme notification, beneficiary list, and benefits delivered.",
-    "manifestoQuote": "Identify and support the most vulnerable sections of society through targeted welfare measures.",
-    "sector": {
-      "id": "s9",
-      "name": "Poverty Alleviation",
-      "nameMl": "ദാരിദ്ര്യ നിർമ്മാർജ്ജനം",
-      "icon": "shield-check",
-      "color": "#14B8A6"
-    },
-    "status": "pending",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p14",
-    "slug": "special-plan-for-yellow-and-pink-ration-card-holders-14",
-    "title": "Special plan for yellow and pink ration card holders",
-    "titleMl": "മഞ്ഞ, പിങ്ക് റേഷൻ കാർഡ് ഉടമകൾക്കായി പ്രത്യേക പദ്ധതി",
-    "description": "Prepare a special action plan for yellow and pink ration card holders.",
-    "trackingNote": "Track official action plan, benefits covered, target households, and implementation schedule.",
-    "manifestoQuote": "Prepare a special action plan for yellow and pink ration card holders.",
-    "sector": {
-      "id": "s8",
-      "name": "Food Security",
-      "nameMl": "ഭക്ഷ്യസുരക്ഷ",
-      "icon": "shield-check",
-      "color": "#EF4444"
-    },
-    "status": "pending",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p15",
-    "slug": "yuva-shakti-naadin-sampath-15",
-    "title": "Yuva Shakti Naadin Sampath",
-    "titleMl": "യുവശക്തി നാടിൻ സമ്പത്ത് പദ്ധതി",
-    "description": "Earmark 5% of plan outlay for young people under the Yuva Shakti Naadin Sampath initiative.",
-    "trackingNote": "Track budget documents showing 5% allocation and youth-focused expenditure.",
-    "manifestoQuote": "Earmark 5% of plan outlay for young people under the Yuva Shakti Naadin Sampath initiative.",
-    "sector": {
-      "id": "s10",
-      "name": "Youth",
-      "nameMl": "യുവജനക്ഷേമം",
-      "icon": "users",
-      "color": "#8B5CF6"
-    },
-    "status": "pending",
-    "icon": "users",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p16",
-    "slug": "yuvashree-collectives-16",
-    "title": "Yuvashree collectives",
-    "titleMl": "യുവശ്രീ കൂട്ടായ്മകൾ",
-    "description": "Introduce Yuvashree collectives modelled on Kudumbashree.",
-    "trackingNote": "Track scheme order, pilot districts, number of collectives formed, and funding.",
-    "manifestoQuote": "Introduce Yuvashree collectives modelled on Kudumbashree.",
-    "sector": {
-      "id": "s11",
-      "name": "Youth & Community",
-      "nameMl": "യുവജനങ്ങളും കൂട്ടായ്മയും",
-      "icon": "users",
-      "color": "#A855F7"
-    },
-    "status": "pending",
-    "icon": "users",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p17",
-    "slug": "k-r-narayanan-scholarships-17",
-    "title": "K. R. Narayanan scholarships",
-    "titleMl": "കെ. ആർ. നാരായണൻ സ്കോളർഷിപ്പ്",
-    "description": "Provide K. R. Narayanan scholarships for meritorious students.",
-    "trackingNote": "Track scholarship rules, eligibility, application portal, number of students selected, and disbursal.",
-    "manifestoQuote": "Provide K. R. Narayanan scholarships for meritorious students.",
-    "sector": {
-      "id": "s12",
-      "name": "Education",
-      "nameMl": "വിദ്യാഭ്യാസം",
-      "icon": "graduation-cap",
-      "color": "#0EA5E9"
-    },
-    "status": "pending",
-    "icon": "graduation-cap",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p18",
-    "slug": "higher-education-loan-support-18",
-    "title": "Higher education loan support",
-    "titleMl": "ഉന്നത വിദ്യാഭ്യാസ വായ്പാ സഹായം",
-    "description": "Provide education loan support for higher studies in India and abroad.",
-    "trackingNote": "Track interest subsidy, guarantee support, repayment assistance, or direct loan scheme order.",
-    "manifestoQuote": "Provide education loan support for higher studies in India and abroad.",
-    "sector": {
-      "id": "s12",
-      "name": "Education",
-      "nameMl": "വിദ്യാഭ്യാസം",
-      "icon": "graduation-cap",
-      "color": "#0EA5E9"
-    },
-    "status": "pending",
-    "icon": "graduation-cap",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p19",
-    "slug": "free-dialysis-for-bpl-families-19",
-    "title": "Free dialysis for BPL families",
-    "titleMl": "ബി.പി.എൽ കുടുംബങ്ങൾക്ക് സൗജന്യ ഡയാലിസിസ്",
-    "description": "Provide free dialysis services for families below the poverty line.",
-    "trackingNote": "Track hospital empanelment, eligibility rules, dialysis sessions covered, and actual usage.",
-    "manifestoQuote": "Provide free dialysis services for families below the poverty line.",
-    "sector": {
-      "id": "s3",
-      "name": "Health",
-      "nameMl": "ആരോഗ്യം",
-      "icon": "heart-pulse",
-      "color": "#10B981"
-    },
-    "status": "pending",
-    "icon": "heart-pulse",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p20",
-    "slug": "she-hospitals-20",
-    "title": "SHE Hospitals",
-    "titleMl": "സ്ത്രീകൾക്കായുള്ള ഷി (SHE) ആശുപത്രികൾ",
-    "description": "Open SHE Hospitals dedicated to women and children.",
-    "trackingNote": "Track hospital locations, construction/upgradation order, staffing, and opening date.",
-    "manifestoQuote": "Open SHE Hospitals dedicated to women and children.",
-    "sector": {
-      "id": "s13",
-      "name": "Health & Women",
-      "nameMl": "ആരോഗ്യവും സ്ത്രീകളും",
-      "icon": "users",
-      "color": "#D946EF"
-    },
-    "status": "pending",
-    "icon": "users",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
-  },
-  {
-    "id": "p21",
-    "slug": "health-centres-in-tribal-areas-21",
-    "title": "Health centres in tribal areas",
-    "titleMl": "ആദിവാസി മേഖലകളിൽ ആരോഗ്യ കേന്ദ്രങ്ങൾ",
-    "description": "Establish dedicated health centres in tribal areas.",
-    "trackingNote": "Track number of centres announced, districts, staffing, budget, and operational status.",
-    "manifestoQuote": "Establish dedicated health centres in tribal areas.",
-    "sector": {
-      "id": "s14",
-      "name": "Health & Tribal Welfare",
-      "nameMl": "ആരോഗ്യവും ഗോത്രവർഗ്ഗ ക്ഷേമവും",
-      "icon": "heart-pulse",
-      "color": "#06B6D4"
-    },
-    "status": "pending",
-    "icon": "heart-pulse",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   },
   {
     "id": "p22",
-    "slug": "health-centres-in-coastal-areas-22",
-    "title": "Health centres in coastal areas",
-    "titleMl": "തീരദേശ മേഖലകളിൽ ആരോഗ്യ കേന്ദ്രങ്ങൾ",
-    "description": "Establish dedicated health centres in coastal areas.",
-    "trackingNote": "Track locations, coastal communities covered, staff appointments, and service availability.",
-    "manifestoQuote": "Establish dedicated health centres in coastal areas.",
+    "slug": "sports-infrastructure-youth-22",
+    "title": "Sports infrastructure development and youth talent programme",
+    "titleTa": "விளையாட்டு உள்கட்டமைப்பு & இளைஞர் திறன் மேம்பாடு",
+    "description": "World-class sports infrastructure at district level and structured talent identification programme to develop Tamil Nadu's sportspersons at national and international levels.",
+    "trackingNote": "Youth Welfare portfolio retained by CM Vijay.",
+    "manifestoQuote": "Every district will have sports infrastructure. TVK will invest in youth sporting potential.",
     "sector": {
-      "id": "s15",
-      "name": "Health & Coastal Welfare",
-      "nameMl": "ആരോഗ്യവും തീരദേശ ക്ഷേമവും",
-      "icon": "heart-pulse",
-      "color": "#0891B2"
+      "id": "s5",
+      "name": "Youth & Employment",
+      "nameTa": "இளைஞர் & வேலைவாய்ப்பு",
+      "icon": "briefcase",
+      "color": "#F59E0B"
     },
     "status": "pending",
-    "icon": "heart-pulse",
+    "icon": "activity",
     "sources": [
       {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
+        "title": "Tamil Nadu ministries — Vijay keeps Home, full list of portfolios",
+        "url": "https://www.ndtv.com/india-news/tamil-nadu-ministries-vijay-keeps-home-changes-finance-full-list-11526929",
+        "publication": "NDTV",
+        "date": "2026-05-16",
+        "tier": 3,
+        "summary": "Full list of Tamil Nadu cabinet portfolio allocations following the May 21-22 cabinet expansion to 35 ministers."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   },
   {
     "id": "p23",
-    "slug": "no-bill-hospitals-23",
-    "title": "No-bill hospitals",
-    "titleMl": "നോ-ബിൽ ആശുപത്രികൾ",
-    "description": "Introduce no-bill or bill-less hospitals for eligible patients/services.",
-    "trackingNote": "Track official definition, covered hospitals, covered treatments, and patient billing data.",
-    "manifestoQuote": "Introduce no-bill or bill-less hospitals for eligible patients/services.",
+    "slug": "dedicated-dept-women-children-elderly-23",
+    "title": "Dedicated Department for Women, Children, and Elderly safety",
+    "titleTa": "பெண்கள், குழந்தைகள், முதியோர் பாதுகாப்புக்கு தனி இலாக்கா",
+    "description": "A separate government department established exclusively for the protection of women, children, and the elderly, functioning under the direct control and supervision of the Chief Minister.",
+    "trackingNote": "CM Vijay retained Women's Welfare portfolio under his direct control (May 16 2026 allocation). Full department structure to be notified.",
+    "manifestoQuote": "A separate department will be established for women, children, and the elderly, under my direct control and supervision — our first electoral promise.",
     "sector": {
-      "id": "s3",
-      "name": "Health",
-      "nameMl": "ആരോഗ്യം",
-      "icon": "heart-pulse",
-      "color": "#10B981"
-    },
-    "status": "pending",
-    "icon": "heart-pulse",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p24",
-    "slug": "tribal-health-clusters-24",
-    "title": "Tribal health clusters",
-    "titleMl": "ആദിവാസി ആരോഗ്യ ക്ലസ്റ്ററുകൾ",
-    "description": "Establish tribal health clusters to improve healthcare access for tribal communities.",
-    "trackingNote": "Track cluster locations, health teams, mobile units, and measurable service coverage.",
-    "manifestoQuote": "Establish tribal health clusters to improve healthcare access for tribal communities.",
-    "sector": {
-      "id": "s14",
-      "name": "Health & Tribal Welfare",
-      "nameMl": "ആരോഗ്യവും ഗോത്രവർഗ്ഗ ക്ഷേമവും",
-      "icon": "heart-pulse",
-      "color": "#06B6D4"
-    },
-    "status": "pending",
-    "icon": "heart-pulse",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p25",
-    "slug": "asha-wage-honorarium-hike-25",
-    "title": "ASHA wage/honorarium hike",
-    "titleMl": "ആശ വർക്കർമാരുടെ വേതന/ഓണറേറിയം വർദ്ധനവ്",
-    "description": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.",
-    "trackingNote": "Mark Fulfilled after official order and revised payment reaches ASHA workers.",
-    "manifestoQuote": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.",
-    "sector": {
-      "id": "s16",
-      "name": "Labour",
-      "nameMl": "തൊഴിൽ",
-      "icon": "briefcase",
-      "color": "#7C3AED"
-    },
-    "status": "in-progress",
-    "icon": "briefcase",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF manifesto; first cabinet decision reported ₹3,000 honorarium hike."
-      },
-      {
-        "title": "ASHA workers celebrate wage hike with payasam in Thiruvananthapuram",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/21/asha-workers-celebrate-wage-hike-with-payasam-in-thiruvananthapuram.html",
-        "publication": "Onmanorama",
-        "date": "2026-05-21",
-        "tier": 3,
-        "summary": "ASHA workers celebrated the newly elected UDF cabinet's decision to increase their monthly honorarium by ₹3,000, bringing it up to ₹12,000, by distributing sweets and payasam in front of the Secretariat."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:09:08.666Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p26",
-    "slug": "anganwadi-worker-wage-revision-26",
-    "title": "Anganwadi worker wage revision",
-    "titleMl": "അങ്കണവാടി ജീവനക്കാരുടെ വേതന പരിഷ്കരണം",
-    "description": "Revise wages or honorarium of anganwadi workers.",
-    "trackingNote": "Track official order, revised amount, and first payment.",
-    "manifestoQuote": "Revise wages or honorarium of anganwadi workers.",
-    "sector": {
-      "id": "s16",
-      "name": "Labour",
-      "nameMl": "തൊഴിൽ",
-      "icon": "briefcase",
-      "color": "#7C3AED"
-    },
-    "status": "in-progress",
-    "icon": "briefcase",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF manifesto; post-election cabinet announcements reported wage/honorarium hike."
-      },
-      {
-        "title": "Team Satheesan kicks off on a welfare note",
-        "url": "https://www.newindianexpress.com/states/kerala/2026/May/19/team-satheesan-kicks-off-on-a-welfare-note",
-        "publication": "The New Indian Express",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "The newly sworn-in UDF government under CM V.D. Satheesan approved an immediate ₹1,000 hike in wages for Anganwadi workers, helpers, and related staff in its first Cabinet meeting on May 18, 2026."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:09:08.666Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p27",
-    "slug": "school-cook-wage-revision-27",
-    "title": "School cook wage revision",
-    "titleMl": "സ്കൂൾ പാചകക്കാരുടെ വേതന പരിഷ്കരണം",
-    "description": "Revise wages or honorarium of school cooks.",
-    "trackingNote": "Track official order, revised amount, and first payment.",
-    "manifestoQuote": "Revise wages or honorarium of school cooks.",
-    "sector": {
-      "id": "s16",
-      "name": "Labour",
-      "nameMl": "തൊഴിൽ",
-      "icon": "briefcase",
-      "color": "#7C3AED"
-    },
-    "status": "in-progress",
-    "icon": "briefcase",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF manifesto; post-election cabinet announcements reported wage/honorarium hike."
-      },
-      {
-        "title": "Team Satheesan kicks off on a welfare note",
-        "url": "https://www.newindianexpress.com/states/kerala/2026/May/19/team-satheesan-kicks-off-on-a-welfare-note",
-        "publication": "The New Indian Express",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "In its inaugural cabinet meeting on May 18, 2026, the V.D. Satheesan-led UDF government approved an immediate ₹1,000 monthly honorarium increase for school midday meal cooks, along with Anganwadi staff, pre-primary teachers, and ayahs."
-      }
-    ],
-    "lastUpdated": "2026-05-30T02:59:00.763Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p28",
-    "slug": "benefits-for-scheme-workers-28",
-    "title": "Benefits for scheme workers",
-    "titleMl": "സ്കീം തൊഴിലാളികൾക്കുള്ള ആനുകൂല്യങ്ങൾ",
-    "description": "Improve remuneration, welfare, or benefit access for scheme workers.",
-    "trackingNote": "Track worker categories covered, benefit changes, welfare board linkage, and budget allocation.",
-    "manifestoQuote": "Improve remuneration, welfare, or benefit access for scheme workers.",
-    "sector": {
-      "id": "s16",
-      "name": "Labour",
-      "nameMl": "തൊഴിൽ",
-      "icon": "briefcase",
-      "color": "#7C3AED"
-    },
-    "status": "pending",
-    "icon": "briefcase",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p29",
-    "slug": "separate-agriculture-budget-29",
-    "title": "Separate agriculture budget",
-    "titleMl": "പ്രത്യേക കാർഷിക ബജറ്റ്",
-    "description": "Present a separate Agricultural Budget along with the State Budget.",
-    "trackingNote": "Track first state budget presentation and whether a separate agriculture budget document is tabled.",
-    "manifestoQuote": "Present a separate Agricultural Budget along with the State Budget.",
-    "sector": {
-      "id": "s17",
-      "name": "Agriculture",
-      "nameMl": "കൃഷി",
-      "icon": "tractor",
-      "color": "#22C55E"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p30",
-    "slug": "implement-swaminathan-commission-msp-recommendations-30",
-    "title": "Implement Swaminathan Commission MSP recommendations",
-    "titleMl": "സ്വാമിനാഥൻ കമ്മീഷൻ ശുപാർശകൾ നടപ്പിലാക്കൽ",
-    "description": "Implement M. S. Swaminathan Commission recommendations related to minimum support price.",
-    "trackingNote": "Track official MSP formula, state orders, crop coverage, and procurement rules.",
-    "manifestoQuote": "Implement M. S. Swaminathan Commission recommendations related to minimum support price.",
-    "sector": {
-      "id": "s17",
-      "name": "Agriculture",
-      "nameMl": "കൃഷി",
-      "icon": "tractor",
-      "color": "#22C55E"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p31",
-    "slug": "300-support-price-for-rubber-31",
-    "title": "₹300 support price for rubber",
-    "titleMl": "റബ്ബറിന് ₹300 തറവില",
-    "description": "Set or assure support/base price of ₹300 per kg for rubber.",
-    "trackingNote": "Track scheme order, eligibility, subsidy mechanism, and actual farmer payments.",
-    "manifestoQuote": "Set or assure support/base price of ₹300 per kg for rubber.",
-    "sector": {
-      "id": "s18",
-      "name": "Agriculture & Rubber",
-      "nameMl": "കൃഷിയും റബ്ബറും",
-      "icon": "tractor",
-      "color": "#16A34A"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p32",
-    "slug": "rubber-company-on-cial-model-32",
-    "title": "Rubber Company on CIAL model",
-    "titleMl": "CIAL മാതൃകയിൽ റബ്ബർ കമ്പനി",
-    "description": "Set up a Rubber Company on the CIAL model.",
-    "trackingNote": "Track company registration, ownership structure, capital allocation, and operational launch.",
-    "manifestoQuote": "Set up a Rubber Company on the CIAL model.",
-    "sector": {
-      "id": "s18",
-      "name": "Agriculture & Rubber",
-      "nameMl": "കൃഷിയും റബ്ബറും",
-      "icon": "tractor",
-      "color": "#16A34A"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p33",
-    "slug": "35-kg-paddy-procurement-price-33",
-    "title": "₹35/kg paddy procurement price",
-    "titleMl": "നെല്ലിന്റെ സംഭരണവില കിലോയ്ക്ക് ₹35 ആക്കൽ",
-    "description": "Fix paddy procurement price at ₹35 per kg.",
-    "trackingNote": "Track procurement order, season-wise rate, and farmer payment records.",
-    "manifestoQuote": "Fix paddy procurement price at ₹35 per kg.",
-    "sector": {
-      "id": "s19",
-      "name": "Agriculture & Paddy",
-      "nameMl": "കൃഷിയും നെല്ലും",
-      "icon": "tractor",
-      "color": "#15803D"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p34",
-    "slug": "direct-paddy-payment-to-farmers-34",
-    "title": "Direct paddy payment to farmers",
-    "titleMl": "കർഷകർക്ക് നെല്ല് സംഭരണ തുക നേരിട്ട് നൽകൽ",
-    "description": "Directly credit paddy procurement payments to farmers' bank accounts.",
-    "trackingNote": "Track payment mechanism, delay reduction, and direct bank transfer confirmation.",
-    "manifestoQuote": "Directly credit paddy procurement payments to farmers' bank accounts.",
-    "sector": {
-      "id": "s19",
-      "name": "Agriculture & Paddy",
-      "nameMl": "കൃഷിയും നെല്ലും",
-      "icon": "tractor",
-      "color": "#15803D"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p35",
-    "slug": "increase-coconut-support-price-35",
-    "title": "Increase coconut support price",
-    "titleMl": "തേങ്ങയുടെ തറവില വർദ്ധിപ്പിക്കൽ",
-    "description": "Increase support price for coconut.",
-    "trackingNote": "Track revised support price order and procurement/payment implementation.",
-    "manifestoQuote": "Increase support price for coconut.",
-    "sector": {
-      "id": "s20",
-      "name": "Agriculture & Coconut",
-      "nameMl": "കൃഷിയും നാളികേരവും",
-      "icon": "tractor",
-      "color": "#86EFAC"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p36",
-    "slug": "tender-coconut-procurement-centres-36",
-    "title": "Tender coconut procurement centres",
-    "titleMl": "കരിക്ക് സംഭരണ കേന്ദ്രങ്ങൾ",
-    "description": "Expand procurement centres for tender coconut.",
-    "trackingNote": "Track number of centres opened, districts covered, and procurement volumes.",
-    "manifestoQuote": "Expand procurement centres for tender coconut.",
-    "sector": {
-      "id": "s20",
-      "name": "Agriculture & Coconut",
-      "nameMl": "കൃഷിയും നാളികേരവും",
-      "icon": "tractor",
-      "color": "#86EFAC"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p37",
-    "slug": "cash-crops-under-agricultural-produce-37",
-    "title": "Cash crops under agricultural produce",
-    "titleMl": "നാണ്യവിളകളെ കാർഷിക വിളകളുടെ പരിധിയിൽ കൊണ്ടുവരൽ",
-    "description": "Pressure the Union Government to include cash crops under agricultural produce.",
-    "trackingNote": "Track official state memorandum, assembly resolution, or central-government correspondence.",
-    "manifestoQuote": "Pressure the Union Government to include cash crops under agricultural produce.",
-    "sector": {
-      "id": "s17",
-      "name": "Agriculture",
-      "nameMl": "കൃഷി",
-      "icon": "tractor",
-      "color": "#22C55E"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p38",
-    "slug": "resolve-migrant-farmers-land-issues-38",
-    "title": "Resolve migrant farmers' land issues",
-    "titleMl": "കുടിയേറ്റ കർഷകരുടെ ഭൂമി പ്രശ്നങ്ങൾ പരിഹരിക്കൽ",
-    "description": "Resolve migrant farmers' land-related issues in a time-bound manner.",
-    "trackingNote": "Track committee/order, affected areas, title/legal changes, and resolved cases.",
-    "manifestoQuote": "Resolve migrant farmers' land-related issues in a time-bound manner.",
-    "sector": {
-      "id": "s21",
-      "name": "Farmers & Land",
-      "nameMl": "കർഷകരും ഭൂമിയും",
-      "icon": "tractor",
-      "color": "#4ADE80"
-    },
-    "status": "pending",
-    "icon": "tractor",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p39",
-    "slug": "ai-drones-iot-for-wildlife-alerts-39",
-    "title": "AI/drones/IoT for wildlife alerts",
-    "titleMl": "വന്യജീവി ആക്രമണ മുന്നറിയിപ്പിന് എ.ഐ/ഡ്രോൺ/ഐ.ഓ.ടി സാങ്കേതികവിദ്യ",
-    "description": "Use drones, AI, and IoT systems for human-wildlife conflict alerts.",
-    "trackingNote": "Track pilot projects, technology deployment areas, alert systems, and incident reduction.",
-    "manifestoQuote": "Use drones, AI, and IoT systems for human-wildlife conflict alerts.",
-    "sector": {
-      "id": "s22",
-      "name": "Wildlife Conflict",
-      "nameMl": "വന്യജീവി ആക്രമണം",
-      "icon": "paw-print",
-      "color": "#0D9488"
-    },
-    "status": "pending",
-    "icon": "paw-print",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p40",
-    "slug": "increase-wildlife-attack-death-compensation-by-50-40",
-    "title": "Increase wildlife attack death compensation by 50%",
-    "titleMl": "വന്യജീവി ആക്രമണ മരണങ്ങൾക്കുള്ള നഷ്ടപരിഹാരം 50% വർദ്ധിപ്പിക്കൽ",
-    "description": "Increase compensation by 50% for deaths caused by wildlife attacks.",
-    "trackingNote": "Track revised compensation order and payments to affected families.",
-    "manifestoQuote": "Increase compensation by 50% for deaths caused by wildlife attacks.",
-    "sector": {
-      "id": "s22",
-      "name": "Wildlife Conflict",
-      "nameMl": "വന്യജീവി ആക്രമണം",
-      "icon": "paw-print",
-      "color": "#0D9488"
-    },
-    "status": "pending",
-    "icon": "paw-print",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-28T17:01:16.094Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p41",
-    "slug": "five-lakh-houses-in-five-years-41",
-    "title": "Five lakh houses in five years",
-    "titleMl": "അഞ്ച് വർഷത്തിനുള്ളിൽ അഞ്ച് ലക്ഷം വീടുകൾ",
-    "description": "Build five lakh houses over five years for landless and homeless families.",
-    "trackingNote": "Track annual target, houses sanctioned, houses completed, and beneficiary handover.",
-    "manifestoQuote": "Build five lakh houses over five years for landless and homeless families.",
-    "sector": {
-      "id": "s23",
-      "name": "Housing",
-      "nameMl": "ഭവനനിർമ്മാണം",
-      "icon": "home",
-      "color": "#B45309"
-    },
-    "status": "pending",
-    "icon": "home",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p42",
-    "slug": "review-or-reform-life-mission-42",
-    "title": "Review or reform LIFE Mission",
-    "titleMl": "ലൈഫ് മിഷൻ പദ്ധതി പുനഃപരിശോധിക്കുകയോ പരിഷ്കരിക്കുകയോ ചെയ്യൽ",
-    "description": "Review and reform the LIFE Mission housing scheme.",
-    "trackingNote": "Track review committee, revised guidelines, and integration with new housing promise.",
-    "manifestoQuote": "Review and reform the LIFE Mission housing scheme.",
-    "sector": {
-      "id": "s23",
-      "name": "Housing",
-      "nameMl": "ഭവനനിർമ്മാണം",
-      "icon": "home",
-      "color": "#B45309"
-    },
-    "status": "in-progress",
-    "icon": "home",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      },
-      {
-        "title": "LIFE Mission row: Minister denies scrapping scheme, says focus is on strengthening Grama Sabha powers",
-        "url": "https://www.newindianexpress.com/states/kerala/2026/May/25/life-mission-row-minister-denies-scrapping-scheme-says-focus-is-on-strengthening-grama-sabha-powers",
-        "publication": "The New Indian Express",
-        "date": "2026-05-25",
-        "tier": 3,
-        "summary": "LSGD Minister K. M. Shaji clarified that the newly elected UDF government has no plans to scrap the LIFE Mission housing project. Instead, the government will reform the scheme by restoring and strengthening the powers of grama panchayats and grama sabhas to select beneficiaries, aligning with the principles of Gandhian Gram Swaraj."
-      }
-    ],
-    "lastUpdated": "2026-05-25T09:04:33.933Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p43",
-    "slug": "mission-samudra-43",
-    "title": "Mission Samudra",
-    "titleMl": "മിഷൻ സമുദ്ര",
-    "description": "Launch Mission Samudra to integrate Kerala's coastline, rivers, lakes, ports, and maritime economy.",
-    "trackingNote": "Track mission document, nodal agency, budget, port/coastal projects, and implementation milestones.",
-    "manifestoQuote": "Launch Mission Samudra to integrate Kerala's coastline, rivers, lakes, ports, and maritime economy.",
-    "sector": {
-      "id": "s24",
-      "name": "Maritime Economy",
-      "nameMl": "സമുദ്ര സമ്പദ്‌വ്യവസ്ഥ",
-      "icon": "building",
-      "color": "#0F766E"
-    },
-    "status": "pending",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p44",
-    "slug": "integrated-water-transport-network-44",
-    "title": "Integrated water transport network",
-    "titleMl": "സംയോജിത ജലഗതാഗത ശൃംഖല",
-    "description": "Develop an integrated water transport network for cargo and passengers.",
-    "trackingNote": "Track routes, terminals, cargo/passenger service launch, and agency coordination.",
-    "manifestoQuote": "Develop an integrated water transport network for cargo and passengers.",
-    "sector": {
-      "id": "s25",
-      "name": "Water Transport",
-      "nameMl": "ജലഗതാഗതം",
-      "icon": "building",
-      "color": "#1D4ED8"
-    },
-    "status": "pending",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p45",
-    "slug": "high-speed-rail-corridor-with-centre-railways-45",
-    "title": "High-speed rail corridor with Centre/Railways",
-    "titleMl": "കേന്ദ്ര സർക്കാരുമായി ചേർന്ന് അതിവേഗ റെയിൽ ഇടനാഴി",
-    "description": "Develop a high-speed rail corridor in partnership with Indian Railways and the Union Government.",
-    "trackingNote": "Track DPR, Centre-state agreement, railway approval, and project funding.",
-    "manifestoQuote": "Develop a high-speed rail corridor in partnership with Indian Railways and the Union Government.",
-    "sector": {
-      "id": "s26",
-      "name": "Rail Infrastructure",
-      "nameMl": "റെയിൽ അടിസ്ഥാന സൗകര്യങ്ങൾ",
-      "icon": "building",
-      "color": "#475569"
-    },
-    "status": "pending",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p46",
-    "slug": "metro-light-metro-in-thiruvananthapuram-46",
-    "title": "Metro/Light Metro in Thiruvananthapuram",
-    "titleMl": "തിരുവനന്തപുരത്ത് മെട്രോ/ലൈറ്റ് മെട്രോ പദ്ധതി",
-    "description": "Launch Metro or Light Metro rail system in Thiruvananthapuram.",
-    "trackingNote": "Track DPR approval, funding, land acquisition, tendering, and construction start.",
-    "manifestoQuote": "Launch Metro or Light Metro rail system in Thiruvananthapuram.",
-    "sector": {
-      "id": "s27",
-      "name": "Urban Transport",
-      "nameMl": "നഗര ഗതാഗതം",
-      "icon": "building",
-      "color": "#2563EB"
-    },
-    "status": "in-progress",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      },
-      {
-        "title": "UDF's 'Vision 2031' Roadmap Pledges Light Metro Projects in Thiruvananthapuram and Kozhikode",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/23/udf-government-unveils-vision-2031-policy-roadmap-for-kerala.html",
-        "publication": "Onmanorama / The Hindu",
-        "date": "2026-05-25",
-        "tier": 3,
-        "summary": "The UDF government's 'Vision 2031' development policy roadmap, announced on May 25, 2026, formally incorporates the launch and swift implementation of metro and light metro projects in Thiruvananthapuram and Kozhikode."
-      }
-    ],
-    "lastUpdated": "2026-05-26T13:21:17.706Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p47",
-    "slug": "metro-light-metro-in-kozhikode-47",
-    "title": "Metro/Light Metro in Kozhikode",
-    "titleMl": "കോഴിക്കോട്ട് മെട്രോ/ലൈറ്റ് മെട്രോ പദ്ധതി",
-    "description": "Launch Metro or Light Metro rail system in Kozhikode.",
-    "trackingNote": "Track DPR approval, funding, land acquisition, tendering, and construction start.",
-    "manifestoQuote": "Launch Metro or Light Metro rail system in Kozhikode.",
-    "sector": {
-      "id": "s27",
-      "name": "Urban Transport",
-      "nameMl": "നഗര ഗതാഗതം",
-      "icon": "building",
-      "color": "#2563EB"
-    },
-    "status": "in-progress",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      },
-      {
-        "title": "UDF's 'Vision 2031' Roadmap Pledges Light Metro Projects in Thiruvananthapuram and Kozhikode",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/23/udf-government-unveils-vision-2031-policy-roadmap-for-kerala.html",
-        "publication": "Onmanorama / The Hindu",
-        "date": "2026-05-25",
-        "tier": 3,
-        "summary": "The UDF government's 'Vision 2031' development policy roadmap, announced on May 25, 2026, formally incorporates the launch and swift implementation of metro and light metro projects in Thiruvananthapuram and Kozhikode."
-      }
-    ],
-    "lastUpdated": "2026-05-26T13:21:17.706Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p48",
-    "slug": "denotify-silverline-land-48",
-    "title": "Denotify SilverLine land",
-    "titleMl": "സിൽവർലൈൻ ഭൂമി ഏറ്റെടുക്കൽ വിജ്ഞാപനം റദ്ദാക്കൽ",
-    "description": "Denotify land acquired or notified for the SilverLine semi-high-speed rail project.",
-    "trackingNote": "Track official denotification orders and affected survey numbers/land parcels.",
-    "manifestoQuote": "Denotify land acquired or notified for the SilverLine semi-high-speed rail project.",
-    "sector": {
-      "id": "s28",
-      "name": "SilverLine",
-      "nameMl": "സിൽവർലൈൻ",
-      "icon": "check-circle-2",
-      "color": "#E11D48"
-    },
-    "status": "fulfilled",
-    "icon": "check-circle-2",
-    "sources": [
-      {
-        "title": "Kerala’s UDF government scraps K-Rail project launched by LDF",
-        "url": "https://www.thehindu.com/news/national/kerala/keralas-udf-govt-scraps-k-rail-project-launched-by-ldf/article71001199.ece",
-        "publication": "The Hindu",
-        "date": "2026-05-20",
-        "tier": 3,
-        "summary": "The new Kerala Cabinet decided to scrap the controversial SilverLine (K-Rail) project due to environmental and financial unviability, ordering the removal of boundary survey stones and denotification of lands."
-      },
-      {
-        "title": "UDF government cancels Kerala SilverLine project, to remove survey markers, withdraw protest cases",
-        "url": "https://indianexpress.com/article/india/udf-govt-cancels-kerala-silverline-project-remove-survey-markers-protest-10699431/",
-        "publication": "The Indian Express",
-        "date": "2026-05-25",
-        "tier": 3,
-        "summary": "The Kerala Revenue Department issued formal orders cancelling the land acquisition notifications previously published for the SilverLine rail project across various districts, fulfilling the land denotification promise."
-      },
-      {
-        "title": "Kerala Governor's policy address to the 16th Legislative Assembly outlines welfare guarantees",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/29/kerala-governor-policy-address-16th-assembly.html",
-        "publication": "Onmanorama",
-        "date": "2026-05-29",
-        "tier": 2,
-        "summary": "The Governor's assembly policy address formally confirmed the newly elected government's decision to scrap the controversial SilverLine (K-Rail) project, denotify all acquired lands, and withdraw protest cases."
-      }
-    ],
-    "lastUpdated": "2026-05-30T02:59:00.767Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p49",
-    "slug": "do-not-implement-silverline-49",
-    "title": "Do not implement SilverLine",
-    "titleMl": "സിൽവർലൈൻ പദ്ധതി പൂർണ്ണമായും ഉപേക്ഷിക്കൽ",
-    "description": "Scrap or not implement the SilverLine semi-high-speed rail project.",
-    "trackingNote": "Mark Fulfilled only after official cancellation/withdrawal of project approvals and land notifications.",
-    "manifestoQuote": "Scrap or not implement the SilverLine semi-high-speed rail project.",
-    "sector": {
-      "id": "s28",
-      "name": "SilverLine",
-      "nameMl": "സിൽവർലൈൻ",
-      "icon": "check-circle-2",
-      "color": "#E11D48"
-    },
-    "status": "fulfilled",
-    "icon": "check-circle-2",
-    "sources": [
-      {
-        "title": "Kerala’s UDF government scraps K-Rail project launched by LDF",
-        "url": "https://www.thehindu.com/news/national/kerala/keralas-udf-govt-scraps-k-rail-project-launched-by-ldf/article71001199.ece",
-        "publication": "The Hindu",
-        "date": "2026-05-20",
-        "tier": 3,
-        "summary": "On May 20, 2026, the Kerala Cabinet officially scrapped the SilverLine (K-Rail) project due to lack of central government clearance, financial unviability, and strong public protests, successfully fulfilling the UDF's core pledge."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:09:39.069Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p50",
-    "slug": "comprehensive-aviation-plan-50",
-    "title": "Comprehensive aviation plan",
-    "titleMl": "സമഗ്ര വ്യോമയാന പദ്ധതി",
-    "description": "Prepare and implement a comprehensive aviation plan for Kerala.",
-    "trackingNote": "Track policy document, airport development plans, route incentives, and budget support.",
-    "manifestoQuote": "Prepare and implement a comprehensive aviation plan for Kerala.",
-    "sector": {
-      "id": "s29",
-      "name": "Aviation",
-      "nameMl": "വ്യോമയാനം",
-      "icon": "building",
-      "color": "#0284C7"
-    },
-    "status": "pending",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p51",
-    "slug": "second-runway-at-kochi-airport-51",
-    "title": "Second runway at Kochi Airport",
-    "titleMl": "കൊച്ചി വിമാനത്താവളത്തിൽ രണ്ടാം റൺവേ",
-    "description": "Develop a second runway at Kochi Airport.",
-    "trackingNote": "Track feasibility, land acquisition, CIAL board decision, approvals, and construction.",
-    "manifestoQuote": "Develop a second runway at Kochi Airport.",
-    "sector": {
-      "id": "s29",
-      "name": "Aviation",
-      "nameMl": "വ്യോമയാനം",
-      "icon": "building",
-      "color": "#0284C7"
-    },
-    "status": "pending",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p52",
-    "slug": "expand-kannur-airport-terminal-and-apron-52",
-    "title": "Expand Kannur Airport terminal and apron",
-    "titleMl": "കണ്ണൂർ വിമാനത്താവള ടെർമിനലും ഏപ്രണും വികസിപ്പിക്കൽ",
-    "description": "Expand terminal and apron facilities at Kannur Airport.",
-    "trackingNote": "Track airport expansion plan, funding, tender, and completion.",
-    "manifestoQuote": "Expand terminal and apron facilities at Kannur Airport.",
-    "sector": {
-      "id": "s29",
-      "name": "Aviation",
-      "nameMl": "വ്യോമയാനം",
-      "icon": "building",
-      "color": "#0284C7"
-    },
-    "status": "pending",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p53",
-    "slug": "mro-centres-53",
-    "title": "MRO centres",
-    "titleMl": "എം.ആർ.ഓ (മെയിന്റനൻസ്, റിപ്പയർ & ഓവർഹോൾ) കേന്ദ്രങ്ങൾ",
-    "description": "Establish Maintenance, Repair and Overhaul/Operations centres in Kerala.",
-    "trackingNote": "Track location, investor/agency, approvals, construction, and operational launch.",
-    "manifestoQuote": "Establish Maintenance, Repair and Overhaul/Operations centres in Kerala.",
-    "sector": {
-      "id": "s30",
-      "name": "Aviation & Industry",
-      "nameMl": "വ്യോമയാനവും വ്യവസായവും",
-      "icon": "building",
-      "color": "#0369A1"
-    },
-    "status": "pending",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p54",
-    "slug": "route-development-and-connectivity-fund-54",
-    "title": "Route Development and Connectivity Fund",
-    "titleMl": "റൂട്ട് ഡെവലപ്‌മെന്റ് ആൻഡ് കണക്റ്റിവിറ്റി ഫണ്ട്",
-    "description": "Create a Route Development and Connectivity Fund to support new flight routes.",
-    "trackingNote": "Track fund creation, allocation, routes supported, and airline participation.",
-    "manifestoQuote": "Create a Route Development and Connectivity Fund to support new flight routes.",
-    "sector": {
-      "id": "s29",
-      "name": "Aviation",
-      "nameMl": "വ്യോമയാനം",
-      "icon": "building",
-      "color": "#0284C7"
-    },
-    "status": "pending",
-    "icon": "building",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p55",
-    "slug": "wayanad-tribal-university-55",
-    "title": "Wayanad Tribal University",
-    "titleMl": "വയനാട് ട്രൈബൽ യൂണിവേഴ്സിറ്റി",
-    "description": "Construct or establish a dedicated university in Wayanad focused on tribal communities' social, educational, and cultural development.",
-    "trackingNote": "Track university act/bill, land, budget, academic plan, and admissions.",
-    "manifestoQuote": "Construct or establish a dedicated university in Wayanad focused on tribal communities' social, educational, and cultural development.",
-    "sector": {
-      "id": "s31",
-      "name": "Education & Tribal Welfare",
-      "nameMl": "വിദ്യാഭ്യാസവും ഗോത്രവർഗ്ഗ ക്ഷേമവും",
-      "icon": "shield-check",
-      "color": "#BE185D"
+      "id": "s1",
+      "name": "Women & Welfare",
+      "nameTa": "பெண்கள் & நலன்",
+      "icon": "users",
+      "color": "#EC4899"
     },
     "status": "pending",
     "icon": "shield-check",
     "sources": [
       {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
-      }
-    ],
-    "lastUpdated": "2026-05-28T17:01:16.094Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p56",
-    "slug": "independent-state-vigilance-commission-56",
-    "title": "Independent State Vigilance Commission",
-    "titleMl": "സ്വതന്ത്ര സംസ്ഥാന വിജിലൻസ് കമ്മീഷൻ",
-    "description": "Set up an independent State Vigilance Commission to strengthen anti-corruption mechanisms.",
-    "trackingNote": "Track bill/order, commission structure, appointment process, powers, and operational status.",
-    "manifestoQuote": "Set up an independent State Vigilance Commission to strengthen anti-corruption mechanisms.",
-    "sector": {
-      "id": "s32",
-      "name": "Governance",
-      "nameMl": "ഭരണം",
-      "icon": "landmark",
-      "color": "#374151"
-    },
-    "status": "in-progress",
-    "icon": "landmark",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
-      },
-      {
-        "title": "UDF's 'Vision 2031' Roadmap Focuses on Anti-Corruption, Proposes Independent State Vigilance Commission",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/23/udf-government-unveils-vision-2031-policy-roadmap-for-kerala.html",
-        "publication": "Onmanorama / The Hindu",
-        "date": "2026-05-25",
-        "tier": 3,
-        "summary": "As part of its 'Vision 2031' policy plan presented on May 25, 2026, the UDF government announced plans to establish an independent State Vigilance Commission, to be headed by a sitting High Court judge, as part of an effort to strengthen anti-corruption systems."
-      },
-      {
-        "title": "Home Minister Chennithala launches 'Project Zero' anti-corruption initiative",
-        "url": "https://www.thehindu.com/news/national/kerala/project-zero-anti-corruption-kerala-2026",
-        "publication": "The Hindu / The Statesman / Onmanorama",
-        "date": "2026-05-26",
-        "tier": 2,
-        "summary": "Home Minister Ramesh Chennithala launched 'Project Zero', a major anti-corruption initiative with zero-tolerance policy. Key features include ₹5,000 rewards for citizens providing verifiable video evidence of corruption, whistleblower identity protection, digital complaint systems, AI-assisted monitoring, comprehensive revision of the 1969 Vigilance Manual, and increased trap cases and surprise inspections."
-      },
-      {
-        "title": "First Project Zero arrest: DySP caught accepting ₹50,000 bribe in Alappuzha",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/27/project-zero-first-arrest-dysp-bribe.html",
-        "publication": "Onmanorama / Kerala Kaumudi / PTI",
-        "date": "2026-05-27",
-        "tier": 3,
-        "summary": "In the first case under Project Zero, DySP T. Anilkumar of Cherthala, Alappuzha was arrested by the Kerala Vigilance and Anti-Corruption Bureau (VACB) for accepting a ₹50,000 bribe (first installment of a ₹2 lakh demand) from a waste management firm owner. He attempted to flee by jumping from the first floor of his villa but was overpowered and remanded to judicial custody."
-      }
-    ],
-    "lastUpdated": "2026-05-28T17:01:16.094Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p57",
-    "slug": "ai-driven-auditing-tools-57",
-    "title": "AI-driven auditing tools",
-    "titleMl": "എ.ഐ അധിഷ്ഠിത ഓഡിറ്റിംഗ് ഉപകരണങ്ങൾ",
-    "description": "Deploy AI-driven auditing tools to improve transparency and governance.",
-    "trackingNote": "Track procurement, departments covered, audit reports generated, and public disclosure.",
-    "manifestoQuote": "Deploy AI-driven auditing tools to improve transparency and governance.",
-    "sector": {
-      "id": "s33",
-      "name": "Governance & Technology",
-      "nameMl": "ഭരണവും സാങ്കേതികവിദ്യയും",
-      "icon": "landmark",
-      "color": "#4B5563"
-    },
-    "status": "in-progress",
-    "icon": "landmark",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
-      },
-      {
-        "title": "Project Zero incorporates AI-assisted monitoring and digital complaint systems",
-        "url": "https://www.thehindu.com/news/national/kerala/project-zero-anti-corruption-kerala-2026",
-        "publication": "The Hindu / Deccan Chronicle",
-        "date": "2026-05-26",
-        "tier": 3,
-        "summary": "The Project Zero anti-corruption initiative launched on May 26, 2026 includes AI-assisted monitoring systems and digital complaint platforms as core components, marking the first concrete step toward the manifesto promise of AI-driven auditing tools for governance transparency."
-      }
-    ],
-    "lastUpdated": "2026-05-28T17:01:16.094Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p58",
-    "slug": "create-10-000-enterprises-58",
-    "title": "Create 10,000 enterprises",
-    "titleMl": "പതിനായിരം സംരംഭങ്ങൾ ആരംഭിക്കൽ",
-    "description": "Support creation of 10,000 enterprises as part of economic and employment generation initiatives.",
-    "trackingNote": "Track scheme details, enterprises registered, jobs created, and survival rate.",
-    "manifestoQuote": "Support creation of 10,000 enterprises as part of economic and employment generation initiatives.",
-    "sector": {
-      "id": "s34",
-      "name": "Industry & Employment",
-      "nameMl": "വ്യവസായവും തൊഴിലും",
-      "icon": "briefcase",
-      "color": "#6D28D9"
-    },
-    "status": "pending",
-    "icon": "briefcase",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF manifesto media summary."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
-  },
-  {
-    "id": "p59",
-    "slug": "financial-white-paper-on-keralas-economy-59",
-    "title": "Financial White Paper on Kerala's Economy",
-    "titleMl": "ധനകാര്യ ധവളപത്രം",
-    "description": "On May 19, 2026, the Chief Minister chaired a high-level meeting with top finance officials and appointed an expert panel headed by former Cabinet Secretary K.M. Chandrasekhar. This study is the mandatory first step required before the UDF can budget money for its expensive social promises or mathematically dismantle the K-Rail SilverLine project.",
-    "manifestoQuote": "Publish a comprehensive Financial White Paper on Kerala's Economy to assess the state's fiscal health.",
-    "sector": {
-      "id": "s32",
-      "name": "Governance",
-      "nameMl": "ഭരണം",
-      "icon": "landmark",
-      "color": "#374151"
-    },
-    "status": "in-progress",
-    "icon": "landmark",
-    "sources": [
-      {
-        "title": "Kerala's UDF govt forms expert panel to prepare White Paper on State finances",
-        "url": "https://www.thehindu.com/news/national/kerala/keralas-udf-govt-forms-expert-panel-to-prepare-white-paper-on-state-finances/article70997441.ece",
-        "publication": "The Hindu",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "On May 19, 2026, the newly sworn-in UDF government in Kerala constituted an expert committee chaired by former Cabinet Secretary K.M. Chandrasekhar to prepare a comprehensive White Paper on the state’s financial situation, off-budget borrowings, and liabilities."
-      },
-      {
-        "title": "CM Satheesan meets PM Modi; White Paper to be released first week of June",
-        "url": "https://www.newindianexpress.com/states/kerala/2026/may/26/cm-satheesan-meets-pm-modi-fiscal-issues",
-        "publication": "The New Indian Express / Onmanorama",
-        "date": "2026-05-26",
-        "tier": 3,
-        "summary": "CM Satheesan held his first official meeting with PM Modi and FM Sitharaman after taking office. He requested that ₹5,580 crore spent on NH land acquisition be excluded from Kerala's net borrowing ceiling, and discussed Centre-State fiscal relations. The Financial White Paper is expected in the first week of June 2026. The expert committee is chaired by Dr. K.M. Chandrasekhar (former Cabinet Secretary) with K.R. Jyothilal as Convener, and includes economists Dr. D. Narayana and Dr. C. Veeramani."
-      },
-      {
-        "title": "Kerala Governor's policy address to the 16th Legislative Assembly outlines welfare guarantees",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/29/kerala-governor-policy-address-16th-assembly.html",
-        "publication": "Onmanorama",
-        "date": "2026-05-29",
-        "tier": 2,
-        "summary": "The Governor's policy address confirmed the constitution of the expert panel chaired by Dr. K.M. Chandrasekhar to prepare a financial white paper to study the state's economic health and liabilities."
-      }
-    ],
-    "lastUpdated": "2026-05-30T02:59:00.768Z",
-    "createdAt": "2026-05-20T07:09:21.704Z"
-  },
-  {
-    "id": "p60",
-    "slug": "honorarium-hike-for-pre-primary-school-teachers-and-ayahs-60",
-    "title": "Honorarium hike for pre-primary school teachers and ayahs",
-    "titleMl": "പ്രീ-പ്രൈമറി അധ്യാപകർക്കും ആയാമാർക്കും ഓണറേറിയം വർദ്ധനവ്",
-    "description": "During the inaugural Cabinet meet on May 18, this group was officially grouped alongside school midday meal cooks to receive an immediate ₹1,000 monthly honorarium hike.",
-    "manifestoQuote": "Revise wages and honorarium for pre-primary school teachers and ayahs across the state.",
-    "sector": {
-      "id": "s16",
-      "name": "Labour",
-      "nameMl": "തൊഴിൽ",
-      "icon": "briefcase",
-      "color": "#7C3AED"
-    },
-    "status": "in-progress",
-    "icon": "briefcase",
-    "sources": [
-      {
-        "title": "Kerala HC sets aside order enhancing honorarium of pre-primary teachers, ayahs",
-        "url": "https://timesofindia.indiatimes.com/city/kochi/kerala-hc-sets-aside-order-enhancing-honorarium-of-pre-primary-teachers-ayahs/amp_articleshow/131333331.cms",
-        "publication": "Times of India",
-        "date": "2026-05-26",
-        "tier": 3,
-        "summary": "A division bench of the Kerala High Court set aside a single bench order directing the state to enhance pre-primary staff honorariums, directing the state to fix an ad-hoc honorarium and service conditions."
-      }
-    ],
-    "lastUpdated": "2026-05-20T07:09:21.704Z",
-    "createdAt": "2026-05-20T07:09:21.704Z"
-  },
-  {
-    "id": "p61",
-    "slug": "legalizing-safe-vehicle-modifications-61",
-    "title": "Legalizing safe vehicle modifications",
-    "titleMl": "സുരക്ഷിതമായ വാഹന രൂപമാറ്റങ്ങൾ നിയമവിധേയമാക്കൽ",
-    "description": "Manifesto promised to permit non-hazardous vehicle customization. Chief Minister V.D. Satheesan reaffirmed the commitment right after the swearing-in ceremony, stating 'If we have promised to legalize, it will be done.'",
-    "manifestoQuote": "Permit non-hazardous vehicle customization and relax Motor Vehicle Department (MVD) rules for non-dangerous structural or cosmetic modifications.",
-    "sector": {
-      "id": "s35",
-      "name": "Youth & Transport",
-      "nameMl": "യുവജനങ്ങളും ഗതാഗതവും",
-      "icon": "hardhat",
-      "color": "#F97316"
-    },
-    "status": "pending",
-    "icon": "hardhat",
-    "sources": [
-      {
-        "title": "UDF Manifesto Commitment: Vehicle modifications to be legalized",
-        "url": "https://m.dailyhunt.in/news/india/english/mathrubhumi+english-epaper-mtbumien/let+kids+modify+kerala+cm+vd+satheesan+restates+viral+reel+promise+on+vehicle+modifications-newsid-n712681340",
-        "publication": "Mathrubhumi English",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "Manifesto promised to permit non-hazardous vehicle customization."
-      },
-      {
-        "title": "CM VD Satheesan Reaffirms Safe Vehicle Customization Commitment",
-        "url": "https://www.livemint.com/news/india/kerala-chief-minister-vd-satheesan-s-response-to-question-on-vehicle-modification-11779198382825.html",
-        "publication": "Livemint",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "Right after the swearing-in ceremony, CM V.D. Satheesan reaffirmed the commitment, stating: 'If we have promised to legalize, it will be done.'"
-      },
-      {
-        "title": "Kerala CM Satheesan's Viral 'Pookie CM' Response to Vehicle Modification Promise",
-        "url": "https://indianexpress.com/article/india/kerala-cm-vd-satheesan-pookie-cm-viral-response-vehicle-modification-promise-10700023/",
-        "publication": "Indian Express",
-        "date": "2026-05-20",
+        "title": "Dedicated Department for Safety of Women, Children, and Elderly",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
         "tier": 1,
-        "summary": "CM V.D. Satheesan's candid response to the vehicle modification legalization question went viral, with his statement 'If we have promised to legalise it, it will be done' earning him the nickname 'PookieCM' online."
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      },
+      {
+        "title": "Tamil Nadu ministries — Vijay keeps Home, full list of portfolios",
+        "url": "https://www.ndtv.com/india-news/tamil-nadu-ministries-vijay-keeps-home-changes-finance-full-list-11526929",
+        "publication": "NDTV",
+        "date": "2026-05-16",
+        "tier": 3,
+        "summary": "Full list of Tamil Nadu cabinet portfolio allocations following the May 21-22 cabinet expansion to 35 ministers."
       }
     ],
-    "lastUpdated": "2026-05-27T08:57:57.394Z",
-    "createdAt": "2026-05-20T07:09:28.148Z"
+    "lastUpdated": "2026-05-16T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   },
   {
-    "id": "p62",
-    "slug": "kpsc-rank-list-extension-62",
-    "title": "KPSC Rank List Extension",
-    "titleMl": "പി.എസ്.സി റാങ്ക് ലിസ്റ്റ് കാലാവധി നീട്ടൽ",
-    "description": "Cabinet recommended that the validity of all Kerala Public Service Commission (KPSC) rank lists expiring on or before August 31, 2026, be extended until November 30, 2026, to assist job aspirants whose appointments were delayed by election notifications.",
-    "trackingNote": "Track the formal approval and notification by the Kerala Public Service Commission (KPSC) and the list of specific job categories benefited.",
-    "manifestoQuote": "Ensure timely recruitment processes and protect job seekers' interests from delays caused by administrative and election procedures.",
+    "id": "p24",
+    "slug": "madhippumigu-magalir-2500-monthly-24",
+    "title": "Madhippumigu Magalir Thittam — ₹2,500/month to women heads of families",
+    "titleTa": "மதிப்புமிகு மகளிர் திட்டம் — குடும்பத் தலைவிகளுக்கு மாதம் ₹2,500",
+    "description": "Monthly assistance of ₹2,500 to all women heads of families up to age 60, excluding families of state and central government employees.",
+    "trackingNote": null,
+    "manifestoQuote": "A monthly assistance of ₹2,500 will be provided to all women heads of families up to the age of 60, excluding government employee families.",
+    "sector": {
+      "id": "s1",
+      "name": "Women & Welfare",
+      "nameTa": "பெண்கள் & நலன்",
+      "icon": "users",
+      "color": "#EC4899"
+    },
+    "status": "pending",
+    "icon": "heart-handshake",
+    "sources": [
+      {
+        "title": "Madhippumigu Magalir Thittam",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p25",
+    "slug": "annapoorani-super-six-lpg-25",
+    "title": "Annapoorani Super Six — 6 free LPG cylinders per family per year",
+    "titleTa": "அன்னபூரணி சூப்பர் சிக்ஸ் — வருடம் 6 இலவச கேஸ் சிலிண்டர்",
+    "description": "Six LPG (cooking gas) cylinders provided free of cost to every family per year under the Annapoorani Super Six scheme.",
+    "trackingNote": null,
+    "manifestoQuote": "Under this scheme, each family will receive six LPG cylinders per year free of cost — a gesture of gratitude towards the mothers who have nurtured and raised us.",
+    "sector": {
+      "id": "s4",
+      "name": "Social Security",
+      "nameTa": "சமூக பாதுகாப்பு",
+      "icon": "shield",
+      "color": "#8B5CF6"
+    },
+    "status": "pending",
+    "icon": "flame",
+    "sources": [
+      {
+        "title": "Annapoorani Super Six Scheme",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p26",
+    "slug": "annan-seer-8g-gold-silk-saree-26",
+    "title": "Annan Seer Thittam — 8g gold + silk saree for sisters' marriage",
+    "titleTa": "அண்ணன் சீர் திட்டம் — திருமணத்திற்கு 8 கிராம் தங்கம் + பட்டுச்சேலை",
+    "description": "For the marriage of women, eight grams (one sovereign) of gold and a quality silk saree provided as a 'brother's gift' (Annan Seer) from the government.",
+    "trackingNote": null,
+    "manifestoQuote": "For the marriage of our sisters, eight grams of gold (one sovereign) and a quality silk saree will be provided as a brother's gift from the TVK government.",
+    "sector": {
+      "id": "s1",
+      "name": "Women & Welfare",
+      "nameTa": "பெண்கள் & நலன்",
+      "icon": "users",
+      "color": "#EC4899"
+    },
+    "status": "pending",
+    "icon": "gift",
+    "sources": [
+      {
+        "title": "Annan Seer Thittam",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p27",
+    "slug": "anjalai-ammal-fast-track-courts-27",
+    "title": "Anjalai Ammal Fast-Track Women's Courts",
+    "titleTa": "அஞ்சலை அம்மாள் அதிவிரைவு பெண்கள் நீதிமன்றங்கள்",
+    "description": "Establishment of 'Anjalai Ammal Fast-Track Women's Courts' to ensure swift justice in cases of crimes against women, eliminating backlogs and ensuring speedy investigation and judgments.",
+    "trackingNote": null,
+    "manifestoQuote": "Anjalai Ammal Fast-Track Women's Courts will be established to ensure swift justice in cases of crimes against women, eliminating case backlogs.",
+    "sector": {
+      "id": "s8",
+      "name": "Law & Order",
+      "nameTa": "சட்டம் & ஒழுங்கு",
+      "icon": "shield",
+      "color": "#EF4444"
+    },
+    "status": "pending",
+    "icon": "scale",
+    "sources": [
+      {
+        "title": "Anjalai Ammal Fast Track Women's Courts",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p28",
+    "slug": "zero-dark-spots-panic-buttons-cctv-28",
+    "title": "Zero Dark Spots — panic buttons + CCTV + 24/7 command centres",
+    "titleTa": "ஜீரோ டார்க் ஸ்பாட்ஸ் — பேனிக் பட்டன் + சிசிடிவி + கட்டளை மையம்",
+    "description": "Emergency panic buttons in all public transport vehicles (including private share autos) connected to a 24/7 Centralized Command Centre with 5-minute response guarantee. Comprehensive CCTV network to eliminate 'dark spots' statewide.",
+    "trackingNote": null,
+    "manifestoQuote": "Emergency panic buttons will be installed in all public transport connected to a 24/7 Command Centre. A response within five minutes will be ensured. Zero Dark Spots — no area will remain unmonitored.",
+    "sector": {
+      "id": "s1",
+      "name": "Women & Welfare",
+      "nameTa": "பெண்கள் & நலன்",
+      "icon": "users",
+      "color": "#EC4899"
+    },
+    "status": "pending",
+    "icon": "camera",
+    "sources": [
+      {
+        "title": "Zero Dark Spots initiative",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p29",
+    "slug": "free-sanitary-pads-ration-shops-schools-29",
+    "title": "Free sanitary pads through ration shops, schools, and colleges",
+    "titleTa": "ரேஷன் கடைகள், பள்ளி, கல்லூரிகளில் இலவச சானிட்டரி பேட்ஸ்",
+    "description": "Free sanitary pads provided to all women through public distribution points (ration shops) and educational institutions (schools and colleges) across Tamil Nadu.",
+    "trackingNote": null,
+    "manifestoQuote": "Free sanitary pads will be provided to all women through ration shops, schools and colleges, ensuring access during essential times.",
+    "sector": {
+      "id": "s1",
+      "name": "Women & Welfare",
+      "nameTa": "பெண்கள் & நலன்",
+      "icon": "users",
+      "color": "#EC4899"
+    },
+    "status": "pending",
+    "icon": "heart",
+    "sources": [
+      {
+        "title": "Free Sanitary Pads Scheme",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p30",
+    "slug": "thaai-maaman-gold-ring-baby-kit-30",
+    "title": "Thaai Maaman Gold Ring — gold ring + Baby Welcome Kit for every newborn",
+    "titleTa": "தாய்மாமன் தங்க மோதிரம் திட்டம் — பிறந்த குழந்தைக்கு தங்க மோதிரம்",
+    "description": "A gold ring gifted to every newborn in Tamil Nadu as a government blessing, accompanied by a Baby Welcome Kit containing nutritional supplements, clothing, baby care products, mosquito net, toys, napkins, and diapers.",
+    "trackingNote": null,
+    "manifestoQuote": "Each newborn will receive a gold ring as the government's blessing, along with a Baby Welcome Kit containing nutritional supplements, baby clothing, soaps, oil, powder, mosquito nets, toys, and diapers.",
+    "sector": {
+      "id": "s4",
+      "name": "Social Security",
+      "nameTa": "சமூக பாதுகாப்பு",
+      "icon": "shield",
+      "color": "#8B5CF6"
+    },
+    "status": "pending",
+    "icon": "gift",
+    "sources": [
+      {
+        "title": "Thaai Maaman Gold Ring Scheme",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p31",
+    "slug": "tn-recruitment-365day-act-31",
+    "title": "TN Recruitment Accountability Act — 365-day recruitment cycle",
+    "titleTa": "தமிழ்நாடு ஆட்சேர்ப்பு வெளிப்படைத்தன்மை சட்டம் — 365 நாள்",
+    "description": "A statutory law establishing a 365-day maximum timeline to complete the full recruitment cycle for all Tamil Nadu government jobs, preventing indefinite delays in appointment.",
+    "trackingNote": null,
+    "manifestoQuote": "A statutory timeline of 365 days will be established to complete the recruitment cycle for Tamil Nadu government jobs, ensuring no delays in appointments.",
+    "sector": {
+      "id": "s7",
+      "name": "Governance & Admin",
+      "nameTa": "நிர்வாகம் & ஆட்சி",
+      "icon": "landmark",
+      "color": "#6366F1"
+    },
+    "status": "pending",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "Tamil Nadu Recruitment Accountability and Transparency Act",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p32",
+    "slug": "vettri-skill-training-5lakh-internships-32",
+    "title": "Vettri Skill Training — 5 lakh stipend internships per year",
+    "titleTa": "வெற்றி தொழில் பயிற்சி உத்தரவாதம் — ஆண்டுதோறும் 5 லட்சம் இன்டர்ன்ஷிப்",
+    "description": "Annual stipend-based internship training for 5 lakh youth in collaboration with private companies. Graduates receive ₹10,000/month; ITI and diploma holders receive ₹8,000/month, fully funded by the state government.",
+    "trackingNote": null,
+    "manifestoQuote": "Every year, 5 lakh youth will receive stipend-based internship training. Graduates: ₹10,000/month; ITI/diploma holders: ₹8,000/month — funded by the state government.",
     "sector": {
       "id": "s5",
       "name": "Youth & Employment",
-      "nameMl": "യുവജനങ്ങളും തൊഴിലും",
-      "icon": "users",
-      "color": "#6366F1"
+      "nameTa": "இளைஞர் & வேலைவாய்ப்பு",
+      "icon": "briefcase",
+      "color": "#F59E0B"
     },
-    "status": "fulfilled",
-    "icon": "users",
+    "status": "pending",
+    "icon": "briefcase",
     "sources": [
       {
-        "title": "Kerala Cabinet recommends extension of PSC rank lists' validity",
-        "url": "https://www.thehindu.com/news/national/kerala/keralas-udf-governments-100-day-action-plan-from-june-1/article71001656.ece",
-        "publication": "The Hindu",
-        "date": "2026-05-20",
-        "tier": 3,
-        "summary": "On May 20, 2026, the newly elected Kerala Cabinet recommended extending the validity of all PSC rank lists expiring on or before August 31, 2026, until November 30, 2026, to support job aspirants whose recruitment was delayed by the election notifications."
-      },
-      {
-        "title": "Kerala Cabinet decides to extend PSC rank lists expiring in August",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/20/silverline-project-scrapped-land-acquisition-orders-denotified.html",
-        "publication": "Onmanorama",
-        "date": "2026-05-20",
-        "tier": 3,
-        "summary": "During its meeting on May 20, 2026, the Kerala Cabinet announced an extension of the validity of KPSC rank lists expiring on or before August 31, 2026, until November 30, 2026, bringing relief to candidates across 60 different rank lists."
-      },
-      {
-        "title": "Kerala PSC extends 289 rank lists covering 30,845 candidates until November 2026",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/25/kpsc-rank-list-extension-289-lists.html",
-        "publication": "Onmanorama / Kerala Kaumudi / Gold FM",
-        "date": "2026-05-25",
-        "tier": 2,
-        "summary": "Kerala PSC officially approved the extension of 289 rank lists covering 30,845 candidates on May 25, 2026, following a Cabinet recommendation. All rank lists scheduled to expire between May 25 and August 31, 2026 have been extended until November 30, 2026, covering state-level posts (Assistant Professors, Special Branch Assistants, Fisheries Assistants) and district-level posts (HSTs, Junior Public Health Nurse, etc.)."
+        "title": "Vettri Skill Training Assurance Scheme",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
       }
     ],
-    "lastUpdated": "2026-05-28T17:01:16.094Z",
-    "createdAt": "2026-05-22T06:50:00.000Z"
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   },
   {
-    "id": "p63",
-    "slug": "100-day-action-plan-63",
-    "title": "100-Day Action Plan",
-    "titleMl": "100-ദിന കർമ്മ പദ്ധതി",
-    "description": "The Cabinet decided to launch a comprehensive 100-day action plan starting June 1, 2026, to accelerate the implementation of key election manifesto promises and address immediate administrative concerns.",
-    "trackingNote": "Track the official launch of the 100-day plan on June 1, 2026, the list of target projects, progress updates, and completion reports.",
-    "manifestoQuote": "Formulate and execute a time-bound 100-day action plan upon assuming office to initiate development projects and address critical public grievances.",
+    "id": "p33",
+    "slug": "local-employment-75percent-tn-workforce-33",
+    "title": "Local Employment — incentives for companies hiring 75% TN workforce",
+    "titleTa": "நமது ஊரில் நமக்கே வேலை — 75% தமிழ்நாட்டினர் வேலைவாய்ப்பு",
+    "description": "Private companies employing at least 75% of their workforce from Tamil Nadu will receive a 2.5% SGST subsidy, 5% electricity charge subsidy, and priority in government procurement.",
+    "trackingNote": null,
+    "manifestoQuote": "Private companies employing 75% Tamil Nadu workforce will receive a 2.5% SGST subsidy, 5% electricity subsidy, and priority in government procurement.",
     "sector": {
-      "id": "s32",
-      "name": "Governance",
-      "nameMl": "ഭരണം",
-      "icon": "landmark",
-      "color": "#374151"
+      "id": "s5",
+      "name": "Youth & Employment",
+      "nameTa": "இளைஞர் & வேலைவாய்ப்பு",
+      "icon": "briefcase",
+      "color": "#F59E0B"
     },
-    "status": "in-progress",
+    "status": "pending",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Local Employment Promotion Scheme",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p34",
+    "slug": "cm-peoples-service-associate-5lakh-youth-34",
+    "title": "CM's People Service Associate — 5 lakh youth at ₹18,000/month",
+    "titleTa": "முதல்வர் மக்கள் சேவை நண்பர் — 5 லட்சம் இளைஞர், ₹18,000 ஊதியம்",
+    "description": "Employment for 5 lakh youth across all village panchayats and urban local bodies as 'Chief Minister's People Service Associates' at ₹18,000/month, ensuring 100% doorstep delivery of government services.",
+    "trackingNote": null,
+    "manifestoQuote": "Under the 'Chief Minister's People Service Associate' role, employment will be created for 5 lakh youth at ₹18,000/month to deliver 100% of government services at the doorstep.",
+    "sector": {
+      "id": "s7",
+      "name": "Governance & Admin",
+      "nameTa": "நிர்வாகம் & ஆட்சி",
+      "icon": "landmark",
+      "color": "#6366F1"
+    },
+    "status": "pending",
     "icon": "landmark",
     "sources": [
       {
-        "title": "Kerala Cabinet to launch 100-day action plan on June 1",
-        "url": "https://www.thehindu.com/news/national/kerala/keralas-udf-governments-100-day-action-plan-from-june-1/article71001656.ece",
-        "publication": "The Hindu",
-        "date": "2026-05-20",
-        "tier": 3,
-        "summary": "The Kerala Cabinet led by CM V.D. Satheesan announced the launch of a 100-day action plan on June 1, 2026, focusing on implementing manifesto promises and solving public grievances with low investment."
-      },
-      {
-        "title": "Roadmap for Vision 2031: Kerala Government's 100-Day Action Plan Details",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/20/silverline-project-scrapped-land-acquisition-orders-denotified.html",
-        "publication": "Onmanorama",
-        "date": "2026-05-20",
-        "tier": 3,
-        "summary": "As part of its 'Vision 2031' roadmap, the newly elected Kerala government announced the launching of a 100-day action plan starting June 1, 2026, designed to fast-track manifesto commitments and deliver quick-win initiatives across departments."
-      },
-      {
-        "title": "Kerala 100-Day Action Plan to commence June 1; state budget set for June 19",
-        "url": "https://www.onmanorama.com/news/kerala/2026/05/27/kerala-100-day-action-plan-budget.html",
-        "publication": "Onmanorama / The New Indian Express",
-        "date": "2026-05-27",
-        "tier": 2,
-        "summary": "All government departments have been directed to draft project proposals for the 100-Day Action Plan commencing June 1, 2026. The state budget will be presented on June 19, 2026, with focus areas including economic revival, health, education, and infrastructure. CM Satheesan plans to transform Kerala into a 'port and aviation hub'."
+        "title": "Youth Participation in Governance — CM's People Service Associate",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
       }
     ],
-    "lastUpdated": "2026-05-28T17:01:16.094Z",
-    "createdAt": "2026-05-22T06:50:00.000Z"
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   },
   {
-    "id": "p64",
-    "slug": "healthcare-accountability-and-negligence-redressal-64",
-    "title": "Healthcare accountability and negligence redressal",
-    "titleMl": "ആരോഗ്യമേഖലയിലെ ഉത്തരവാദിത്തവും അനാസ്ഥയ്ക്കുള്ള പരിഹാരവും",
-    "description": "Strengthen public healthcare quality and accountability by establishing redressal mechanisms and providing compensation for medical negligence in government healthcare institutions.",
-    "trackingNote": "Track policy measures, patient welfare committees, and ex-gratia compensation disbursements in government medical colleges and hospitals.",
-    "manifestoQuote": "Ensure highest standards of patient care, safety, and accountability in public hospitals, with prompt redressal of grievances and support for affected families.",
+    "id": "p35",
+    "slug": "tn-youth-advisory-council-35",
+    "title": "Tamil Nadu Youth Advisory Council",
+    "titleTa": "தமிழ்நாடு இளைஞர் ஆலோசனை குழு",
+    "description": "Establishment of a Tamil Nadu Youth Advisory Council as a formal platform for youth to present ideas and recommendations directly to the government — making Tamil Nadu the first state in India with such a body.",
+    "trackingNote": null,
+    "manifestoQuote": "A Tamil Nadu Youth Advisory Council will be established for youth to directly present ideas to the government — making Tamil Nadu the first state in India to implement this.",
     "sector": {
-      "id": "s3",
-      "name": "Health",
-      "nameMl": "ആരോഗ്യം",
-      "icon": "heart-pulse",
-      "color": "#10B981"
+      "id": "s5",
+      "name": "Youth & Employment",
+      "nameTa": "இளைஞர் & வேலைவாய்ப்பு",
+      "icon": "briefcase",
+      "color": "#F59E0B"
     },
-    "status": "in-progress",
-    "icon": "heart-pulse",
+    "status": "pending",
+    "icon": "users",
     "sources": [
       {
-        "title": "Kerala Cabinet approves ₹5 lakh compensation for Kollam native in medical negligence case",
-        "url": "https://www.thehindu.com/news/national/kerala/keralas-udf-governments-100-day-action-plan-from-june-1/article71001656.ece",
-        "publication": "The Hindu",
-        "date": "2026-05-20",
-        "tier": 3,
-        "summary": "During its meeting on May 20, 2026, the Kerala Cabinet approved ₹5 lakh in compensation to the family of Venu, a Kollam native who died due to alleged medical negligence at a government medical college, highlighting the government's focus on healthcare accountability."
+        "title": "Tamil Nadu Youth Advisory Council",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
       }
     ],
-    "lastUpdated": "2026-05-22T06:50:00.000Z",
-    "createdAt": "2026-05-22T06:50:00.000Z"
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   },
   {
-    "id": "p65",
-    "slug": "kerala-farmer-income-guarantee-scheme-65",
-    "title": "Kerala Farmer Income Guarantee Scheme",
-    "titleMl": "കേരള കർഷക വരുമാന ഉറപ്പ് പദ്ധതി",
-    "description": "Establish the Kerala Farmer Income Guarantee scheme to ensure a minimum monthly income support of ₹12,000 to all eligible small and marginal farmers across the state.",
-    "trackingNote": "Monitor the scheme notification, eligibility guidelines, initial registrations, budget outlays, and first direct benefit transfer (DBT) rolls.",
-    "manifestoQuote": "Introduce the Kerala Farmer Income Guarantee Scheme, securing a minimum monthly livelihood support of ₹12,000 for our hard-working farming households.",
+    "id": "p36",
+    "slug": "creatorpreneur-1-5lakh-creators-500-schools-36",
+    "title": "Creatorpreneur Scheme — startup capital for 1.5 lakh creators + 500 schools",
+    "titleTa": "படைப்பாளி தொழில்முனைவோர் திட்டம் — 1.5 லட்சம் படைப்பாளிகளுக்கு தொடக்க மூலதனம்",
+    "description": "Startup capital for 1.5 lakh creator-entrepreneurs and establishment of 500 'Creatorpreneur Schools' to equip youth with modern, industry-relevant skills and transform Tamil Nadu into a global creator hub.",
+    "trackingNote": null,
+    "manifestoQuote": "To transform Tamil Nadu into a global hub for creators, this scheme will provide startup capital to 1.5 lakh creator-entrepreneurs and establish 500 Creatorpreneur Schools.",
+    "sector": {
+      "id": "s5",
+      "name": "Youth & Employment",
+      "nameTa": "இளைஞர் & வேலைவாய்ப்பு",
+      "icon": "briefcase",
+      "color": "#F59E0B"
+    },
+    "status": "pending",
+    "icon": "cpu",
+    "sources": [
+      {
+        "title": "Creatorpreneur Development Scheme",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p37",
+    "slug": "tn-citizen-privilege-card-ai-welfare-37",
+    "title": "Tamil Nadu Citizen Privilege Card — AI-enabled doorstep welfare delivery",
+    "titleTa": "தமிழ்நாடு சிட்டிசன் பிரிவிலேஜ் கார்டு — AI வழி நேரடி நலன்",
+    "description": "A 'Tamil Nadu Citizen Privilege Card' for every family ensuring all government welfare schemes are delivered directly at the doorstep from birth using AI-enabled systems, without requiring applications or middlemen.",
+    "trackingNote": null,
+    "manifestoQuote": "A Tamil Nadu Citizen Privilege Card will be issued to every family. From birth, all welfare benefits will be delivered directly to households using AI-enabled systems — no applications needed.",
+    "sector": {
+      "id": "s7",
+      "name": "Governance & Admin",
+      "nameTa": "நிர்வாகம் & ஆட்சி",
+      "icon": "landmark",
+      "color": "#6366F1"
+    },
+    "status": "pending",
+    "icon": "cpu",
+    "sources": [
+      {
+        "title": "Tamil Nadu Citizen Privilege Card",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p38",
+    "slug": "right-to-service-act-vetri-super-app-38",
+    "title": "Right to Service Act + Vetri Tamil Nadu Super App (within 6 months)",
+    "titleTa": "சேவை உரிமைச் சட்டம் + வெற்றித் தமிழ்நாடு சூப்பர் ஆப்",
+    "description": "The 'Tamil Nadu Right to Service Act' to be enacted within six months of government formation, along with launch of the 'Vetri Tamil Nadu Super App' for mobile-based services (driving licence, ration card, grievance filing). Service delays will trigger action against responsible officials.",
+    "trackingNote": "Deadline: within 6 months of May 10 2026 = by November 10 2026.",
+    "manifestoQuote": "Within six months of forming the government, the Right to Service Act will be enacted and the Vetri Tamil Nadu Super App launched. Any delay in service delivery will lead to action against responsible officials.",
+    "sector": {
+      "id": "s7",
+      "name": "Governance & Admin",
+      "nameTa": "நிர்வாகம் & ஆட்சி",
+      "icon": "landmark",
+      "color": "#6366F1"
+    },
+    "status": "pending",
+    "icon": "smartphone",
+    "sources": [
+      {
+        "title": "Right to Service Act and Vetri Tamil Nadu Super App",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p39",
+    "slug": "tn-realtime-governance-dashboard-39",
+    "title": "Tamil Nadu real-time Governance Dashboard for budget transparency",
+    "titleTa": "தமிழ்நாடு நிகழ்நேர ஆட்சி டேஷ்போர்டு — வெளிப்படை பட்ஜெட்",
+    "description": "A publicly accessible real-time dashboard making all government budget allocations for schemes transparent, so citizens can track spending against promises.",
+    "trackingNote": null,
+    "manifestoQuote": "The Tamil Nadu government's budget will no longer remain just a document. Allocations for schemes will be made transparent through a real-time governance dashboard.",
+    "sector": {
+      "id": "s7",
+      "name": "Governance & Admin",
+      "nameTa": "நிர்வாகம் & ஆட்சி",
+      "icon": "landmark",
+      "color": "#6366F1"
+    },
+    "status": "pending",
+    "icon": "bar-chart",
+    "sources": [
+      {
+        "title": "Tamil Nadu Real-time Governance Dashboard",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p40",
+    "slug": "makkal-arangam-digital-assembly-petitions-40",
+    "title": "Makkal Arangam — digital citizen petitions to Tamil Nadu Assembly",
+    "titleTa": "மக்கள் அரங்கம் — டிஜிட்டல் சட்டமன்றப் மனுத் தாக்கல்",
+    "description": "Citizens can submit petitions directly to the Assembly via a digital platform. Petitions with 10,000 signatures get a mandatory government response; petitions with 5 lakh signatures go to Assembly debate. One full Assembly day per session dedicated to public petitions.",
+    "trackingNote": null,
+    "manifestoQuote": "Through Makkal Arangam, petitions with 10,000 signatures will receive a mandatory government response. Petitions with 5 lakh signatures will be taken up for Assembly debate. One full day per session is exclusively for public petitions.",
+    "sector": {
+      "id": "s7",
+      "name": "Governance & Admin",
+      "nameTa": "நிர்வாகம் & ஆட்சி",
+      "icon": "landmark",
+      "color": "#6366F1"
+    },
+    "status": "pending",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "Makkal Arangam initiative",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p41",
+    "slug": "ai-city-ai-university-ministry-of-ai-41",
+    "title": "AI City + India's first Ministry of Artificial Intelligence",
+    "titleTa": "AI நகரம் + இந்தியாவின் முதல் செயற்கை நுண்ணறிவு அமைச்சகம்",
+    "description": "Tamil Nadu's first Artificial Intelligence University, an 'AI City' as a global AI hub, India's first Ministry of AI, and AI innovation hubs in Madurai, Coimbatore, Salem, and Tiruchirappalli to support 1,000 deep-tech startups.",
+    "trackingNote": "Industries portfolio allocated to S. Keerthana (May 16 2026).",
+    "manifestoQuote": "Tamil Nadu's first AI University, an AI City as a global hub, and India's first Ministry of AI will be created. AI hubs in Madurai, Coimbatore, Salem, and Tiruchirappalli will support 1,000 deep-tech startups.",
     "sector": {
       "id": "s17",
-      "name": "Agriculture",
-      "nameMl": "കൃഷി",
+      "name": "Technology & AI",
+      "nameTa": "தொழில்நுட்பம் & AI",
+      "icon": "cpu",
+      "color": "#0891B2"
+    },
+    "status": "pending",
+    "icon": "cpu",
+    "sources": [
+      {
+        "title": "AI City and Ministry of Artificial Intelligence",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      },
+      {
+        "title": "Tamil Nadu ministries — Vijay keeps Home, full list of portfolios",
+        "url": "https://www.ndtv.com/india-news/tamil-nadu-ministries-vijay-keeps-home-changes-finance-full-list-11526929",
+        "publication": "NDTV",
+        "date": "2026-05-16",
+        "tier": 3,
+        "summary": "Full list of Tamil Nadu cabinet portfolio allocations following the May 21-22 cabinet expansion to 35 ministers."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p42",
+    "slug": "police-salary-hike-18200-to-25000-42",
+    "title": "Police salary hike — basic pay ₹18,200 → ₹25,000 + stress allowance",
+    "titleTa": "காவலர் ஊதிய உயர்வு — ₹18,200 → ₹25,000 அடிப்படை ஊதியம்",
+    "description": "Basic salary of police personnel increased from ₹18,200 to ₹25,000. Personnel engaged in high-stress duties receive an additional ₹1,000 per month allowance.",
+    "trackingNote": "Home and Police portfolio retained by CM Vijay (May 16 2026).",
+    "manifestoQuote": "The basic salary of police personnel will be increased from ₹18,200 to ₹25,000. Those in high-stress duties will receive an additional ₹1,000 monthly allowance.",
+    "sector": {
+      "id": "s13",
+      "name": "Police Welfare",
+      "nameTa": "காவல்துறை நலன்",
+      "icon": "shield-check",
+      "color": "#475569"
+    },
+    "status": "pending",
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Police salary hike",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p43",
+    "slug": "police-welfare-service-conditions-act-43",
+    "title": "Police Welfare and Service Conditions Act — regulated hours, weekly off",
+    "titleTa": "காவலர் நலன் மற்றும் பணி நிபந்தனைகள் சட்டம்",
+    "description": "A 'Police Welfare and Service Conditions Act' to regulate working hours, ensure weekly rotational off-days, and increase washing allowance to ₹1,000. Dedicated police welfare hospitals in Madurai, Coimbatore, Tiruchirappalli, Tirunelveli, Salem, and Vellore.",
+    "trackingNote": null,
+    "manifestoQuote": "A Police Welfare and Service Conditions Act will regulate working hours, ensure weekly off-days, and provide a ₹1,000 washing allowance. Police welfare hospitals will be built in major cities.",
+    "sector": {
+      "id": "s13",
+      "name": "Police Welfare",
+      "nameTa": "காவல்துறை நலன்",
+      "icon": "shield-check",
+      "color": "#475569"
+    },
+    "status": "pending",
+    "icon": "shield",
+    "sources": [
+      {
+        "title": "Police Welfare and Service Conditions Act + welfare hospitals",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p44",
+    "slug": "old-pension-scheme-evaluation-44",
+    "title": "Old Pension Scheme — careful evaluation for reimplementation",
+    "titleTa": "பழைய ஓய்வூதியத் திட்டம் — மறுசீரமைப்பு மதிப்பீடு",
+    "description": "The TVK government will carefully consider and evaluate the reimplementation of the Old Pension Scheme (OPS) — a long-standing demand of government employees.",
+    "trackingNote": "Stated as 'careful evaluation' — not a firm commitment to full reimplementation.",
+    "manifestoQuote": "The TVK government will carefully consider and evaluate the reimplementation of the Old Pension Scheme, a long-standing demand of government employees.",
+    "sector": {
+      "id": "s16",
+      "name": "Govt Employees",
+      "nameTa": "அரசு ஊழியர்கள்",
+      "icon": "user-check",
+      "color": "#9333EA"
+    },
+    "status": "pending",
+    "icon": "user-check",
+    "sources": [
+      {
+        "title": "Old Pension Scheme evaluation",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p45",
+    "slug": "temporary-staff-regularisation-5yr-45",
+    "title": "Regularisation of temporary teachers, nurses, and staff (5+ years)",
+    "titleTa": "5 ஆண்டு பணியாற்றிய தற்காலிக ஆசிரியர், செவிலியர் பணி நிரந்தரம்",
+    "description": "All temporary teachers, nurses, and staff who have served for five years or more will be regularised — converting their employment to permanent status.",
+    "trackingNote": null,
+    "manifestoQuote": "All temporary teachers, nurses, and staff who have served for five years or more will be regularised by the TVK government.",
+    "sector": {
+      "id": "s16",
+      "name": "Govt Employees",
+      "nameTa": "அரசு ஊழியர்கள்",
+      "icon": "user-check",
+      "color": "#9333EA"
+    },
+    "status": "pending",
+    "icon": "user-check",
+    "sources": [
+      {
+        "title": "Regularisation of temporary staff with 5+ years service",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p46",
+    "slug": "transparent-promotions-transfers-govtemp-46",
+    "title": "Corruption-free promotions and transparent transfers for govt employees",
+    "titleTa": "அரசு ஊழியர்களுக்கு ஊழலற்ற பதவி உயர்வு, வெளிப்படை இடமாற்றம்",
+    "description": "Elimination of corruption in government employee promotions. Transfers to be conducted in a fully transparent manner within a defined time frame.",
+    "trackingNote": null,
+    "manifestoQuote": "Corruption in promotions will be eliminated. Transfers for government employees will be carried out in a fully transparent manner within a defined time frame.",
+    "sector": {
+      "id": "s16",
+      "name": "Govt Employees",
+      "nameTa": "அரசு ஊழியர்கள்",
+      "icon": "user-check",
+      "color": "#9333EA"
+    },
+    "status": "pending",
+    "icon": "user-check",
+    "sources": [
+      {
+        "title": "Transparent promotions and transfers for government employees",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p47",
+    "slug": "cultivator-rights-card-10000-tenant-farmers-47",
+    "title": "Cultivator Rights Card — ₹10,000/year to tenant farmers and agri labourers",
+    "titleTa": "சாகுபடியாளர் உரிம அட்டை — குத்தகை விவசாயி, தொழிலாளர்களுக்கு ₹10,000",
+    "description": "A 'Cultivator Rights Card' providing ₹10,000 annual direct investment support to tenant farmers and agricultural labourer families, recognising landless cultivators as formal farming stakeholders.",
+    "trackingNote": null,
+    "manifestoQuote": "Through a Cultivator Rights Card, an annual direct investment support of ₹10,000 will be provided to tenant farmers and agricultural labourer families.",
+    "sector": {
+      "id": "s6",
+      "name": "Agriculture & Farmers",
+      "nameTa": "விவசாயம் & விவசாயிகள்",
       "icon": "tractor",
-      "color": "#22C55E"
+      "color": "#84CC16"
     },
     "status": "pending",
     "icon": "tractor",
     "sources": [
       {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto / Agriculture Guarantees."
+        "title": "Cultivator Rights Card — ₹10,000 annual support",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
       }
     ],
-    "lastUpdated": "2026-05-24T13:06:36.935Z",
-    "createdAt": "2026-05-24T13:06:36.935Z"
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   },
   {
-    "id": "p66",
-    "slug": "sidharthan-anti-ragging-and-student-welfare-act-66",
-    "title": "Sidharthan Anti-Ragging and Student Welfare Act",
-    "titleMl": "സിദ്ധാർത്ഥൻ ആന്റി റാഗിംഗ് ആൻഡ് സ്റ്റുഡന്റ് വെൽഫെയർ ആക്റ്റ്",
-    "description": "Enact a comprehensive student welfare legislation named after J.S. Sidharthan (the 20-year-old student who died following brutal campus ragging in Wayanad) to enforce strict anti-ragging measures and secure student campuses.",
-    "trackingNote": "Track the draft bill drafting, introduction in the Kerala Legislative Assembly, passage, Governor assent, and MVD/University rule updates.",
-    "manifestoQuote": "Enact the Sidharthan Anti-Ragging and Student Welfare Act to structurally reform campus safety and put a permanent, legally binding end to campus violence and ragging.",
-    "sector": {
-      "id": "s12",
-      "name": "Education",
-      "nameMl": "വിദ്യാഭ്യാസം",
-      "icon": "graduation-cap",
-      "color": "#0EA5E9"
-    },
-    "status": "pending",
-    "icon": "graduation-cap",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto campus welfare reform."
-      }
-    ],
-    "lastUpdated": "2026-05-24T13:06:36.935Z",
-    "createdAt": "2026-05-24T13:06:36.935Z"
-  },
-  {
-    "id": "p67",
-    "slug": "rohith-vemula-act-67",
-    "title": "Rohith Vemula Act",
-    "titleMl": "രോഹിത് വെമുല നിയമം",
-    "description": "Enact the Rohith Vemula Act in higher education institutions to address and combat caste-based discrimination, bias, and institutional inequality against students from marginalized communities.",
-    "trackingNote": "Track bill introduction, legislative debates, assembly approvals, and rules regarding the establishment of grievance redressal cells.",
-    "manifestoQuote": "Introduce the Rohith Vemula Act to systematically stamp out caste discrimination and institutional bias on higher education campuses.",
-    "sector": {
-      "id": "s12",
-      "name": "Education",
-      "nameMl": "വിദ്യാഭ്യാസം",
-      "icon": "graduation-cap",
-      "color": "#0EA5E9"
-    },
-    "status": "pending",
-    "icon": "graduation-cap",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto student rights reform."
-      }
-    ],
-    "lastUpdated": "2026-05-24T13:06:36.935Z",
-    "createdAt": "2026-05-24T13:06:36.935Z"
-  },
-  {
-    "id": "p68",
-    "slug": "ammawadi-project-for-elderly-women-68",
-    "title": "Ammawadi Project for Elderly Women",
-    "titleMl": "അമ്മവാടി പദ്ധതി",
-    "description": "Introduce the \"Ammawadi\" project specifically aimed at the social security, healthcare, housing, and general welfare of elderly women in Kerala.",
-    "trackingNote": "Track project guidelines, local body fund distributions, care facility constructions, and beneficiary lists.",
-    "manifestoQuote": "Launch the Ammawadi Project to provide comprehensive social protection, nutrition, and specialized care to aged and vulnerable women.",
+    "id": "p48",
+    "slug": "100-percent-crop-insurance-48",
+    "title": "100% crop insurance coverage for all farmers",
+    "titleTa": "அனைத்து விவசாயிகளுக்கும் 100% பயிர் காப்பீடு",
+    "description": "Full 100% crop insurance coverage guaranteed for all farmers in Tamil Nadu to protect against crop loss from natural disasters, pest attacks, and price volatility.",
+    "trackingNote": null,
+    "manifestoQuote": "To safeguard farmers' livelihoods, 100% crop insurance coverage will be ensured.",
     "sector": {
       "id": "s6",
-      "name": "Senior Citizens",
-      "nameMl": "മുതിർന്ന പൗരന്മാർ",
-      "icon": "users",
-      "color": "#6B7280"
+      "name": "Agriculture & Farmers",
+      "nameTa": "விவசாயம் & விவசாயிகள்",
+      "icon": "tractor",
+      "color": "#84CC16"
     },
     "status": "pending",
-    "icon": "users",
+    "icon": "shield",
     "sources": [
       {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto elderly protection project."
+        "title": "100% crop insurance for farmers",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
       }
     ],
-    "lastUpdated": "2026-05-24T13:06:36.935Z",
-    "createdAt": "2026-05-24T13:06:36.935Z"
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   },
   {
-    "id": "p69",
-    "slug": "job-watch-tower-69",
-    "title": "Job Watch Tower for Global Placements",
-    "titleMl": "ജോബ് വാച്ച് ടവർ",
-    "description": "Establish a state-level \"Job Watch Tower\" to track real-time global employment trends and shifting skill requirements in the international job market, aligning the state's higher education curriculum accordingly.",
-    "trackingNote": "Monitor the establishment of the expert coordination council, data tracking framework, and actual curriculum revisions in Kerala universities.",
-    "manifestoQuote": "Establish a global 'Job Watch Tower' to bridge the gap between Kerala's graduates and international employment trends by modernizing academic curricula.",
+    "id": "p49",
+    "slug": "msme-15000cr-credit-guarantee-fund-49",
+    "title": "₹15,000 crore State Credit Guarantee Fund for distressed MSMEs",
+    "titleTa": "நிதி நெருக்கடியிலுள்ள MSME நிறுவனங்களுக்கு ₹15,000 கோடி நிதி",
+    "description": "A ₹15,000 crore State Credit Guarantee Fund to revive MSMEs (Micro, Small, and Medium Enterprises) facing financial distress, ensuring business continuity and employment preservation.",
+    "trackingNote": "Industries portfolio allocated to S. Keerthana (May 16 2026).",
+    "manifestoQuote": "A ₹15,000 crore State Credit Guarantee Fund will be created to revive MSMEs facing financial distress.",
     "sector": {
-      "id": "s5",
-      "name": "Youth & Employment",
-      "nameMl": "യുവജനങ്ങളും തൊഴിലും",
-      "icon": "users",
-      "color": "#6366F1"
-    },
-    "status": "pending",
-    "icon": "users",
-    "sources": [
-      {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto placement initiative."
-      }
-    ],
-    "lastUpdated": "2026-05-24T13:06:36.935Z",
-    "createdAt": "2026-05-24T13:06:36.935Z"
-  },
-  {
-    "id": "p70",
-    "slug": "daily-minimum-wage-of-700-for-asha-workers-70",
-    "title": "₹700 daily minimum wage for ASHA workers",
-    "titleMl": "ആശ വർക്കർമാർക്ക് ₹700 പ്രതിദിന കുറഞ്ഞ വേതനം",
-    "description": "Structurally reform remuneration for ASHA workers by fixing a minimum daily wage of ₹700 to ensure fair labor practices and stable income.",
-    "trackingNote": "Track official pay revisions, daily conversion calculations, and actual bank transfer receipts.",
-    "manifestoQuote": "Fix the minimum wage of our dedicated ASHA workers at ₹700 per day to ensure stable livelihoods and respect for grassroots health warriors.",
-    "sector": {
-      "id": "s16",
-      "name": "Labour",
-      "nameMl": "തൊഴിൽ",
+      "id": "s14",
+      "name": "MSME & Industry",
+      "nameTa": "குறு, சிறு தொழில்",
       "icon": "briefcase",
-      "color": "#7C3AED"
+      "color": "#0EA5E9"
     },
     "status": "pending",
     "icon": "briefcase",
     "sources": [
       {
-        "title": "Initial Manifesto Commitment",
-        "url": "https://www.deccanherald.com/elections/kerala/kerala-assembly-elections-2026-udf-releases-manifesto-promises-free-bus-travel-for-women-3953366",
-        "publication": "UDF Manifesto / Media Report",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "UDF 2026 manifesto labor reform."
+        "title": "₹15,000 crore MSME Credit Guarantee Fund",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      },
+      {
+        "title": "Tamil Nadu ministries — Vijay keeps Home, full list of portfolios",
+        "url": "https://www.ndtv.com/india-news/tamil-nadu-ministries-vijay-keeps-home-changes-finance-full-list-11526929",
+        "publication": "NDTV",
+        "date": "2026-05-16",
+        "tier": 3,
+        "summary": "Full list of Tamil Nadu cabinet portfolio allocations following the May 21-22 cabinet expansion to 35 ministers."
       }
     ],
-    "lastUpdated": "2026-05-24T13:06:36.935Z",
-    "createdAt": "2026-05-24T13:06:36.935Z"
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p50",
+    "slug": "peak-hour-electricity-abolished-5yr-tax-exempt-50",
+    "title": "Peak hour electricity charges abolished + 5-year 100% electricity tax exemption",
+    "titleTa": "பீக் அவர் மின் கட்டணம் ரத்து + 5 ஆண்டு 100% மின்சார வரி விலக்கு",
+    "description": "Immediate abolition of peak hour electricity charges for industries, plus 100% exemption on electricity tax for the next five years, and rationalisation of power tariffs to boost industrial competitiveness.",
+    "trackingNote": null,
+    "manifestoQuote": "Peak hour electricity charges that hinder industrial operations will be immediately abolished. 100% electricity tax exemption for 5 years and rationalised power tariffs will follow.",
+    "sector": {
+      "id": "s14",
+      "name": "MSME & Industry",
+      "nameTa": "குறு, சிறு தொழில்",
+      "icon": "briefcase",
+      "color": "#0EA5E9"
+    },
+    "status": "pending",
+    "icon": "zap",
+    "sources": [
+      {
+        "title": "Peak hour electricity abolished + 5-year electricity tax exemption for industry",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p51",
+    "slug": "35percent-capital-subsidy-industrial-modernisation-51",
+    "title": "35% direct capital subsidy for industrial modernisation (up to ₹50 lakh/unit)",
+    "titleTa": "தொழில் நவீனமயமாக்கலுக்கு 35% நேரடி மூலதன மானியம் (₹50 லட்சம் வரை)",
+    "description": "A 35% direct capital subsidy (up to ₹50 lakh per unit) to support the modernisation of industries and enhance global competitiveness.",
+    "trackingNote": null,
+    "manifestoQuote": "To enhance global competitiveness, the TVK government will provide a 35% direct capital subsidy (up to ₹50 lakh per unit) to support the modernisation of industries.",
+    "sector": {
+      "id": "s14",
+      "name": "MSME & Industry",
+      "nameTa": "குறு, சிறு தொழில்",
+      "icon": "briefcase",
+      "color": "#0EA5E9"
+    },
+    "status": "pending",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "35% direct capital subsidy for industrial modernisation",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p52",
+    "slug": "weavers-ecommerce-vetri-thari-outlets-52",
+    "title": "Global e-commerce platform + Vetri Thari retail outlets for weavers",
+    "titleTa": "நெசவாளர்களுக்கு உலகளாவிய e-commerce தளம் + வெற்றித் தறி விற்பனை நிலையங்கள்",
+    "description": "A government-backed global e-commerce platform to market weavers' products internationally, along with 'Vetri Thari' retail outlets in major cities across Tamil Nadu.",
+    "trackingNote": null,
+    "manifestoQuote": "A government-backed global e-commerce platform will be created to market weavers' products internationally, along with Vetri Thari retail outlets in major cities.",
+    "sector": {
+      "id": "s15",
+      "name": "Weavers",
+      "nameTa": "நெசவாளர்கள்",
+      "icon": "scissors",
+      "color": "#D97706"
+    },
+    "status": "pending",
+    "icon": "shopping-bag",
+    "sources": [
+      {
+        "title": "Global e-commerce platform + Vetri Thari outlets for weavers",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p53",
+    "slug": "weavers-30000-annual-direct-transfer-53",
+    "title": "₹30,000/year direct bank transfer to each weaver family",
+    "titleTa": "ஒவ்வொரு நெசவாளர் குடும்பத்திற்கும் ஆண்டுக்கு ₹30,000 வங்கி கணக்கில்",
+    "description": "₹30,000 per year transferred directly to each weaver family's bank account to offset rising yarn prices and electricity costs.",
+    "trackingNote": null,
+    "manifestoQuote": "To offset rising yarn prices and electricity costs, ₹30,000 per year will be directly transferred to each weaver family through banks.",
+    "sector": {
+      "id": "s15",
+      "name": "Weavers",
+      "nameTa": "நெசவாளர்கள்",
+      "icon": "scissors",
+      "color": "#D97706"
+    },
+    "status": "pending",
+    "icon": "wallet",
+    "sources": [
+      {
+        "title": "₹30,000 annual direct transfer to weaver families",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p54",
+    "slug": "weavers-free-electricity-500-handloom-1500-powerloom-54",
+    "title": "Free electricity for weavers — 500 units handloom, 1,500 units powerloom",
+    "titleTa": "நெசவாளர்களுக்கு இலவச மின்சாரம் — கைத்தறி 500, விசைத்தறி 1,500 யூனிட்",
+    "description": "Enhanced free electricity supply: up to 500 units for handloom weavers and up to 1,500 units for powerloom weavers, reducing production costs significantly.",
+    "trackingNote": null,
+    "manifestoQuote": "Free electricity supply will be enhanced to 500 units for handloom and up to 1,500 units for powerloom sectors.",
+    "sector": {
+      "id": "s15",
+      "name": "Weavers",
+      "nameTa": "நெசவாளர்கள்",
+      "icon": "scissors",
+      "color": "#D97706"
+    },
+    "status": "pending",
+    "icon": "zap",
+    "sources": [
+      {
+        "title": "Free electricity for handloom and powerloom weavers",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p55",
+    "slug": "weavers-50percent-subsidy-yarn-dyes-55",
+    "title": "50% subsidy on yarn, dyes, and chemicals for weavers",
+    "titleTa": "நூல், சாயங்கள், இரசாயனங்களில் நெசவாளர்களுக்கு 50% மானியம்",
+    "description": "A 50% subsidy on yarn, dyes, and chemicals to reduce production costs for Tamil Nadu's weaving community.",
+    "trackingNote": null,
+    "manifestoQuote": "A 50% subsidy will be provided on yarn, dyes, and chemicals to reduce production costs for weavers.",
+    "sector": {
+      "id": "s15",
+      "name": "Weavers",
+      "nameTa": "நெசவாளர்கள்",
+      "icon": "scissors",
+      "color": "#D97706"
+    },
+    "status": "pending",
+    "icon": "scissors",
+    "sources": [
+      {
+        "title": "50% subsidy on yarn, dyes, and chemicals for weavers",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
+  },
+  {
+    "id": "p56",
+    "slug": "weavers-10lakh-life-insurance-3000-pension-56",
+    "title": "Weavers — ₹10 lakh life insurance + ₹3,000/month old-age pension",
+    "titleTa": "நெசவாளர்களுக்கு ₹10 லட்சம் ஆயுள் காப்பீடு + மாதம் ₹3,000 முதியோர் ஓய்வூதியம்",
+    "description": "All weavers in Tamil Nadu covered under a ₹10 lakh life insurance scheme. Old-age pension for weavers increased to ₹3,000 per month.",
+    "trackingNote": null,
+    "manifestoQuote": "All weavers will be covered under a ₹10 lakh life insurance scheme, and the old-age pension will be increased to ₹3,000 per month.",
+    "sector": {
+      "id": "s15",
+      "name": "Weavers",
+      "nameTa": "நெசவாளர்கள்",
+      "icon": "scissors",
+      "color": "#D97706"
+    },
+    "status": "pending",
+    "icon": "heart",
+    "sources": [
+      {
+        "title": "Weavers life insurance and pension enhancement",
+        "url": "https://www.tamilagavetrikazhagam.org/manifesto",
+        "publication": "TVK Official Manifesto",
+        "date": "2026-03-01",
+        "tier": 1,
+        "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
+      }
+    ],
+    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "createdAt": "2026-05-10T00:00:00.000Z"
   }
 ]

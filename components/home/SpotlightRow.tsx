@@ -46,7 +46,7 @@ export function SpotlightRow() {
           <h2 className="font-display font-bold text-3xl text-slate-900">Promises in the Spotlight</h2>
           <p className="text-muted-foreground mt-2">Key guarantees currently under active monitoring.</p>
         </div>
-        <Link href="/promises" className="hidden md:flex items-center text-udf-blue font-medium hover:text-udf-blue-dark transition-colors group cursor-pointer">
+        <Link href="/promises" className="hidden md:flex items-center text-tvk-blue font-medium hover:text-tvk-blue-dark transition-colors group cursor-pointer">
           View All Promises
           <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
         </Link>
@@ -109,8 +109,8 @@ export function SpotlightRow() {
           ))}
 
           <div className="snap-start shrink-0 w-[280px] md:w-[320px] flex items-center justify-center p-6">
-            <Link href="/promises" className="flex flex-col items-center justify-center gap-3 text-muted-foreground hover:text-udf-blue transition-colors group cursor-pointer">
-              <div className="w-16 h-16 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center group-hover:border-udf-blue group-hover:bg-udf-blue-bg transition-colors">
+            <Link href="/promises" className="flex flex-col items-center justify-center gap-3 text-muted-foreground hover:text-tvk-blue transition-colors group cursor-pointer">
+              <div className="w-16 h-16 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center group-hover:border-tvk-blue group-hover:bg-tvk-blue-bg transition-colors">
                 <ArrowRight className="h-6 w-6" />
               </div>
               <span className="font-medium">See all {promisesData.length} promises</span>

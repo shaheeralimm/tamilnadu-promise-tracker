@@ -8,43 +8,43 @@ import { StatusBadge } from "@/components/shared/StatusBadge"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType } from "@/types"
 
-// Demographics config mapping to benefits and actual UDF manifesto promise slugs
+// Demographics config mapping to benefits and actual TVK manifesto promise slugs
 const BENEFIT_MAPPINGS = [
   {
     id: "woman",
     label: "Female Citizen",
-    labelMl: "വനിതാ പൗരൻ",
-    description: "Eligible for free public transport travel schemes",
-    benefitValue: 800,
-    benefitLabel: "Free Bus Travel",
-    promiseSlug: "free-ksrtc-bus-travel-for-women-1"
+    labelTa: "பெண் குடிமகன்",
+    description: "Eligible for free public transport and ₹2,500/month Madhippumigu Magalir scheme",
+    benefitValue: 2500,
+    benefitLabel: "Madhippumigu Magalir (₹2,500/mo)",
+    promiseSlug: "madhippumigu-magalir-2500-monthly-24"
   },
   {
     id: "student",
-    label: "College Girl Student",
-    labelMl: "കോളേജ് വിദ്യാർത്ഥിനി",
-    description: "Eligible for higher education financial assistance and stipends",
-    benefitValue: 1000,
-    benefitLabel: "Monthly Student Stipend",
-    promiseSlug: "1-000-monthly-stipend-for-college-going-girl-students-2"
+    label: "School Student's Family",
+    labelTa: "மாணவர் குடும்பம்",
+    description: "Eligible for ₹15,000/year Kamarajar Kalvi Urudhi anti-dropout assistance",
+    benefitValue: 1250,
+    benefitLabel: "Kamarajar Kalvi Urudhi (₹15k/yr)",
+    promiseSlug: "kamarajar-kalvi-urudhi-school-dropout-8"
   },
   {
     id: "pensioner",
     label: "Welfare Pension Beneficiary",
-    labelMl: "ക്ഷേമ പെൻഷൻ ഗുണഭോക്താവ്",
-    description: "Eligible for social security, agricultural, or welfare pension hikes",
-    benefitValue: 1000, // Monthly increase: from ₹2,000 to ₹3,000
-    benefitLabel: "Pension Increase (₹2k to ₹3k)",
-    promiseSlug: "increase-welfare-pension-to-3-000-4"
+    labelTa: "நலன் ஓய்வூதிய பயனர்",
+    description: "Eligible for welfare pension raised to ₹3,000/month",
+    benefitValue: 1000, // estimated increase from current amount
+    benefitLabel: "Pension Increase (to ₹3,000)",
+    promiseSlug: "welfare-pension-3000-9"
   },
   {
     id: "farmer",
-    label: "Rubber Small Farmer",
-    labelMl: "റബ്ബർ കർഷകൻ",
-    description: "Eligible for rubber price subsidies and minimum support price hikes",
-    benefitValue: 4000, // Average monthly gain assuming standard low-tier yields
-    benefitLabel: "Rubber MSP Subsidy Support",
-    promiseSlug: "3-support-price-for-rubber-31"
+    label: "Small Farmer (≤5 acres)",
+    labelTa: "சிறு விவசாயி (≤5 ஏக்கர்)",
+    description: "Eligible for 100% cooperative crop loan waiver and MSP guarantee",
+    benefitValue: 4000,
+    benefitLabel: "Loan Waiver + MSP Support",
+    promiseSlug: "cooperative-crop-loan-waiver-14"
   }
 ]
 
@@ -120,7 +120,7 @@ export function BenefitCalculator() {
                     onClick={() => toggleSelection(item.id)}
                     className={`p-4 rounded-xl border-2 text-left cursor-pointer transition-all select-none flex flex-col gap-2 ${
                       isSelected
-                        ? "border-udf-blue bg-blue-50/20 shadow-sm"
+                        ? "border-tvk-blue bg-blue-50/20 shadow-sm"
                         : "border-slate-100 bg-slate-50/50 hover:border-slate-200 hover:bg-slate-50"
                     }`}
                   >
@@ -129,7 +129,7 @@ export function BenefitCalculator() {
                         <div
                           className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-all mt-0.5 ${
                             isSelected
-                              ? "bg-udf-blue border-udf-blue text-white"
+                              ? "bg-tvk-blue border-tvk-blue text-white"
                               : "border-slate-300 bg-white"
                           }`}
                         >
@@ -140,8 +140,8 @@ export function BenefitCalculator() {
                             <p className="font-bold text-sm text-slate-800 leading-tight">
                               {item.label}
                             </p>
-                            <span className="font-malayalam text-[10px] font-semibold text-slate-400">
-                              {item.labelMl}
+                            <span className="font-tamil text-[10px] font-semibold text-slate-400">
+                              {item.labelTa}
                             </span>
                           </div>
                           <p className="text-xs text-slate-400 mt-1 leading-normal">
@@ -174,7 +174,7 @@ export function BenefitCalculator() {
                                 const val = Math.max(0, parseInt(e.target.value) || 0)
                                 setCustomValues((prev) => ({ ...prev, [item.id]: val }))
                               }}
-                              className="w-full bg-white border border-slate-200 rounded-lg pl-6 pr-2 py-1 text-xs font-bold text-slate-800 focus:outline-none focus:border-udf-blue focus:ring-1 focus:ring-udf-blue transition-all"
+                              className="w-full bg-white border border-slate-200 rounded-lg pl-6 pr-2 py-1 text-xs font-bold text-slate-800 focus:outline-none focus:border-tvk-blue focus:ring-1 focus:ring-tvk-blue transition-all"
                             />
                           </div>
                           <span className="text-[10px] text-slate-400">/ month</span>
@@ -237,18 +237,18 @@ export function BenefitCalculator() {
                             className="bg-slate-50 border border-slate-100 hover:border-slate-200 rounded-xl p-4 flex items-center justify-between transition-colors shadow-xs group"
                           >
                             <div className="flex-1 min-w-0 pr-4">
-                              <span className="text-[9px] font-bold text-udf-blue uppercase tracking-wider block mb-0.5">
+                              <span className="text-[9px] font-bold text-tvk-blue uppercase tracking-wider block mb-0.5">
                                 {benefitInfo?.benefitLabel} (+₹{(benefitInfo ? customValues[benefitInfo.id] : 0).toLocaleString("en-IN")}/mo)
                               </span>
                               <Link 
                                 href={`/promises/${promise.slug}`}
-                                className="font-bold text-sm text-slate-800 group-hover:text-udf-blue transition-colors line-clamp-1 block"
+                                className="font-bold text-sm text-slate-800 group-hover:text-tvk-blue transition-colors line-clamp-1 block"
                               >
                                 {promise.title}
                               </Link>
-                              {promise.titleMl && (
-                                <p className="font-malayalam text-xs font-medium text-slate-400 truncate mt-0.5 leading-normal">
-                                  {promise.titleMl}
+                              {promise.titleTa && (
+                                <p className="font-tamil text-xs font-medium text-slate-400 truncate mt-0.5 leading-normal">
+                                  {promise.titleTa}
                                 </p>
                               )}
                             </div>
@@ -256,7 +256,7 @@ export function BenefitCalculator() {
                               <StatusBadge status={promise.status} className="text-[10px]" />
                               <Link 
                                 href={`/promises/${promise.slug}`}
-                                className="w-7 h-7 rounded-full bg-white border border-slate-200 group-hover:border-udf-blue group-hover:text-udf-blue flex items-center justify-center transition-colors shadow-xs cursor-pointer"
+                                className="w-7 h-7 rounded-full bg-white border border-slate-200 group-hover:border-tvk-blue group-hover:text-tvk-blue flex items-center justify-center transition-colors shadow-xs cursor-pointer"
                               >
                                 <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
                               </Link>
@@ -291,7 +291,7 @@ export function BenefitCalculator() {
                 </span>
                 <Link 
                   href="/promises" 
-                  className="font-bold text-udf-blue hover:text-udf-blue-dark transition-colors inline-flex items-center gap-1 cursor-pointer"
+                  className="font-bold text-tvk-blue hover:text-tvk-blue-dark transition-colors inline-flex items-center gap-1 cursor-pointer"
                 >
                   Browse all promises
                   <ArrowRight className="h-3 w-3" />
