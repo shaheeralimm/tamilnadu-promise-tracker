@@ -123,13 +123,17 @@ export function CountdownTimer({
         </div>
         <div className="h-[3px] w-full rounded-full bg-slate-100 overflow-hidden">
           <div
-            className="h-full rounded-full bg-udf-blue transition-all duration-1000 ease-linear"
+            className="h-full rounded-full bg-blue-600 transition-all duration-1000 ease-linear"
             style={{ width: `${pct}%` }}
           />
         </div>
         <div className="flex justify-between items-center mt-1.5">
-          <span className="text-[10px] text-slate-300 font-medium">May 18, 2026</span>
-          <span className="text-[10px] text-slate-300 font-medium">May 18, 2031</span>
+          <span className="text-[10px] text-slate-300 font-medium">
+            {new Date(startDate).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })}
+          </span>
+          <span className="text-[10px] text-slate-300 font-medium">
+            {new Date(termEndDate).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })}
+          </span>
         </div>
       </div>
     </div>
