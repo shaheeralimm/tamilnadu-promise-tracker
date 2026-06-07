@@ -1,4 +1,14 @@
-[
+/**
+ * One-time seed script: replaces Kerala placeholder data with real TVK promises.
+ * Sources: User-provided research (June 7, 2026). Run once then archive.
+ */
+const fs = require('fs');
+const path = require('path');
+
+const promises = [
+
+  // ─── FULFILLED — Day 1 GOs (May 10, 2026) ───────────────────────────────
+
   {
     "id": "p1",
     "slug": "free-200-units-electricity-1",
@@ -45,6 +55,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p2",
     "slug": "singa-pen-special-force-womens-safety-2",
@@ -83,6 +94,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p3",
     "slug": "anti-narcotics-task-force-3",
@@ -121,6 +133,9 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
+  // ─── IN PROGRESS — First Cabinet Meeting (June 5, 2026) ─────────────────
+
   {
     "id": "p4",
     "slug": "tasmac-administrative-overhaul-4",
@@ -159,6 +174,7 @@
     "lastUpdated": "2026-06-05T00:00:00.000Z",
     "createdAt": "2026-06-05T00:00:00.000Z"
   },
+
   {
     "id": "p5",
     "slug": "mekedatu-dam-legal-action-water-rights-5",
@@ -189,6 +205,7 @@
     "lastUpdated": "2026-06-05T00:00:00.000Z",
     "createdAt": "2026-06-05T00:00:00.000Z"
   },
+
   {
     "id": "p6",
     "slug": "436-project-governance-roadmap-6",
@@ -227,6 +244,9 @@
     "lastUpdated": "2026-06-05T00:00:00.000Z",
     "createdAt": "2026-06-05T00:00:00.000Z"
   },
+
+  // ─── PENDING — Key Manifesto Promises ───────────────────────────────────
+
   {
     "id": "p7",
     "slug": "free-bus-travel-for-women-7",
@@ -257,6 +277,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p8",
     "slug": "1000-monthly-stipend-college-women-8",
@@ -287,6 +308,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p9",
     "slug": "welfare-pension-raised-3000-9",
@@ -317,6 +339,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p10",
     "slug": "free-breakfast-scheme-govt-schools-10",
@@ -347,6 +370,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p11",
     "slug": "cmchis-health-insurance-expansion-11",
@@ -377,6 +401,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p12",
     "slug": "interest-free-loans-youth-entrepreneurs-12",
@@ -407,6 +432,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p13",
     "slug": "housing-landless-homeless-poor-13",
@@ -437,6 +463,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p14",
     "slug": "farm-loan-waiver-small-marginal-farmers-14",
@@ -467,6 +494,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p15",
     "slug": "free-education-lkg-to-degree-15",
@@ -497,6 +525,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p16",
     "slug": "msp-paddy-agricultural-produce-16",
@@ -527,6 +556,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p17",
     "slug": "unemployment-allowance-educated-youth-17",
@@ -557,6 +587,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p18",
     "slug": "neet-exemption-state-medical-admissions-18",
@@ -587,6 +618,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p19",
     "slug": "sc-st-welfare-fund-scholarship-enhancement-19",
@@ -617,6 +649,7 @@
     "lastUpdated": "2026-05-22T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p20",
     "slug": "minimum-wage-hike-unorganised-workers-20",
@@ -647,6 +680,7 @@
     "lastUpdated": "2026-05-10T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p21",
     "slug": "womens-self-help-group-economic-empowerment-21",
@@ -677,6 +711,7 @@
     "lastUpdated": "2026-05-16T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   },
+
   {
     "id": "p22",
     "slug": "sports-infrastructure-youth-development-22",
@@ -707,4 +742,12 @@
     "lastUpdated": "2026-05-16T00:00:00.000Z",
     "createdAt": "2026-05-10T00:00:00.000Z"
   }
-]
+
+];
+
+const outPath = require('path').join(__dirname, '..', 'data', 'promises.json');
+require('fs').writeFileSync(outPath, JSON.stringify(promises, null, 2), 'utf8');
+console.log(`✓ Written ${promises.length} real TVK promises to data/promises.json`);
+console.log(`  Fulfilled: ${promises.filter(p => p.status === 'fulfilled').length}`);
+console.log(`  In Progress: ${promises.filter(p => p.status === 'in-progress').length}`);
+console.log(`  Pending: ${promises.filter(p => p.status === 'pending').length}`);

@@ -17,7 +17,7 @@ const BENEFIT_MAPPINGS = [
     description: "Eligible for free public transport travel schemes",
     benefitValue: 800,
     benefitLabel: "Free Bus Travel",
-    promiseSlug: "free-ksrtc-bus-travel-for-women-1"
+    promiseSlug: "free-bus-travel-for-women-7"
   },
   {
     id: "student",
@@ -26,25 +26,25 @@ const BENEFIT_MAPPINGS = [
     description: "Eligible for higher education financial assistance and stipends",
     benefitValue: 1000,
     benefitLabel: "Monthly Student Stipend",
-    promiseSlug: "1-000-monthly-stipend-for-college-going-girl-students-2"
+    promiseSlug: "1000-monthly-stipend-college-women-8"
   },
   {
     id: "pensioner",
     label: "Welfare Pension Beneficiary",
     labelTa: "நலன் ஓய்வூதிய பயனர்",
-    description: "Eligible for social security, agricultural, or welfare pension hikes",
-    benefitValue: 1000, // Monthly increase: from ₹2,000 to ₹3,000
-    benefitLabel: "Pension Increase (₹2k to ₹3k)",
-    promiseSlug: "increase-welfare-pension-to-3-000-4"
+    description: "Eligible for social security and welfare pension hikes",
+    benefitValue: 1000, // Monthly increase when raised to ₹3,000
+    benefitLabel: "Pension Increase (to ₹3k)",
+    promiseSlug: "welfare-pension-raised-3000-9"
   },
   {
     id: "farmer",
     label: "Small Farmer",
     labelTa: "சிறு விவசாயி",
-    description: "Eligible for agricultural support price subsidies and loan waivers",
+    description: "Eligible for agricultural loan waiver and MSP support",
     benefitValue: 4000,
-    benefitLabel: "Farmer Support Subsidy",
-    promiseSlug: "3-support-price-for-rubber-31"
+    benefitLabel: "Farmer Support (loan waiver)",
+    promiseSlug: "farm-loan-waiver-small-marginal-farmers-14"
   }
 ]
 

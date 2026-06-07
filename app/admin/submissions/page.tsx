@@ -215,7 +215,7 @@ export default function AdminSubmissionsPage() {
           </p>
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-8 text-left text-xs leading-relaxed text-slate-600">
             <span className="font-bold text-slate-900 uppercase tracking-wider block mb-1">To gain access:</span>
-            Add your Google email address to the <code className="bg-slate-100 px-1 py-0.5 rounded text-slate-800">ADMIN_EMAILS</code> list inside the [.env.local](file:///d:/udf-promises-anti/.env.local) file in your workspace, and restart the development server.
+            Add your Google email address to the <code className="bg-slate-100 px-1 py-0.5 rounded text-slate-800">ADMIN_EMAILS</code> list in your <code className="bg-slate-100 px-1 py-0.5 rounded text-slate-800">.env.local</code> file and restart the development server.
           </div>
           <div className="flex flex-col sm:flex-row gap-3">
             <button
