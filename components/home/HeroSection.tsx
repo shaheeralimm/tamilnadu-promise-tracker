@@ -6,12 +6,13 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight, ShieldCheck } from "lucide-react"
 
-import promisesData from "@/data/promises.json"
+import promisesData from "@/lib/getAllPromises"
 
 export function HeroSection() {
-  const totalTracked = promisesData.length
-  const fulfilledCount = promisesData.filter(p => p.status === "fulfilled").length
-  const inProgressCount = promisesData.filter(p => p.status === "in-progress").length
+  const tvkPromises = promisesData.filter(p => p.partyId === "tvk")
+  const totalTracked = tvkPromises.length
+  const fulfilledCount = tvkPromises.filter(p => p.status === "fulfilled").length
+  const inProgressCount = tvkPromises.filter(p => p.status === "in-progress").length
 
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
@@ -111,8 +112,8 @@ export function HeroSection() {
               {/* Header */}
               <div className="px-6 pt-5 pb-4 flex items-center justify-between border-b border-slate-100">
                 <div>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-400 mb-0.5">Live Tracker</p>
-                  <h3 className="text-sm font-bold text-slate-900 tracking-tight">Current Status Overview</h3>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-400 mb-0.5">TVK 2026 · Live Tracker</p>
+                  <h3 className="text-sm font-bold text-slate-900 tracking-tight">Current Government Overview</h3>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-tvk-green animate-pulse" />

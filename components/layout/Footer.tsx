@@ -2,6 +2,7 @@ import React from "react"
 import Link from "next/link"
 import { Landmark } from "lucide-react"
 import { Disclaimer } from "@/components/shared/Disclaimer"
+import { siteConfig } from "@/lib/config"
 
 export function Footer() {
   return (
@@ -11,12 +12,13 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <Landmark className="h-6 w-6 text-muted-foreground" />
             <span className="font-display font-semibold text-lg text-foreground">
-              Sonnaanga Senjaangala
+              {siteConfig.siteName}
             </span>
           </div>
           
           <div className="flex flex-wrap justify-center gap-6 text-sm font-medium text-muted-foreground">
             <Link href="/about" className="hover:text-foreground transition-colors">About Project</Link>
+            <Link href="/parties" className="hover:text-foreground transition-colors">Governments</Link>
             <Link href="/impact" className="hover:text-foreground transition-colors">Benefit Calculator</Link>
             <Link href="/about#methodology" className="hover:text-foreground transition-colors">Methodology</Link>
             <Link href="/submit" className="hover:text-foreground transition-colors">Submit Update</Link>
@@ -27,7 +29,7 @@ export function Footer() {
         <div className="pt-8 border-t border-border/50 flex flex-col items-center gap-4">
           <Disclaimer />
           <p className="text-xs text-slate-400">
-            © {new Date().getFullYear()} Sonnaanga Senjaangala Tamil Nadu. Open source initiative.
+            © {new Date().getFullYear()} {siteConfig.siteName} — Tamil Nadu. Open source initiative.
           </p>
         </div>
       </div>

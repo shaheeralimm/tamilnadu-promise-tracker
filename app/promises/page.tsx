@@ -5,8 +5,9 @@ import { useSearchParams } from "next/navigation"
 import { FilterSidebar } from "@/components/promises/FilterSidebar"
 import { HorizontalCard } from "@/components/promises/HorizontalCard"
 import { EmptyState } from "@/components/promises/EmptyState"
-import promisesData from "@/data/promises.json"
-import { Promise as PromiseType, Status } from "@/types"
+import promisesData from "@/lib/getAllPromises"
+import partiesData from "@/data/parties.json"
+import { Promise as PromiseType, Status, Party } from "@/types"
 
 import { motion } from "framer-motion"
 
@@ -20,10 +21,7 @@ const containerVariants = {
   }
 }
 
-// Extract unique sectors from data
-const uniqueSectors = Array.from(new Set(promisesData.map((p) => p.sector.id))).map((id) => {
-  return promisesData.find((p) => p.sector.id === id)!.sector
-})
+const allParties = partiesData as Party[]
 
 function PromisesPageContent() {
   const searchParams = useSearchParams()
@@ -32,6 +30,7 @@ function PromisesPageContent() {
   const [statusFilter, setStatusFilter] = useState<Status | "all">("all")
   const [selectedSectors, setSelectedSectors] = useState<string[]>([])
   const [sortOption, setSortOption] = useState("newest")
+  const [partyFilter, setPartyFilter] = useState<string>("all")
 
   // Sync state with URL search parameters on mount and when they change
   useEffect(() => {
@@ -40,6 +39,7 @@ function PromisesPageContent() {
     const statusParam = searchParams.get("status")
     const searchParam = searchParams.get("q") || searchParams.get("search")
     const sortParam = searchParams.get("sort")
+    const partyParam = searchParams.get("party")
 
     if (sectorParam) {
       const sectorsList = sectorParam.split(",")
@@ -65,12 +65,37 @@ function PromisesPageContent() {
     } else {
       setSortOption("newest")
     }
+
+    if (partyParam && allParties.some((p) => p.id === partyParam)) {
+      setPartyFilter(partyParam)
+    } else {
+      setPartyFilter("all")
+    }
     /* eslint-enable react-hooks/set-state-in-effect */
   }, [searchParams])
+
+  // Sectors for the currently active party only
+  const uniqueSectors = useMemo(() => {
+    const source = partyFilter === "all"
+      ? (promisesData as PromiseType[])
+      : (promisesData as PromiseType[]).filter(p => p.partyId === partyFilter)
+    return Array.from(new Set(source.map(p => p.sector.id))).map(id =>
+      source.find(p => p.sector.id === id)!.sector
+    )
+  }, [partyFilter])
+
+  // Check whether the active party actually has any promises loaded
+  const partyHasData = useMemo(() => {
+    if (partyFilter === "all") return true
+    return (promisesData as PromiseType[]).some(p => p.partyId === partyFilter)
+  }, [partyFilter])
 
   const filteredPromises = useMemo(() => {
     return (promisesData as PromiseType[])
       .filter((promise) => {
+        // Party filter
+        const matchesParty = partyFilter === "all" || promise.partyId === partyFilter
+
         // Search filter
         const matchesSearch = 
           promise.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
@@ -82,7 +107,7 @@ function PromisesPageContent() {
         // Sector filter
         const matchesSector = selectedSectors.length === 0 || selectedSectors.includes(promise.sector.id)
         
-        return matchesSearch && matchesStatus && matchesSector
+        return matchesParty && matchesSearch && matchesStatus && matchesSector
       })
       .sort((a, b) => {
         // Sort logic
@@ -93,12 +118,12 @@ function PromisesPageContent() {
         } else if (sortOption === "az") {
           return a.title.localeCompare(b.title)
         } else if (sortOption === "status") {
-          const statusOrder = { fulfilled: 1, "in-progress": 2, evaded: 3, pending: 4 }
-          return statusOrder[a.status] - statusOrder[b.status]
+          const statusOrder: Record<string, number> = { fulfilled: 1, modified: 2, "in-progress": 3, stalled: 4, evaded: 5, "not-fulfilled": 6, pending: 7 }
+          return (statusOrder[a.status] ?? 8) - (statusOrder[b.status] ?? 8)
         }
         return 0
       })
-  }, [searchQuery, statusFilter, selectedSectors, sortOption])
+  }, [searchQuery, statusFilter, selectedSectors, sortOption, partyFilter])
 
   return (
     <div className="min-h-screen bg-slate-50/50 pt-8 pb-20 transition-colors duration-300">
@@ -106,8 +131,17 @@ function PromisesPageContent() {
         <div className="mb-10">
           <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-4">All Promises</h1>
           <p className="text-muted-foreground text-lg max-w-2xl">
-            Browse, filter, and search through the complete ledger of UDF election promises. 
-            Currently tracking {promisesData.length} commitments.
+            Browse, filter, and search through the complete ledger of Tamil Nadu government promises.
+            {partyFilter === "all"
+              ? ` Currently tracking ${(promisesData as PromiseType[]).length} commitments across all parties.`
+              : (() => {
+                  const party = allParties.find(p => p.id === partyFilter)
+                  const count = (promisesData as PromiseType[]).filter(p => p.partyId === partyFilter).length
+                  return count > 0
+                    ? ` Tracking ${count} ${party?.shortName ?? partyFilter.toUpperCase()} commitments.`
+                    : ` ${party?.shortName ?? partyFilter.toUpperCase()} data is being compiled.`
+                })()
+            }
           </p>
         </div>
 
@@ -122,6 +156,9 @@ function PromisesPageContent() {
             sectors={uniqueSectors}
             sortOption={sortOption}
             setSortOption={setSortOption}
+            parties={allParties}
+            partyFilter={partyFilter}
+            setPartyFilter={setPartyFilter}
           />
 
           <div className="flex-1 w-full flex flex-col gap-4">
@@ -131,7 +168,7 @@ function PromisesPageContent() {
             
             {filteredPromises.length > 0 ? (
               <motion.div
-                key={`${searchQuery}-${statusFilter}-${selectedSectors.join(",")}-${sortOption}`} // Drive full re-animation on updates
+                key={`${partyFilter}-${searchQuery}-${statusFilter}-${selectedSectors.join(",")}-${sortOption}`} // Drive full re-animation on updates
                 variants={containerVariants}
                 initial="hidden"
                 animate="show"
@@ -142,7 +179,7 @@ function PromisesPageContent() {
                 ))}
               </motion.div>
             ) : (
-              <EmptyState />
+              <EmptyState noPartyData={!partyHasData} partyName={allParties.find(p => p.id === partyFilter)?.name} />
             )}
           </div>
         </div>

@@ -20,7 +20,7 @@ import {
   HardHat,
   ArrowRight 
 } from "lucide-react"
-import promisesData from "@/data/promises.json"
+import promisesData from "@/lib/getAllPromises"
 import { Promise as PromiseType, Sector } from "@/types"
 
 import { motion } from "framer-motion"

@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { StatusBadge } from "@/components/shared/StatusBadge"
 import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat, GraduationCap, Scale, Landmark } from "lucide-react"
 import Link from "next/link"
-import promisesData from "@/data/promises.json"
+import promisesData from "@/lib/getAllPromises"
 import { Promise as PromiseType } from "@/types"
 
 const iconMap: Record<string, React.ReactNode> = {

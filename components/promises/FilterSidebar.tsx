@@ -3,7 +3,7 @@
 import React from "react"
 import { Input } from "@/components/ui/input"
 import { Search } from "lucide-react"
-import { Status } from "@/types"
+import { Status, Party } from "@/types"
 
 interface FilterSidebarProps {
   searchQuery: string
@@ -15,6 +15,9 @@ interface FilterSidebarProps {
   sectors: { id: string; name: string }[]
   sortOption: string
   setSortOption: (option: string) => void
+  parties: Party[]
+  partyFilter: string
+  setPartyFilter: (party: string) => void
 }
 
 export function FilterSidebar({
@@ -26,7 +29,10 @@ export function FilterSidebar({
   setSelectedSectors,
   sectors,
   sortOption,
-  setSortOption
+  setSortOption,
+  parties,
+  partyFilter,
+  setPartyFilter,
 }: FilterSidebarProps) {
   
   const toggleSector = (sectorId: string) => {
@@ -37,12 +43,13 @@ export function FilterSidebar({
     )
   }
 
-  const hasActiveFilters = searchQuery !== "" || statusFilter !== "all" || selectedSectors.length > 0
+  const hasActiveFilters = searchQuery !== "" || statusFilter !== "all" || selectedSectors.length > 0 || partyFilter !== "all"
 
   const handleClearAll = () => {
     setSearchQuery("")
     setStatusFilter("all")
     setSelectedSectors([])
+    setPartyFilter("all")
   }
 
   return (
@@ -78,7 +85,7 @@ export function FilterSidebar({
       <div>
         <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-3">Status</h3>
         <div className="flex flex-wrap gap-2">
-          {["all", "fulfilled", "in-progress", "evaded", "pending"].map((status) => (
+          {["all", "fulfilled", "modified", "in-progress", "stalled", "not-fulfilled", "pending"].map((status) => (
             <button
               key={status}
               onClick={() => setStatusFilter(status as Status | "all")}
@@ -89,6 +96,38 @@ export function FilterSidebar({
           ))}
         </div>
       </div>
+
+      {/* Party / Government Filter */}
+      {parties.length > 1 && (
+        <div>
+          <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-3">Government</h3>
+          <div className="flex flex-col gap-2">
+            <button
+              onClick={() => setPartyFilter("all")}
+              className={`w-full text-left px-3 py-2 rounded-md text-xs font-semibold transition-colors cursor-pointer ${ partyFilter === "all" ? "bg-slate-800 text-white" : "bg-slate-100 text-slate-600 hover:bg-slate-200" }`}
+            >
+              All Governments
+            </button>
+            {parties.map((party) => (
+              <button
+                key={party.id}
+                onClick={() => setPartyFilter(party.id)}
+                className={`w-full text-left px-3 py-2 rounded-md text-xs font-semibold transition-colors cursor-pointer flex items-center gap-2 ${ partyFilter === party.id ? "text-white" : "bg-slate-100 text-slate-600 hover:bg-slate-200" }`}
+                style={partyFilter === party.id ? { backgroundColor: party.color } : {}}
+              >
+                <span
+                  className="inline-block w-2 h-2 rounded-full shrink-0"
+                  style={{ backgroundColor: partyFilter === party.id ? "white" : party.color }}
+                />
+                {party.shortName} {party.electionYear}
+                {party.status === "active" && (
+                  <span className={`ml-auto text-[9px] font-bold uppercase ${ partyFilter === party.id ? "opacity-80" : "text-green-600" }`}>Active</span>
+                )}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Sector Filter */}
       <div>

@@ -21,7 +21,7 @@ import {
   ArrowRight,
   TrendingUp,
 } from "lucide-react"
-import promisesData from "@/data/promises.json"
+import promisesData from "@/lib/getAllPromises"
 import { Sector, Promise as PromiseType } from "@/types"
 
 const iconMap: Record<string, React.ReactNode> = {

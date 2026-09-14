@@ -1,9 +1,32 @@
-export type Status = 'fulfilled' | 'in-progress' | 'evaded' | 'pending';
+export type Status =
+  | 'fulfilled'
+  | 'modified'
+  | 'in-progress'
+  | 'stalled'
+  | 'not-fulfilled'
+  | 'evaded'
+  | 'pending';
+
 export type SourceTier = 1 | 2 | 3;
+
+export type PartyStatus = 'active' | 'historical';
+
+export interface Party {
+  id: string;
+  name: string;
+  nameTa: string;
+  shortName: string;
+  color: string;            // Primary brand color hex
+  electionYear: number;
+  cmName: string;
+  manifestoUrl: string;
+  status: PartyStatus;
+}
 
 export interface Promise {
   id: string;
   slug: string;
+  partyId: string;          // References Party.id
   title: string;
   titleTa: string;
   description: string;

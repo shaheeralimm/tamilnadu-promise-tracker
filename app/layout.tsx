@@ -3,6 +3,8 @@ import { Inter, Lora, Noto_Sans_Tamil } from "next/font/google"
 import "./globals.css"
 import { Navbar } from "@/components/layout/Navbar"
 import { Footer } from "@/components/layout/Footer"
+import { Analytics } from "@vercel/analytics/next"
+import { siteConfig } from "@/lib/config"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -26,11 +28,11 @@ const notoSansTamil = Noto_Sans_Tamil({
 import AuthProvider from "@/components/auth/AuthProvider"
 
 export const metadata: Metadata = {
-  title: "Sonnaanga Senjaangala | TVK Promise Tracker",
-  description: "An independent citizen-maintained ledger tracking the promises made by TVK in Tamil Nadu.",
+  title: siteConfig.siteTitle,
+  description: siteConfig.siteDescription,
   openGraph: {
-    title: "Sonnaanga Senjaangala",
-    description: "Independent citizen-maintained ledger tracking TVK election promises in Tamil Nadu.",
+    title: siteConfig.siteName,
+    description: siteConfig.siteDescription,
     type: "website",
   }
 }
@@ -49,6 +51,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <Analytics />
         </AuthProvider>
       </body>
     </html>
