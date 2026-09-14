@@ -157,4 +157,10 @@ We welcome citizen contributions to help keep the tracker fully up-to-date:
 
 **Sonnaanga... Senjaangala** is strictly an independent, non-partisan citizen-led initiative. We are not affiliated with, endorsed by, or connected to the Government of India, the Government of Tamil Nadu, the Tamilaga Vettri Kazhagam (TVK), or any political party. All tracking information is updated in good faith using publicly available, cited sources.
 
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE) — free to use, modify, and distribute for civic, educational, or research purposes.
+
 
