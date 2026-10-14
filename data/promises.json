@@ -34,7 +34,7 @@
         "summary": "Video report confirming Day-1 decision for 200 units free electricity."
       }
     ],
-    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "lastUpdated": "2026-10-14T15:33:38.827Z",
     "createdAt": "2026-05-10T00:00:00.000Z",
     "partyId": "tvk"
   },
@@ -213,7 +213,7 @@
         "summary": "436-project roadmap with time-bound execution goals across all government departments unveiled."
       }
     ],
-    "lastUpdated": "2026-06-05T00:00:00.000Z",
+    "lastUpdated": "2026-10-14T15:33:38.827Z",
     "createdAt": "2026-06-05T00:00:00.000Z",
     "partyId": "tvk"
   },
@@ -806,7 +806,7 @@
       "icon": "shield",
       "color": "#8B5CF6"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "flame",
     "sources": [
       {
@@ -818,7 +818,7 @@
         "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
       }
     ],
-    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "lastUpdated": "2026-10-14T15:33:38.827Z",
     "createdAt": "2026-05-10T00:00:00.000Z",
     "partyId": "tvk"
   },
@@ -837,7 +837,7 @@
       "icon": "users",
       "color": "#EC4899"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "gift",
     "sources": [
       {
@@ -849,7 +849,7 @@
         "summary": "Directly extracted from the official Tamilaga Vettri Kazhagam 2026 Election Manifesto published on the party's official website and PDF."
       }
     ],
-    "lastUpdated": "2026-05-10T00:00:00.000Z",
+    "lastUpdated": "2026-10-14T15:33:38.827Z",
     "createdAt": "2026-05-10T00:00:00.000Z",
     "partyId": "tvk"
   },
