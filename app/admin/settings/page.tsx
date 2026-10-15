@@ -4,8 +4,10 @@ import { authOptions } from "@/lib/auth"
 import { isAdminEmail, siteConfig } from "@/lib/config"
 import partiesData from "@/data/parties.json"
 import { Party } from "@/types"
-import { Settings, Shield, Globe, Users, Database } from "lucide-react"
+import { Eye, Settings, Shield, Globe, Users, Database } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
+import { getShowDmk } from "@/lib/settings"
+import { VisibilityToggle } from "@/components/admin/VisibilityToggle"
 
 export const metadata = {
   title: "Settings | Admin",
@@ -19,6 +21,7 @@ export default async function AdminSettingsPage() {
   }
 
   const parties = partiesData as Party[]
+  const showDmk = await getShowDmk()
 
   const envVars = [
     {
@@ -71,10 +74,22 @@ export default async function AdminSettingsPage() {
           <div>
             <h1 className="text-2xl font-display font-bold text-foreground">Site Settings</h1>
             <p className="text-sm text-muted-foreground">
-              Admin-only view. Values are read from environment variables at build/runtime.
+              Admin-only view. The DMK visibility switch is saved immediately; all other values are read from environment variables at build/runtime.
             </p>
           </div>
         </div>
+
+        <section className="mb-8">
+          <div className="flex items-center gap-2 mb-4">
+            <Eye className="h-4 w-4 text-tvk-blue" />
+            <h2 className="font-semibold text-foreground">Public Visibility</h2>
+          </div>
+          <Card>
+            <CardContent className="p-5">
+              <VisibilityToggle initialShowDmk={showDmk} />
+            </CardContent>
+          </Card>
+        </section>
 
         {/* Active Config */}
         <section className="mb-8">

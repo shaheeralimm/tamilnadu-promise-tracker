@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "check": "node --experimental-strip-types lib/approval.check.ts",
+    "check": "node --experimental-strip-types lib/approval.check.ts && node --experimental-strip-types lib/feedGrouper.check.ts && node --experimental-strip-types lib/settings.check.ts",
     "lint": "eslint"
   },
   "dependencies": {

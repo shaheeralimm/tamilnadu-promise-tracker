@@ -2,13 +2,15 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import { ArrowLeft, Calendar, FileText, CheckCircle, ShieldCheck, Printer, Bookmark } from "lucide-react"
-import promisesData from "@/lib/getAllPromises"
+import { getVisible } from "@/lib/promiseStore"
 import { Promise as PromiseType } from "@/types"
 import { PrintButton } from "@/components/shared/PrintButton"
 
 interface ArchivePageProps {
   params: Promise<{ slug: string }>
 }
+
+export const dynamic = "force-dynamic"
 
 export default async function ArchivePage({ params }: ArchivePageProps) {
   const { slug } = await params
@@ -22,7 +24,8 @@ export default async function ArchivePage({ params }: ArchivePageProps) {
   const [_, promiseId, sourceIndexStr] = match
   const sourceIndex = parseInt(sourceIndexStr, 10) - 1 // convert 1-indexed to 0-indexed
 
-  const promise = (promisesData as PromiseType[]).find((p) => p.id === promiseId)
+  const { promises } = await getVisible()
+  const promise = promises.find((p) => p.id === promiseId)
   if (!promise || !promise.sources[sourceIndex]) {
     notFound()
   }

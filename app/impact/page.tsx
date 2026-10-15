@@ -3,13 +3,18 @@ import { BenefitCalculator } from "@/components/home/BenefitCalculator"
 import { Calculator, ChevronRight } from "lucide-react"
 import Link from "next/link"
 import { Metadata } from "next"
+import { getVisible } from "@/lib/promiseStore"
+
+export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
   title: "Impact Calculator | TVK Promise Tracker",
   description: "Calculate your estimated monthly savings and benefits from the TVK manifesto election promises.",
 }
 
-export default function ImpactPage() {
+export default async function ImpactPage() {
+  const { promises, parties } = await getVisible()
+  
   return (
     <div className="min-h-screen bg-slate-50/50 pt-8 pb-20 transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8 max-w-5xl">
@@ -44,7 +49,7 @@ export default function ImpactPage() {
 
         {/* Interactive Benefit Calculator Widget */}
         <div className="-mx-4 md:mx-0">
-          <BenefitCalculator />
+          <BenefitCalculator promises={promises} />
         </div>
         
       </div>

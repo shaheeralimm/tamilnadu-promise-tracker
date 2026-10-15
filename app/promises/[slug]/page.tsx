@@ -4,7 +4,7 @@ import { DetailHeader } from "@/components/promise/DetailHeader"
 import { EvidenceTimeline } from "@/components/promise/EvidenceTimeline"
 import { Disclaimer } from "@/components/shared/Disclaimer"
 import { HorizontalCard } from "@/components/promises/HorizontalCard"
-import { getLivePromises } from "@/lib/promiseStore"
+import { getVisible } from "@/lib/promiseStore"
 
 interface PromiseDetailPageProps {
   params: Promise<{ slug: string }>
@@ -15,7 +15,7 @@ export const dynamic = "force-dynamic"
 
 export default async function PromiseDetailPage({ params }: PromiseDetailPageProps) {
   const { slug } = await params
-  const promisesData = await getLivePromises()
+  const { promises: promisesData } = await getVisible()
   const promise = promisesData.find((p) => p.slug === slug)
 
   if (!promise) {

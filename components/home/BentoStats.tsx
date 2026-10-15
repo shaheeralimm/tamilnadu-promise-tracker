@@ -21,8 +21,7 @@ import {
   ArrowRight,
   TrendingUp,
 } from "lucide-react"
-import promisesData from "@/lib/getAllPromises"
-import { Sector, Promise as PromiseType } from "@/types"
+import { Sector, Promise as PromiseType, Party } from "@/types"
 
 const iconMap: Record<string, React.ReactNode> = {
   "users": <Users className="h-4 w-4" />,
@@ -48,7 +47,12 @@ const fadeUp: Variants = {
   }),
 }
 
-export function BentoStats() {
+interface BentoStatsProps {
+  promises: PromiseType[]
+  parties: Party[]
+}
+
+export function BentoStats({ promises, parties }: BentoStatsProps) {
   const stats = useMemo(() => {
     let fulfilled = 0
     let inProgress = 0
@@ -56,7 +60,7 @@ export function BentoStats() {
     let pending = 0
     const sectorCounts: Record<string, { count: number; sector: Sector }> = {};
 
-    (promisesData as PromiseType[]).forEach((p) => {
+    promises.forEach((p) => {
       if (p.status === "fulfilled") fulfilled++
       else if (p.status === "in-progress") inProgress++
       else if (p.status === "evaded") evaded++
@@ -78,7 +82,7 @@ export function BentoStats() {
       }
     })
 
-    const total = promisesData.length
+    const total = promises.length
 
     return {
       total,
@@ -100,7 +104,7 @@ export function BentoStats() {
         count: maxSectorCount,
       },
     }
-  }, [])
+  }, [promises])
 
   return (
     <section className="py-14 bg-white border-b border-slate-100 transition-colors duration-300">
