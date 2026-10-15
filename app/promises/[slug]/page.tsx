@@ -4,29 +4,26 @@ import { DetailHeader } from "@/components/promise/DetailHeader"
 import { EvidenceTimeline } from "@/components/promise/EvidenceTimeline"
 import { Disclaimer } from "@/components/shared/Disclaimer"
 import { HorizontalCard } from "@/components/promises/HorizontalCard"
-import promisesData from "@/lib/getAllPromises"
-import { Promise as PromiseType } from "@/types"
+import { getLivePromises } from "@/lib/promiseStore"
 
 interface PromiseDetailPageProps {
   params: Promise<{ slug: string }>
 }
 
-export async function generateStaticParams() {
-  return promisesData.map((promise) => ({
-    slug: promise.slug,
-  }))
-}
+// TVK status lives in Redis and changes at runtime: render per request, no generateStaticParams.
+export const dynamic = "force-dynamic"
 
 export default async function PromiseDetailPage({ params }: PromiseDetailPageProps) {
   const { slug } = await params
-  const promise = (promisesData as PromiseType[]).find((p) => p.slug === slug)
+  const promisesData = await getLivePromises()
+  const promise = promisesData.find((p) => p.slug === slug)
 
   if (!promise) {
     notFound()
   }
 
   // Find related promises in the same sector (excluding the current one)
-  const relatedPromises = (promisesData as PromiseType[])
+  const relatedPromises = promisesData
     .filter((p) => p.sector.id === promise.sector.id && p.id !== promise.id)
     .slice(0, 3)
 
