@@ -52,15 +52,7 @@ The repository comes equipped with a suite of Node.js automation and maintenance
 
 | Script Name | Environment | Purpose / Functionality |
 | :--- | :--- | :--- |
-| **`convert_promises.js`** | Node.js | Standardizes raw promise details from raw lists (`new_raw_promises.json`) into the formatted JSON structure used by the Next.js frontend, dynamically assigning unique slugs and sector metadata. |
-| **`process_58.js`** | Node.js | Reconciles the 58 core election commitments listed in `promises_list.txt` with existing detailed entries in `data/promises.json` to preserve rich updates while maintaining precise indexing. |
-| **`update.js`** | Node.js | A seed and batch-insertion utility to bulk-add a set of newly declared promises to the database with automatic, incremental ID allocation. |
-| **`apply_research.js`** | Node.js | Appends new verified sources, updates timestamps, and transitions target promises to the `in-progress` status based on verified state cabinet decisions. |
-| **`apply_silverline.js`** | Node.js | *(Legacy — inherited from Kerala fork.)* Custom tracking script for a project-specific cabinet decision; repurposed as a template for recording significant single-promise TVK cabinet decisions. |
-| **`add_promise_61.cjs`** | Node.js (CommonJS) | *(Legacy — inherited from Kerala fork.)* Template script for programmatically seeding a single new promise entry with pre-filled manifesto details, CM quotes, and media sources. |
-| **`add_promises.cjs`** | Node.js (CommonJS) | *(Legacy — inherited from Kerala fork.)* Template script for safely checking and seeding multiple new promise entries into the JSON ledger without creating duplicates. |
 | **`update_colors.cjs`** | Node.js (CommonJS) | Reads through the database and dynamically normalizes sector colors to ensure a cohesive visual theme across all web UI elements. |
-| **`inspect_labour.cjs`** | Node.js (CommonJS) | A quick command-line utility to query, filter, and report the current status of all labour and wage-related commitments (Sector `s16`). |
 
 ---
 
@@ -149,7 +141,7 @@ We welcome citizen contributions to help keep the tracker fully up-to-date:
 
 1.  **Spot a change?** If a promise's status has shifted, or if there is new evidence, head over to the `/submit` page.
 2.  **Provide Verifiable Links**: Every suggestion *must* include a URL to a Tier 1 (Gazette/GO), Tier 2 (Government Release), or Tier 3 (Reputed Media) source. Submissions without verifiable links will not be merged.
-3.  **Run Maintenance Scripts**: If you are modifying the raw dataset directly or introducing new promises, use the appropriate utility script in the root directory (e.g. `node apply_research.js` or `node update_colors.cjs`) to format and validate the JSON.
+3.  **Run Maintenance Scripts**: If you are modifying the raw dataset directly or introducing new promises, use the appropriate utility script in the root directory (e.g. `node update_colors.cjs`) to format and validate the JSON.
 
 ---
 

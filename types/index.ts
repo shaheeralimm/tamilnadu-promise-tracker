@@ -57,3 +57,17 @@ export interface Sector {
   icon: string;
   color: string;
 }
+
+export type SubmissionStatus = 'pending' | 'approved' | 'rejected';
+
+export interface Submission {
+  id: string;
+  promiseId: string | null;
+  evidenceUrl: string;
+  details: string;
+  status: SubmissionStatus;
+  submittedBy: { name: string; email: string; image: string | null };
+  createdAt: string;
+  lastUpdatedBy?: string;
+  lastUpdatedAt?: string;
+}
