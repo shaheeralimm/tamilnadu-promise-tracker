@@ -1,52 +1,8 @@
 import { NextRequest, NextResponse } from "next/server"
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/auth"
-
-const KV_REST_API_URL = process.env.KV_REST_API_URL
-const KV_REST_API_TOKEN = process.env.KV_REST_API_TOKEN
-
-// Helper to fetch submissions from Vercel KV
-async function getKVSubmissions(): Promise<any[]> {
-  if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
-    throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
-  }
-
-  const res = await fetch(`${KV_REST_API_URL}/get/submissions`, {
-    headers: {
-      Authorization: `Bearer ${KV_REST_API_TOKEN}`,
-    },
-    cache: "no-store",
-  })
-
-  if (!res.ok) {
-    throw new Error(`Vercel KV read failed: ${res.statusText}`)
-  }
-
-  const data = await res.json()
-  const val = data.result
-  if (!val) return []
-  return typeof val === "string" ? JSON.parse(val) : val
-}
-
-// Helper to write submissions back to Vercel KV
-async function saveKVSubmissions(submissions: any[]): Promise<void> {
-  if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
-    throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
-  }
-
-  const res = await fetch(`${KV_REST_API_URL}/set/submissions`, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${KV_REST_API_TOKEN}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(submissions),
-  })
-
-  if (!res.ok) {
-    throw new Error(`Vercel KV write failed: ${res.statusText}`)
-  }
-}
+import { kvGet, kvSet } from "@/lib/kv"
+import type { Submission } from "@/types"
 
 export async function POST(req: NextRequest) {
   try {
@@ -88,12 +44,12 @@ export async function POST(req: NextRequest) {
     }
 
     // 4. Retrieve existing submissions from Vercel KV
-    const submissions = await getKVSubmissions()
+    const submissions = (await kvGet<Submission[]>("submissions")) ?? []
 
     // Create unique ID using timestamp and random hex
     const submissionId = `sub_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`
 
-    const newSubmission = {
+    const newSubmission: Submission = {
       id: submissionId,
       promiseId: promiseId ? promiseId.trim() : null,
       evidenceUrl: evidenceUrl.trim(),
@@ -110,7 +66,7 @@ export async function POST(req: NextRequest) {
     submissions.push(newSubmission)
 
     // 5. Write back to Vercel KV database
-    await saveKVSubmissions(submissions)
+    await kvSet("submissions", submissions)
 
     return NextResponse.json(
       { success: true, submission: newSubmission },

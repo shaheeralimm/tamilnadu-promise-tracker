@@ -1,79 +1,28 @@
 import { NextRequest, NextResponse } from "next/server"
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/auth"
-
-const KV_REST_API_URL = process.env.KV_REST_API_URL
-const KV_REST_API_TOKEN = process.env.KV_REST_API_TOKEN
-
-// Helper to fetch submissions from Vercel KV
-async function getKVSubmissions(): Promise<any[]> {
-  if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
-    throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
-  }
-
-  const res = await fetch(`${KV_REST_API_URL}/get/submissions`, {
-    headers: {
-      Authorization: `Bearer ${KV_REST_API_TOKEN}`,
-    },
-    cache: "no-store",
-  })
-
-  if (!res.ok) {
-    throw new Error(`Vercel KV read failed: ${res.statusText}`)
-  }
-
-  const data = await res.json()
-  const val = data.result
-  if (!val) return []
-  return typeof val === "string" ? JSON.parse(val) : val
-}
-
-// Helper to write submissions back to Vercel KV
-async function saveKVSubmissions(submissions: any[]): Promise<void> {
-  if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
-    throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
-  }
-
-  const res = await fetch(`${KV_REST_API_URL}/set/submissions`, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${KV_REST_API_TOKEN}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(submissions),
-  })
-
-  if (!res.ok) {
-    throw new Error(`Vercel KV write failed: ${res.statusText}`)
-  }
-}
-
-// Helper function to check if the session user is an authorized admin
-function isAdmin(email?: string | null): boolean {
-  if (!email) return false
-  const adminEmailsEnv = process.env.ADMIN_EMAILS || ""
-  const adminEmails = adminEmailsEnv
-    .split(",")
-    .map((e) => e.trim().toLowerCase())
-  return adminEmails.includes(email.toLowerCase())
-}
+import { applyApproval } from "@/lib/approval"
+import { isAdminEmail } from "@/lib/config"
+import { kvGet, kvSet } from "@/lib/kv"
+import { loadTvkPromises, saveTvkPromises } from "@/lib/promiseStore"
+import type { Submission } from "@/types"
 
 // 1. GET - Fetch all submissions (Admin Only)
 export async function GET() {
   try {
     const session = await getServerSession(authOptions)
-    if (!session || !session.user || !isAdmin(session.user.email)) {
+    if (!session || !session.user || !isAdminEmail(session.user.email)) {
       return NextResponse.json(
         { error: "Access Denied: You are not authorized to view this page." },
         { status: 403 }
       )
     }
 
-    const submissions = await getKVSubmissions()
+    const submissions = (await kvGet<Submission[]>("submissions")) ?? []
 
     // Sort submissions newest first
     submissions.sort(
-      (a: any, b: any) =>
+      (a, b) =>
         new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
     )
 
@@ -91,7 +40,7 @@ export async function GET() {
 export async function PATCH(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions)
-    if (!session || !session.user || !isAdmin(session.user.email)) {
+    if (!session || !session.user || !isAdminEmail(session.user.email)) {
       return NextResponse.json(
         { error: "Access Denied: You are not authorized to perform this action." },
         { status: 403 }
@@ -117,10 +66,12 @@ export async function PATCH(req: NextRequest) {
       )
     }
 
-    const submissions = await getKVSubmissions()
+    // ponytail: read-modify-write of whole arrays; two admins approving at the same moment can
+    // lose one update. Upgrade path: one hash field per promise (HSET) or an atomic script.
+    const submissions = (await kvGet<Submission[]>("submissions")) ?? []
 
     // Find and update target submission
-    const index = submissions.findIndex((sub: any) => sub.id === id)
+    const index = submissions.findIndex((sub) => sub.id === id)
     if (index === -1) {
       return NextResponse.json(
         { error: "Submission not found with the provided ID." },
@@ -128,12 +79,25 @@ export async function PATCH(req: NextRequest) {
       )
     }
 
-    submissions[index].status = status
-    submissions[index].lastUpdatedBy = session.user.email
-    submissions[index].lastUpdatedAt = new Date().toISOString()
+    const now = new Date().toISOString()
+
+    // Promises first. A failed promise read or write throws before the submission is touched,
+    // so the catch below returns 500 and the submission status stays as it was.
+    if (status === "approved") {
+      const promises = await loadTvkPromises()
+      const next = applyApproval(promises, submissions[index], now)
+      if (next.some((p, i) => p !== promises[i])) await saveTvkPromises(next)
+    }
+
+    submissions[index] = {
+      ...submissions[index],
+      status,
+      lastUpdatedBy: session.user.email ?? undefined,
+      lastUpdatedAt: now,
+    }
 
     // Write back to Vercel KV
-    await saveKVSubmissions(submissions)
+    await kvSet("submissions", submissions)
 
     return NextResponse.json({
       success: true,
