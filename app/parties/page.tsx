@@ -3,25 +3,26 @@ import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle2, Clock, MinusCircle, XCircle, PauseCircle, ArrowRight, Landmark } from "lucide-react"
-import partiesData from "@/data/parties.json"
-import promisesData from "@/lib/getAllPromises"
+import { getVisible } from "@/lib/promiseStore"
 import { Party, Promise as PromiseType } from "@/types"
+
+export const dynamic = "force-dynamic"
 
 export const metadata = {
   title: "Governments Tracked | Tamil Nadu Promise Tracker",
   description: "Browse all Tamil Nadu governments and election manifestos tracked on this platform.",
 }
 
-function getPartyStats(partyId: string) {
-  const promises = (promisesData as PromiseType[]).filter((p) => p.partyId === partyId)
-  const total = promises.length
+function getPartyStats(promises: PromiseType[], partyId: string) {
+  const partyPromises = promises.filter((p) => p.partyId === partyId)
+  const total = partyPromises.length
   if (total === 0) return { total: 0, fulfilled: 0, modified: 0, inProgress: 0, stalled: 0, notFulfilled: 0, fulfilledPct: 0 }
 
-  const fulfilled = promises.filter((p) => p.status === "fulfilled").length
-  const modified = promises.filter((p) => p.status === "modified").length
-  const inProgress = promises.filter((p) => p.status === "in-progress").length
-  const stalled = promises.filter((p) => p.status === "stalled").length
-  const notFulfilled = promises.filter((p) => p.status === "not-fulfilled" || p.status === "evaded").length
+  const fulfilled = partyPromises.filter((p) => p.status === "fulfilled").length
+  const modified = partyPromises.filter((p) => p.status === "modified").length
+  const inProgress = partyPromises.filter((p) => p.status === "in-progress").length
+  const stalled = partyPromises.filter((p) => p.status === "stalled").length
+  const notFulfilled = partyPromises.filter((p) => p.status === "not-fulfilled" || p.status === "evaded").length
 
   return {
     total,
@@ -34,8 +35,8 @@ function getPartyStats(partyId: string) {
   }
 }
 
-export default function PartiesPage() {
-  const parties = partiesData as Party[]
+export default async function PartiesPage() {
+  const { promises, parties } = await getVisible()
 
   return (
     <div className="min-h-screen bg-slate-50/30">
@@ -58,7 +59,7 @@ export default function PartiesPage() {
       <div className="container mx-auto px-4 md:px-8 py-10">
         <div className="grid gap-6 md:grid-cols-2">
           {parties.map((party) => {
-            const stats = getPartyStats(party.id)
+            const stats = getPartyStats(promises, party.id)
             const isActive = party.status === "active"
 
             return (

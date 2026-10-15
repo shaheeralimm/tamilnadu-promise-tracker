@@ -5,7 +5,6 @@ import { useSearchParams } from "next/navigation"
 import { FilterSidebar } from "@/components/promises/FilterSidebar"
 import { HorizontalCard } from "@/components/promises/HorizontalCard"
 import { EmptyState } from "@/components/promises/EmptyState"
-import partiesData from "@/data/parties.json"
 import { Promise as PromiseType, Status, Party } from "@/types"
 
 import { motion } from "framer-motion"
@@ -20,9 +19,7 @@ const containerVariants = {
   }
 }
 
-const allParties = partiesData as Party[]
-
-function PromisesPageContent({ promises }: { promises: PromiseType[] }) {
+function PromisesPageContent({ promises, parties }: { promises: PromiseType[]; parties: Party[] }) {
   const searchParams = useSearchParams()
   
   const [searchQuery, setSearchQuery] = useState("")
@@ -65,13 +62,13 @@ function PromisesPageContent({ promises }: { promises: PromiseType[] }) {
       setSortOption("newest")
     }
 
-    if (partyParam && allParties.some((p) => p.id === partyParam)) {
+    if (partyParam && parties.some((p) => p.id === partyParam)) {
       setPartyFilter(partyParam)
     } else {
       setPartyFilter("all")
     }
     /* eslint-enable react-hooks/set-state-in-effect */
-  }, [searchParams])
+  }, [searchParams, parties])
 
   // Sectors for the currently active party only
   const uniqueSectors = useMemo(() => {
@@ -134,7 +131,7 @@ function PromisesPageContent({ promises }: { promises: PromiseType[] }) {
             {partyFilter === "all"
               ? ` Currently tracking ${promises.length} commitments across all parties.`
               : (() => {
-                  const party = allParties.find(p => p.id === partyFilter)
+                  const party = parties.find(p => p.id === partyFilter)
                   const count = promises.filter(p => p.partyId === partyFilter).length
                   return count > 0
                     ? ` Tracking ${count} ${party?.shortName ?? partyFilter.toUpperCase()} commitments.`
@@ -155,7 +152,7 @@ function PromisesPageContent({ promises }: { promises: PromiseType[] }) {
             sectors={uniqueSectors}
             sortOption={sortOption}
             setSortOption={setSortOption}
-            parties={allParties}
+            parties={parties}
             partyFilter={partyFilter}
             setPartyFilter={setPartyFilter}
           />
@@ -178,7 +175,7 @@ function PromisesPageContent({ promises }: { promises: PromiseType[] }) {
                 ))}
               </motion.div>
             ) : (
-              <EmptyState noPartyData={!partyHasData} partyName={allParties.find(p => p.id === partyFilter)?.name} />
+              <EmptyState noPartyData={!partyHasData} partyName={parties.find(p => p.id === partyFilter)?.name} />
             )}
           </div>
         </div>
@@ -187,7 +184,7 @@ function PromisesPageContent({ promises }: { promises: PromiseType[] }) {
   )
 }
 
-export default function PromisesClient({ promises }: { promises: PromiseType[] }) {
+export default function PromisesClient({ promises, parties }: { promises: PromiseType[]; parties: Party[] }) {
   return (
     <Suspense fallback={
       <div className="min-h-screen bg-slate-50/50 flex items-center justify-center transition-colors duration-300">
@@ -196,7 +193,7 @@ export default function PromisesClient({ promises }: { promises: PromiseType[] }
         </div>
       </div>
     }>
-      <PromisesPageContent promises={promises} />
+      <PromisesPageContent promises={promises} parties={parties} />
     </Suspense>
   )
 }

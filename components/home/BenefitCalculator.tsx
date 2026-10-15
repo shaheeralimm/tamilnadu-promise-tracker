@@ -5,7 +5,6 @@ import { motion, AnimatePresence, animate } from "framer-motion"
 import { Calculator, Check, ArrowRight, Info, HelpCircle } from "lucide-react"
 import Link from "next/link"
 import { StatusBadge } from "@/components/shared/StatusBadge"
-import promisesData from "@/lib/getAllPromises"
 import { Promise as PromiseType } from "@/types"
 
 // Demographics config mapping to benefits and actual TVK manifesto promise slugs
@@ -48,7 +47,11 @@ const BENEFIT_MAPPINGS = [
   }
 ]
 
-export function BenefitCalculator() {
+interface BenefitCalculatorProps {
+  promises: PromiseType[]
+}
+
+export function BenefitCalculator({ promises }: BenefitCalculatorProps) {
   const [selectedIds, setSelectedIds] = useState<string[]>([])
   const [customValues, setCustomValues] = useState<{ [key: string]: number }>({
     woman: 800,
@@ -71,8 +74,8 @@ export function BenefitCalculator() {
       }
     })
 
-    // Fetch live promises status dynamically from the raw promises.json file
-    const promisesList = (promisesData as PromiseType[]).filter((p) =>
+    // Use the passed promises prop instead of importing getAllPromises
+    const promisesList = promises.filter((p) =>
       matchedSlugs.includes(p.slug)
     )
 
@@ -80,7 +83,7 @@ export function BenefitCalculator() {
       totalBenefit: benefitSum,
       matchedPromises: promisesList
     }
-  }, [selectedIds, customValues])
+  }, [selectedIds, customValues, promises])
 
   // Framer Motion rolling number counter logic
   useEffect(() => {

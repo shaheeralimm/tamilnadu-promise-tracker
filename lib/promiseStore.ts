@@ -1,13 +1,17 @@
 // All Redis promise I/O in one place. Only TVK promises live in Redis (key `promises`);
 // DMK promises stay in the static JSON. Import from server components and route handlers only.
 // `Promise` is imported as PromiseType so the built-in Promise in return types stays unshadowed.
+// `getVisible` is the only place the switch is applied.
 import allPromises from "@/lib/getAllPromises"
+import partiesData from "@/data/parties.json"
 import { kvGet, kvSet } from "@/lib/kv"
-import type { Promise as PromiseType } from "@/types"
+import { applyVisibility, getShowDmk } from "@/lib/settings"
+import type { Party, Promise as PromiseType } from "@/types"
 
 const all = allPromises as PromiseType[]
 const seed = all.filter((p) => p.partyId === "tvk")
 const dmk = all.filter((p) => p.partyId === "dmk")
+const parties = partiesData as Party[]
 
 // Strict: throws on any Redis failure. Seeds the key when it is absent or empty.
 // Admin approval and the export use this, so a read error never falls back to the seed
@@ -38,7 +42,12 @@ export async function saveTvkPromises(list: PromiseType[]): Promise<void> {
 
 export const getDmkPromises = () => dmk
 
-// TVK from Redis, DMK from static. Used by both pages.
-export async function getLivePromises(): Promise<PromiseType[]> {
-  return [...(await getTvkPromises()), ...getDmkPromises()]
+// Replaces getLivePromises. The only place on public pages that reads the DMK setting. Both reads start
+// together (neither needs the other). Never throws: getShowDmk and getTvkPromises are both tolerant.
+// ponytail: per-request rendering costs two Redis reads per view; upgrade path is tag-based revalidation.
+// ponytail: the setting is passed down in the return value instead of a request cache; wrap getVisible in
+// React cache() if a second reader in the same request appears.
+export async function getVisible() {
+  const [showDmk, tvk] = await Promise.all([getShowDmk(), getTvkPromises()])
+  return applyVisibility(showDmk, tvk, dmk, parties)
 }

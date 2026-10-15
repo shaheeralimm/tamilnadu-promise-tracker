@@ -5,11 +5,15 @@ import { motion, Variants } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight, ShieldCheck } from "lucide-react"
+import type { Party, Promise as PromiseType } from "@/types"
 
-import promisesData from "@/lib/getAllPromises"
+interface HeroSectionProps {
+  promises: PromiseType[]
+  parties: Party[]
+}
 
-export function HeroSection() {
-  const tvkPromises = promisesData.filter(p => p.partyId === "tvk")
+export function HeroSection({ promises, parties }: HeroSectionProps) {
+  const tvkPromises = promises.filter(p => p.partyId === "tvk")
   const totalTracked = tvkPromises.length
   const fulfilledCount = tvkPromises.filter(p => p.status === "fulfilled").length
   const inProgressCount = tvkPromises.filter(p => p.status === "in-progress").length
