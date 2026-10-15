@@ -6,7 +6,6 @@ import { Card, CardContent } from "@/components/ui/card"
 import { StatusBadge } from "@/components/shared/StatusBadge"
 import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat, GraduationCap, Scale, Landmark } from "lucide-react"
 import Link from "next/link"
-import promisesData from "@/lib/getAllPromises"
 import { Promise as PromiseType } from "@/types"
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -22,14 +21,17 @@ const iconMap: Record<string, React.ReactNode> = {
   "landmark": <Landmark className="h-5 w-5" />,
 }
 
-export function SpotlightRow() {
+interface SpotlightRowProps {
+  promises: PromiseType[]
+}
+
+export function SpotlightRow({ promises }: SpotlightRowProps) {
   const scrollRef = useRef<HTMLDivElement>(null)
   
   // Arrange spotlight promises: p1 first, p61 second, then fill with other top promises
-  const allPromises = promisesData as PromiseType[]
-  const ksrtc = allPromises.find(p => p.id === 'p1')
-  const vehicleMods = allPromises.find(p => p.id === 'p61')
-  const otherPromises = allPromises.filter(p => p.id !== 'p1' && p.id !== 'p61')
+  const ksrtc = promises.find(p => p.id === 'p1')
+  const vehicleMods = promises.find(p => p.id === 'p61')
+  const otherPromises = promises.filter(p => p.id !== 'p1' && p.id !== 'p61')
 
   const spotlightPromises: PromiseType[] = []
   if (ksrtc) spotlightPromises.push(ksrtc)
@@ -113,7 +115,7 @@ export function SpotlightRow() {
               <div className="w-16 h-16 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center group-hover:border-tvk-blue group-hover:bg-tvk-blue-bg transition-colors">
                 <ArrowRight className="h-6 w-6" />
               </div>
-              <span className="font-medium">See all {promisesData.length} promises</span>
+              <span className="font-medium">See all {promises.length} promises</span>
             </Link>
           </div>
         </div>

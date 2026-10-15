@@ -1,8 +1,9 @@
 import PromisesClient from "./PromisesClient"
-import { getLivePromises } from "@/lib/promiseStore"
+import { getVisible } from "@/lib/promiseStore"
 
 export const dynamic = "force-dynamic"
 
 export default async function PromisesPage() {
-  return <PromisesClient promises={await getLivePromises()} />
+  const { promises, parties } = await getVisible()
+  return <PromisesClient promises={promises} parties={parties} />
 }
